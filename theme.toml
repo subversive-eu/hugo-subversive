@@ -1,0 +1,42 @@
+# theme.toml for hugo-subversive theme.
+
+name = "Subversive"
+license = ""
+licenselink = ""
+description = "A Subversive Hugo Theme !"
+homepage = "https://subversive-eu.github.io/hugo-subversive/"
+tags = [
+  "responsive",
+  "sample",
+  "agressive",
+  "dark",
+  "blog",
+  "subversive",
+]
+features = [
+  "responsive",
+  "blog",
+  "cover-image",
+  "table-of-contents",
+  "opengraph",
+  "favicon",
+  "archive",
+  "share-icons",
+  "multilingual",
+  "social-icons",
+  "minified-assets",
+  "scroll-to-top"
+]
+min_version = "0.74.0"
+
+[author]
+  name = "www.subversive.eu"
+  homepage = "https://github.com/subversive-eu/"
+  repo = "https://github.com/subversive-eu/hugo-subversive/"
+
+# Thanks
+[used]
+  name = "PaperMod"
+  name = "Aditya Telange"
+  homepage = "https://github.com/adityatelange/"
+  repo = "https://github.com/adityatelange/hugo-PaperMod/"
