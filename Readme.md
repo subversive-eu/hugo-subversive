@@ -1,8 +1,8 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/subversive-eu/hugo-subversive/blob/main/LICENSE)
 
 # Hugo Theme Subversive 
 
-- [presentation](https://github.com/subversive-eu/hugo-subversive#Hello and presentation)
+- [presentation](https://github.com/subversive-eu/hugo-subversive#Hello-and-presentation)
 - [Bugs](https://github.com/subversive-eu/hugo-subversive#Bugs)
 - [Features/Mods](https://github.com/subversive-eu/hugo-subversive#Features/Mods)
 
