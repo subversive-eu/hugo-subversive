@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>baouttag on Subversive</title><link>https://subversive-eu.github.io/hugo-subversive/tags/baouttag/</link><description>Recent content in baouttag on Subversive</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 01 Oct 2020 08:37:55 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/tags/baouttag/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://subversive-eu.github.io/hugo-subversive/about/</link><pubDate>Thu, 01 Oct 2020 08:37:55 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/about/</guid><description>/about/ Example of using yousite.com/about/ with :
+ShowToc: true hidemeta: true tocopen: true disableShare: true The html of this page.md comes from /layouts/_default/single.html
+For this page, you can use type: myabouttype + url: &amp;ldquo;/about/&amp;rdquo; like archive.md.
+Html will come from /layouts/myabouttype/single.html You have to make it and personnalize.
+/archives/ /archives/ come from /layouts/myarchivetype/single.html.
+So, it&amp;rsquo;s become easier to css and personnalize.</description></item></channel></rss>
