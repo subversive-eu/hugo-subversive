@@ -1,12 +1,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/subversive-eu/hugo-subversive/blob/main/LICENSE)
-[![Made with hugo](https://img.shields.io/badge/Made%20with-hugo-%23ff69b4)
-[![Hugo Subversive](https://img.shields.io/badge/Hugo--Themes-@Subversive-blue)
+[![Made with hugo](https://img.shields.io/badge/Made%20with-hugo-%23ff69b4)](https://gohugo.io/)
+[![Author](https://img.shields.io/badge/Hugo--Themes-@Subversive-blue)](www.subversive.eu)
 
 # Hugo Theme Subversive 
 
-- [Presentation](https://github.com/subversive-eu/hugo-subversive#Hello-and-presentation)
-- [Bugs](https://github.com/subversive-eu/hugo-subversive#Bugs)
-- [Features/Mods](https://github.com/subversive-eu/hugo-subversive#Features/Mods)
+- [Presentation](https://github.com/subversive-eu/hugo-subversive#hello-and-presentation)
+- [Bugs](https://github.com/subversive-eu/hugo-subversive#bugs)
+- [Features/Mods](https://github.com/subversive-eu/hugo-subversive#featuresmods)
 
 ## Hello and presentation
 
