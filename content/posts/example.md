@@ -47,15 +47,21 @@ cover: 'absolute url'
 
 / cf layouts/shortcodes/youtube.html
 
-{{< youtube DWcJFNfaw9c >}}
+{{< youtube 1nQLPumt3tI >}}
 
 ## tweeter
 
-{{< tweet 877500564405444608 >}}
+{{< twitter 877500564405444608 >}}
+
+/ Twitter Simple
+
+{{< twitter_simple 877500564405444608 >}}
 
 ## vimeo
 
-{{< vimeo 146022717 >}}
+/ Vimeo Simple
+
+{{< vimeo_simple 146022717 >}}
 
 ## Instagram
 
