@@ -14,6 +14,7 @@ Hey, I will give you some tricks to make your website.
 ## Favicons 
 
 I used this [website](https://favicon.io/favicon-generator/)
+<https://favicon.io/favicon-generator/>
 
 ### Deploy
 
@@ -32,7 +33,7 @@ Paste the file in themes/your-theme/static/
 
 That's all !
 
-<hr>
+---
 
 ## i18 Language
 
@@ -45,7 +46,7 @@ There is three languages : French(fr), English(en) (default), Spanish(es).
 
 Check in themes/your-theme/i18n/ [here](https://github.com/subversive-eu/hugo-subversive/tree/main/i18n)
 
-<hr>
+____
 
 ## Home Page
 
@@ -57,7 +58,7 @@ If you want to introduce your website :
 
 * If you just want a list of post + Title, delete it in config.yml  
 
-<hr>
+***
 
 ## Markdown
 
