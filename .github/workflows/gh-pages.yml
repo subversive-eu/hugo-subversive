@@ -3,7 +3,7 @@ name: Build GH-Pages
 on:
   push:
     paths-ignore:
-      - 'images/**'
+      - 'Readme.md'
       - 'LICENSE'
       - 'README.md'
     branches:
