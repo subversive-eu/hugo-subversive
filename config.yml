@@ -8,13 +8,14 @@ enableInlineShortcodes: true
 theme: hugo-subversive
 
 # I use this because problems with my github pages.
-uglyurls: true
+#uglyurls: true
 canonifyURLs: true
-relativeURLs: false
+#relativeURLs: true
 
 params:
   description: 'Theme Subversive- https://github.com/subversive-eu/hugo-theme-subversive'
   author: subversive.eu
+  keyword: 'hugo, hugo-theme, subversive'
   ShowReadingTime: true
   contentTypeName: posts
   ShowShareButtons: true
@@ -49,6 +50,11 @@ params:
     - name: archive   
       url: /archives/
       weight: 30
+
+sitemap:
+  changefreq: dayly
+  filename: sitemap.xml
+  priority: 0.5
 
 markup:
   tableOfContents:
