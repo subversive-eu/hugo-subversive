@@ -6,7 +6,7 @@ ShowToc: true
 draft: false
 categories:
  - Markdown
-date: 2020-09-30T17:44:04+02:00
+date: 2020-10-02T17:44:04+02:00
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
@@ -61,6 +61,16 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 | Italics   | Bold     | Code   |
 | --------  | -------- | ------ |
 | *italics* | **bold** | `code` |
+
+### Highlight
+
+{{< highlight angular2 >}}
+
+highlight shortcode Here testing angular2
+
+{{< / highlight >}}
+
+[check More here](https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode)
 
 ## Code Blocks
 
@@ -130,7 +140,17 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
   * Milk
   * Cheese
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## Other Elements
+
+### hr
+
+---
+
+***
+
+___
+
+### abbr, sub, sup, kbd, mark
 
 <abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
 
@@ -142,4 +162,3 @@ Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the ses
 
 Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
 
-----

@@ -5,7 +5,7 @@ ShowToc: true
 draft: false
 categories:
  - install
-date: 2020-09-30T17:44:04+02:00
+date: 2020-10-03T17:44:04+02:00
 ---
 
 Hey, I will give you some tricks to make your website. 
