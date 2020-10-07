@@ -13,11 +13,12 @@ Hey, I will give you some tricks to make your website.
 
 ## Favicons 
 
-I used https://favicon.io/favicon-generator/
+I used this [website](https://favicon.io/favicon-generator/)
 
 ### Deploy
 
-First, use the download button to download the files listed below. Paste the file in themes/your-theme/static/
+First, download files listed below :  
+Paste the file in themes/your-theme/static/
 
 ```html
     android-chrome-192x192.png
@@ -35,26 +36,26 @@ That's all !
 
 ## i18 Language
 
-To use it, just add and use in config.yml :
+To use it, just add and use in [config.yml](https://github.com/subversive-eu/hugo-subversive/blob/exampleSite/config.yml) :
 
-languageCode: fr
+languageCode: fr  
 DefaultContentLanguage: fr
 
 There is three languages : French(fr), English(en) (default), Spanish(es). 
 
-Check in themes/your-theme/i18n/
+Check in themes/your-theme/i18n/ [here](https://github.com/subversive-eu/hugo-subversive/tree/main/i18n)
 
 ---
 
 ## Home Page
 
-* If you want to introduce your website :
- * Do not touch in params:
-    homeInfoParams:
-        Title: Hi there wave
-        Content: Can be Info, links, about...
+If you want to introduce your website :  
+ * Do not touch in params:  
+    homeInfoParams:  
+        Title: Hi there wave  
+        Content: Can be Info, links, about...  
 
-* If you just want a list of post + Title, delete it in config.yml
+* If you just want a list of post + Title, delete it in config.yml  
 
 ---
 
@@ -62,7 +63,7 @@ Check in themes/your-theme/i18n/
 
 ### Youtube
 
-There is a shortcode for youtube video without cookie, and privacy (Only European) cf [all privacy settings -hugo](https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings).
+There is a shortcode for youtube video without cookie, and privacy (Only European) cf [hugo-privacy-settings](https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings).
 
 For css /your-theme/layouts/shortcodes/youtube.html
 
@@ -76,7 +77,7 @@ For css /your-theme/layouts/_default/_markup/render-link.html
 
 ### others shortcodes
 
-rawhtml + collapse + blockquote
+rawhtml.html + collapse.html + blockquote.html
 
 ---
 
@@ -90,17 +91,20 @@ Follow the [list of icons]() or add some in /your-theme/layouts/partials/svg.htm
 This params will appear in the right of the menu.
 name: name of svg.
 
-* params:
- * socialIcons:
-    - name: rss
-      url: 'posts/index.xml'
-    - name: github
-      url: 'https://github.com/subversive-eu/hugo-theme-subversive'
+```
+* params:  
+ * socialIcons:  
+    - name: rss  
+      url: 'posts/index.xml'  
+    - name: github  
+      url: 'https://github.com/subversive-eu/hugo-theme-subversive'  
+```
 
 ### Left-menu | PageIcons
 
 Main menu, in the left.
 
+```
 * params:
  * menu:
     - name: home
@@ -121,3 +125,4 @@ Main menu, in the left.
     - name: archive   
       url: /archives/
       weight: 30
+```
