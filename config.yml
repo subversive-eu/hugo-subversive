@@ -8,9 +8,9 @@ enableInlineShortcodes: true
 theme: hugo-subversive
 
 # I use this because problems with my github pages.
-#uglyurls: true
+uglyurls: true
 canonifyURLs: true
-relativeURLs: true
+relativeURLs: false
 
 params:
   description: 'Theme Subversive- https://github.com/subversive-eu/hugo-theme-subversive'
@@ -35,7 +35,7 @@ params:
       url: '/'
       weight: 5
     - name: info
-      url: /apropos/
+      url: /about/
       weight: 10
 #    - name: tag
 #      url: /tags/
