@@ -1,14 +1,10 @@
 ---
-title: "Example [draft]"
+title: "Example"
 author: subversive.eu
 ShowToc: true
 draft: true
 categories:
- - Démocraty
-tags:
- - Hello
-series:
- - Easy
+ - Example
 date: 2020-09-30T17:44:04+02:00
 ---
 

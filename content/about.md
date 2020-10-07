@@ -7,6 +7,10 @@ hidemeta: true
 tocopen: true
 disableShare: true
 date: 2020-10-01T08:37:55+02:00
+categorie:
+ - about
+tags:
+ - baouttag
 type: myabouttype
 url: "/about/"
 ---

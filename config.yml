@@ -2,8 +2,8 @@ baseURL: 'https://subversive-eu.github.io/hugo-subversive/'
 title: Subversive
 author: subversive.eu
 paginate: 5
-languageCode: fr
-DefaultContentLanguage: fr
+languageCode: en
+DefaultContentLanguage: en
 enableInlineShortcodes: true
 theme: hugo-subversive
 
@@ -13,7 +13,7 @@ canonifyURLs: true
 #relativeURLs: true
 
 params:
-  description: 'Theme Subversive- https://github.com/subversive-eu/hugo-theme-subversive'
+  description: 'Theme Subversive- https://github.com/subversive-eu/hugo-subversive'
   author: subversive.eu
   keyword: 'hugo, hugo-theme, subversive'
   ShowReadingTime: true
@@ -22,14 +22,14 @@ params:
   comments: false
 
   homeInfoParams:
-    Title: "Bonjour \U0001F44B"
-    Content: Bienvenue sur la Demo du thème Subversive
+    Title: "Rhello \U0001F44B"
+    Content: Welcome to the Subversive Theme Demo
 
   socialIcons:
     - name: rss
       url: 'posts/index.xml'
     - name: github
-      url: 'https://github.com/subversive-eu/hugo-theme-subversive'
+      url: 'https://github.com/subversive-eu/hugo-subversive'
 
   menu:
     - name: home

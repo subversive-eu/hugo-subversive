@@ -1,5 +1,5 @@
 ---
-title: "Using"
+title: "Install"
 author: subversive.eu
 ShowToc: true
 draft: false
