@@ -410,7 +410,6 @@ a{
   width: 100%;
   height: 40px;
 }
-
 /* MArKdoWn !!
 ----------------------------------------------------------------------------- */
 .post-content h3,
@@ -426,18 +425,23 @@ a{
 .post-content h2 {
     margin: 32px auto 24px auto;
     font-size: 32px;
+    margin-left: 1%;
 }
 .post-content h3 {
     font-size: 24px;
+    margin-left: 2%;
 }
 .post-content h4 {
     font-size: 16px;
+    margin-left: 3%;
 }
 .post-content h5 {
     font-size: 14px;
+    margin-left: 4%;
 }
 .post-content h6 {
     font-size: 12px;
+    margin-left: 5%;
 }
 .post-content a {
     box-shadow: 0 1px 0 var(--primary);
@@ -507,6 +511,7 @@ a{
     margin: auto calc(var(--gap) * -1) 32px calc(var(--gap) * -1);
     background: var(--hljs-bg) !important;
     border-radius: var(--radius);
+    background-color: yellow;
 }
 .post-content li>.highlight {
     margin-right: 0
@@ -517,7 +522,6 @@ a{
 .post-content .highlight pre {
     margin: 0;
 }
-
 .post-content .highlighttable {
     table-layout: fixed;
 }
@@ -534,7 +538,6 @@ a{
 .post-content .highlighttable td .highlight pre code::-webkit-scrollbar {
     display: none;
 }
-
 .post-content .highlight span {
     background: transparent !important;
 }
@@ -544,29 +547,27 @@ a{
     font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
     font-size: 0.78em;
     line-height: 1.5;
-    background: var(--code-bg);
+    color: white;
+    background: #282D32;
     border-radius: 2px;
 }
 .post-content pre code {
     display: block;
     margin: auto 0;
     padding: 10px;
-    color: rgba(255, 255, 255, 0.8);
-    background: transparent;
+    color: white;
+    background:#282D32;
     border-radius: 0;
     overflow-x: auto;
 }
 .post-content blockquote {
-    margin: 0 calc(var(--gap) * -1);
     padding: 0 32px;
-    border-left: 2px solid var(--primary);
+    border-left: 2px solid grey;
 }
 .post-content hr {
-    margin: 30px;
+    margin: 15px;
     height: 2px;
     background: gray;
-    border-top: 0;
-    border-bottom: 0;
 }
 
 
