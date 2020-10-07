@@ -12,13 +12,13 @@ date: 2020-10-07T17:44:04+02:00
 # Prerequisite
 
 - [Install hugo](https://gohugo.io/getting-started/installing/)
-- [Make you site](https://gohugo.io/getting-started/quick-start/)
+- [Make your site](https://gohugo.io/getting-started/quick-start/)
 
 Minimum version of hugo 0.74.0 .
 
 # Install theme
 
-When your website is on. you will install the theme.
+When your website is on. You will install the theme.
 
 Go in the folder /themes/ and run the command :
 
@@ -34,72 +34,86 @@ To update the theme use this :
 > {{< highlight git >}}
 cd themes/hugo-PaperMod
 git pull
- {{< / highlight>}}
+{{< / highlight>}}
 
 ## by submodule
 
 > {{< highlight git >}}
   git submodule add https://github.com/subversive-eu/hugo-subversive.git hugo-subversive
- {{< / highlight>}}
+{{< / highlight>}}
 
 To update the theme use this :
 
 > {{< highlight git >}}
 git submodule update --remote --merge
- {{< / highlight>}}
+{{< / highlight>}}
 
 To understand the file configuration checkout, and take attention of [exampleSite](https://github.com/subversive-eu/hugo-subversive/tree/exampleSite)
 
-## configuration 
+# Configuration 
 
-### theme
+## theme
 
 In your config file write the name of your folder like this :
 
 config.yml :  
 `theme: hugo-subversive`
 
-config.toml :
+config.toml :  
 `theme = "hugo-subversive`
 
-### rest of params
+## all params
 
-I show you a config.yml.
+I show you a config.yml :
 
-{{< highlight yml >}}
 
-baseURL: 'https://subversive-eu.github.io/hugo-subversive/'
-title: Subversive
-author: subversive.eu
+```yml
+
+baseURL: 'https://mywebsite.com/'
+title: mywebsite
 paginate: 5
+theme: hugo-subversive
+author: John Mac Artur
+
 languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: true
-theme: hugo-subversive
 
-# I use this because problems with my github pages.
-#uglyurls: true
-canonifyURLs: true
-#relativeURLs: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpored: false
+
+googleAnalytics: UA-423-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
 
 params:
-  description: 'Theme Subversive- https://github.com/subversive-eu/hugo-subversive'
-  author: subversive.eu
-  keyword: 'hugo, hugo-theme, subversive'
+  env: production # enable google analytics, opengraph, twitter-cards and schema.
+  title: mywebsite
+  description: 'mywebsite's description'
+  author: John Mac Artur
+  images: "<link or path of image for opengraph, twitter-cards>"
   ShowReadingTime: true
-  contentTypeName: posts
   ShowShareButtons: true
   comments: false
+  disableSpecial1stPost : false
+  contentTypeName: posts
+  keyword: 'hugo, hugo-theme, subversive'
 
   homeInfoParams:
-    Title: "Rhello \U0001F44B"
-    Content: Welcome to the Subversive Theme Demo
+    Title: "Hey \U0001F44B"
+    Content: Welcome to my super website !! 
 
   socialIcons:
-    - name: rss
-      url: 'posts/index.xml'
+    - name: twitter
+      url: 'https://twitter.com/'
+    - name: stackoverflow
+      url: 'https://stackoverflow.com'
     - name: github
-      url: 'https://github.com/subversive-eu/hugo-subversive'
+      url: 'https://github.com/'
 
   menu:
     - name: home
@@ -161,4 +175,9 @@ services:
   twitter:
     disableInlineCSS: true
 
-{{< / highlight >}}
+```yml
+
+Suite:
+<https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/>
+
+<https://subversive-eu.github.io/hugo-subversive/posts/install/#prerequisite>
