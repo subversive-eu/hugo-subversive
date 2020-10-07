@@ -1,8 +1,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/subversive-eu/hugo-subversive/blob/main/LICENSE)
+[![Made with hugo](https://img.shields.io/badge/Made%20with-hugo-%23ff69b4)
+[![Hugo Subversive](https://img.shields.io/badge/Hugo--Themes-@Subversive-blue)
 
 # Hugo Theme Subversive 
 
-- [presentation](https://github.com/subversive-eu/hugo-subversive#Hello-and-presentation)
+- [Presentation](https://github.com/subversive-eu/hugo-subversive#Hello-and-presentation)
 - [Bugs](https://github.com/subversive-eu/hugo-subversive#Bugs)
 - [Features/Mods](https://github.com/subversive-eu/hugo-subversive#Features/Mods)
 
@@ -11,21 +13,25 @@
 Hugo-Subversive is a Hugo Theme from France.
 
 Only for subversive website !
-I tried to make a theme simple to use, to learn and to see !
+I tried to make a theme simple to use, to learn and to read !
 
-It's a free performance theme for [hugo website](https://gohugo.io/) with SEO
+It's a free, fast, responsive, performance theme for [hugo website](https://gohugo.io/) with SEO.
 
 [LIVE-DEMO](https://subversive-eu.github.io/hugo-subversive/)
 
 Check the [exampleSite](https://github.com/subversive-eu/hugo-subversive/tree/exampleSite)
 
+--- 
+/photos/
 ---
 
 ## Bugs
 
-Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues), thx !
-
 I don't study/work on website development, and more generally in computer science/data processing.
+
+Dev issues or css.
+
+Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues), thx !
 
 ---
 
@@ -38,4 +44,8 @@ I don't study/work on website development, and more generally in computer scienc
 * Post Archive
 * Minify css + js
 * Cover image
+* SEO
+
+---
+/lighthouse/
 
