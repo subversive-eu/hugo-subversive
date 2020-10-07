@@ -12,15 +12,15 @@ series:
 date: 2020-09-30T17:44:04+02:00
 ---
 
-# Sauvegarde
-## Image
-<img src="/media/2018/08/kitten.jpg" alt="Kitten"
+I will show you some extras about Markdown, css, and shortcodes.
+
+# Image
+<img src="https://camo.githubusercontent.com/689caeaae976f526846d0d4b9e5e5b582e8e03b4/68747470733a2f2f692e6962622e636f2f477673707143582f486f6d65496e666f2e706e67" alt="Kitten"
 	title="A cute kitten" width="150" height="100" />
-![Kitten](/media/2018/08/kitten.jpg "A cute kitten")
-![Kitten](/media/2018/08/kitten.jpg =150x100)
+![Kitten](https://camo.githubusercontent.com/689caeaae976f526846d0d4b9e5e5b582e8e03b4/68747470733a2f2f692e6962622e636f2f477673707143582f486f6d65496e666f2e706e67 "A cute kitten")
+![Kitten](https://camo.githubusercontent.com/689caeaae976f526846d0d4b9e5e5b582e8e03b4/68747470733a2f2f692e6962622e636f2f477673707143582f486f6d65496e666f2e706e67 =150x100)
 
 ![Drag Racing](/media/logo.png "coucou")
-/grandeur nature test
 
 ![](/media/roman300AD.png "roman empire")
 

@@ -9,15 +9,17 @@ date: 2020-09-30T17:44:04+02:00
 ---
 
 Hey, I will give you some tricks to make your website. 
+<!--more-->
 
 ## Favicons 
 
 I used https://favicon.io/favicon-generator/
 
-### Installation
+### Deploy
 
 First, use the download button to download the files listed below. Paste the file in themes/your-theme/static/
 
+```html
     android-chrome-192x192.png
     android-chrome-512x512.png
     apple-touch-icon.png
@@ -25,10 +27,12 @@ First, use the download button to download the files listed below. Paste the fil
     favicon-32x32.png
     favicon.ico
     site.webmanifest
+```
 
 That's all !
 
 ---
+
 ## i18 Language
 
 To use it, just add and use in config.yml :
@@ -36,7 +40,7 @@ To use it, just add and use in config.yml :
 languageCode: fr
 DefaultContentLanguage: fr
 
-There is three languages : French, English (default), Spanish. 
+There is three languages : French(fr), English(en) (default), Spanish(es). 
 
 Check in themes/your-theme/i18n/
 
@@ -45,12 +49,12 @@ Check in themes/your-theme/i18n/
 ## Home Page
 
 * If you want to introduce your website :
-    Do not touch.
+ * Do not touch in params:
     homeInfoParams:
         Title: Hi there wave
         Content: Can be Info, links, about...
 
-* If you just want a list of post, delete it in config.yml
+* If you just want a list of post + Title, delete it in config.yml
 
 ---
 
@@ -58,7 +62,7 @@ Check in themes/your-theme/i18n/
 
 ### Youtube
 
-There is a shortcode for youtube video without cookie, and privacy (Only European) cf [all privacy settings -hugo](https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings)
+There is a shortcode for youtube video without cookie, and privacy (Only European) cf [all privacy settings -hugo](https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings).
 
 For css /your-theme/layouts/shortcodes/youtube.html
 
@@ -73,3 +77,4 @@ For css /your-theme/layouts/_default/_markup/render-link.html
 ### others shortcodes
 
 rawhtml + collapse + blockquote
+
