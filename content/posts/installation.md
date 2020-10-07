@@ -13,8 +13,7 @@ Hey, I will give you some tricks to make your website.
 
 ## Favicons 
 
-I used this [website](https://favicon.io/favicon-generator/)
-<https://favicon.io/favicon-generator/>
+I used this <https://favicon.io/favicon-generator/>
 
 ### Deploy
 
@@ -127,3 +126,5 @@ Main menu, in the left.
       url: /archives/
       weight: 30
 ```
+
+<hr>
