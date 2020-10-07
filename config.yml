@@ -1,0 +1,86 @@
+baseURL: 'https://subversive-eu.github.io/hugo-subversive/'
+title: Subversive
+author: subversive.eu
+paginate: 5
+languageCode: fr
+DefaultContentLanguage: fr
+enableInlineShortcodes: true
+theme: hugo-subversive
+
+# I use this because problems with my github pages.
+#uglyurls: true
+canonifyURLs: true
+relativeURLs: true
+
+params:
+  description: 'Theme Subversive- https://github.com/subversive-eu/hugo-theme-subversive'
+  author: subversive.eu
+  ShowReadingTime: true
+  contentTypeName: posts
+  ShowShareButtons: true
+  comments: false
+
+  homeInfoParams:
+    Title: "Bonjour \U0001F44B"
+    Content: Bienvenue sur la Demo du thème Subversive
+
+  socialIcons:
+    - name: rss
+      url: 'posts/index.xml'
+    - name: github
+      url: 'https://github.com/subversive-eu/hugo-theme-subversive'
+
+  menu:
+    - name: home
+      url: '/'
+      weight: 5
+    - name: info
+      url: /apropos/
+      weight: 10
+#    - name: tag
+#      url: /tags/
+#      weight: 15
+    - name: categorie
+      url: /categories/
+      weight: 20
+#    - name: serie
+#      url: /series/
+#      weight: 25
+    - name: archive   
+      url: /archives/
+      weight: 30
+
+markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 1
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
