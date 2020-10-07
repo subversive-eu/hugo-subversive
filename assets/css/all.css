@@ -562,9 +562,9 @@ a{
     border-left: 2px solid var(--primary);
 }
 .post-content hr {
-    margin: 30px calc(var(--gap) * -1);
+    margin: 30px;
     height: 2px;
-    background: var(--tertiary);
+    background: gray;
     border-top: 0;
     border-bottom: 0;
 }
