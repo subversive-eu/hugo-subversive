@@ -2,18 +2,18 @@
 ShowToc: true hidemeta: true tocopen: true disableShare: true The html of this page.md comes from /layouts/_default/single.html
 For this page, you can use type: myabouttype + url: &amp;ldquo;/about/&amp;rdquo; like archive.md.
 Html will come from /layouts/myabouttype/single.html You have to make it and personnalize.
-/archives/ /archives/ come from /layouts/myarchivetype/single.html. So, it&amp;rsquo;s become easier to css and personnalize.</description></item><item><title>Example draft Read Me</title><link>https://subversive-eu.github.io/hugo-subversive/posts/example/</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/example/</guid><description>Sauvegarde Image ![Kitten](/media/2018/08/kitten.jpg =150x100)
+/archives/ /archives/ come from /layouts/myarchivetype/single.html. So, it&amp;rsquo;s become easier to css and personnalize.</description></item><item><title>Example draft Read Me</title><link>https://subversive-eu.github.io/hugo-subversive/posts/example.html</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/example.html</guid><description>Sauvegarde Image ![Kitten](/media/2018/08/kitten.jpg =150x100)
 /grandeur nature test
 PostMeta links télécharger le pdf· imprimer· télécharger format epubhead RSS Cover for a post cover = &amp;ldquo;&amp;rdquo; can also paste direct link from external site ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
 / Permet d&amp;rsquo;ajouter une image au post.
 ## youtube
 / dernier test
 tweeter Hugo 0.24 Released: Big archetype update + @Netlify _redirects etc. file supporthttps://t.co/X94FmYDEZJ #gohugo #golang @spf13 @bepsays
-&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017 vimeo .</description></item><item><title>Features/Mod</title><link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid><description/></item><item><title>Installation tricks</title><link>https://subversive-eu.github.io/hugo-subversive/posts/installation/</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/installation/</guid><description>Hey, I will give you some tricks to make your website.
+&amp;mdash; GoHugo.io (@GoHugoIO) June 21, 2017 vimeo .</description></item><item><title>Features/Mod</title><link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites.html</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites.html</guid><description/></item><item><title>Installation tricks</title><link>https://subversive-eu.github.io/hugo-subversive/posts/installation.html</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/installation.html</guid><description>Hey, I will give you some tricks to make your website.
 Favicons I used https://favicon.io/favicon-generator/
 Installation First, use the download button to download the files listed below. Paste the file in themes/your-theme/static/
 android-chrome-192x192.png android-chrome-512x512.png apple-touch-icon.png favicon-16x16.png favicon-32x32.png favicon.ico site.webmanifest That&amp;rsquo;s all !
 i18 Language To use it, just add and use in config.yml :
 languageCode: fr DefaultContentLanguage: fr
 There is three languages : French, English (default), Spanish.
-Check in themes/your-theme/i18n/</description></item><item><title>Markdown Syntax</title><link>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</guid><description>Searching for syntax !</description></item></channel></rss>
+Check in themes/your-theme/i18n/</description></item><item><title>Markdown Syntax</title><link>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax.html</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax.html</guid><description>Searching for syntax !</description></item></channel></rss>
