@@ -103,6 +103,7 @@ highlight shortcode Here testing angular2
     </html>
 
 #### Code block with Hugo's internal highlight shortcode
+
 {{< highlight html >}}
 <!doctype html>
 <html lang="en">

@@ -21,7 +21,8 @@ First, download files listed below :
 
 Paste the file in themes/your-theme/static/  
 
-```html
+{{< highlight html >}}
+
     android-chrome-192x192.png
     android-chrome-512x512.png
     apple-touch-icon.png
@@ -29,7 +30,8 @@ Paste the file in themes/your-theme/static/
     favicon-32x32.png
     favicon.ico
     site.webmanifest
-```
+
+{{< / highlight >}}
 
 That's all !
 
@@ -54,12 +56,12 @@ ____
 
 If you want to introduce your website :  
 
-```yml
+{{< highlight yml >}}
 * Do not touch in params:  
   homeInfoParams:  
       Title: Hi there wave  
       Content: Can be Info, links, about...  
-```
+{{< / highlight >}}
 
 * If you just want a list of post + Title, delete it in config.yml  
 
@@ -95,22 +97,22 @@ Follow the [list of icons]() or add some in /your-theme/layouts/partials/svg.htm
 ### Right-menu | SocialIcons
 
 This params will appear in the right of the menu.
-name: name of svg.
+name: name of svg.  
 
-```yml
+{{< highlight yml >}}
 * params:  
  * socialIcons:  
     - name: rss  
       url: 'posts/index.xml'  
     - name: github  
       url: 'https://github.com/subversive-eu/hugo-theme-subversive'  
-```
+{{< / highlight >}}
 
 ### Left-menu | PageIcons
 
-Main menu, in the left.
+Main menu, in the left.  
 
-```yml
+{{< highlight yml >}}
 * params:
  * menu:
     - name: home
@@ -131,5 +133,6 @@ Main menu, in the left.
     - name: archive   
       url: /archives/
       weight: 30
-```
+{{< / highlight >}}
+
 ---
