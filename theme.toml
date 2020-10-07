@@ -1,10 +1,10 @@
 # theme.toml for hugo-subversive theme.
 
 name = "Subversive"
-license = ""
-licenselink = ""
+license = "MIT"
+licenselink = "https://github.com/subversive-eu/hugo-subversive/blob/main/LICENSE"
 description = "A Subversive Hugo Theme !"
-homepage = "https://subversive-eu.github.io/hugo-subversive/"
+homepage = "https://github.com/subversive-eu/hugo-subversive/"
 tags = [
   "responsive",
   "sample",
@@ -32,7 +32,6 @@ min_version = "0.74.0"
 [author]
   name = "www.subversive.eu"
   homepage = "https://github.com/subversive-eu/"
-  repo = "https://github.com/subversive-eu/hugo-subversive/"
 
 # Thanks
 [used]
