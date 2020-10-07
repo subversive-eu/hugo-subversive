@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/subversive-eu/hugo-subversive/blob/main/LICENSE)
 [![Made with hugo](https://img.shields.io/badge/Made%20with-hugo-%23ff69b4)](https://gohugo.io/)
-[![Author](https://img.shields.io/badge/Hugo--Themes-@Subversive-blue)](www.subversive.eu)
+[![Author](https://img.shields.io/badge/Author-@Subversive-blue)](www.subversive.eu)
 
 # Hugo Theme Subversive 
 
