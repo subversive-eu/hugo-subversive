@@ -16,7 +16,3 @@
   translation: "Leer el artículo !"
 - id: draft
   translation: "borrador"
-- id: ebook
-  translation: "Descargar ebook"
-- id: pdf
-  translation: "Descarga el pdf"

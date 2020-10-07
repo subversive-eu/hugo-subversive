@@ -21,11 +21,11 @@
         {{- end }}
       </ul>
       {{- end }}
-      <!--- This is the end of meta. not for me. I add some download options + printer option -->
+      <!--- This is the end of meta. not for me. I add  printer option -->
       &nbsp;·&nbsp;<button class="sample-btn">
       <a name ="Imprimer" href="javascript:if(window.print)window.print()">{{ i18n "print" }}</a>
       </button>&nbsp;·&nbsp;
-    </div>
+    </div><!--- This is the end of meta. not for me. I add  printer option -->
     {{- end}}
     <h1 class="post-title">
       {{ .Title }}
@@ -56,7 +56,8 @@
   <div class="post-content">{{ .Content }}</div>
 
   <!-- post-footer =  Terms + Comments checkout by hidemeta -->
-  <!-- Terms = tags + series + categories -->
+  <!-- Terms = tags + series + categories 
+       If you want to put navbarshare in hidemeta, copy/paste in "if .params.hiteMeta else"-->
   {{- if .Params.hideMeta }}{{ else }}
   <div class="post-footer">
     {{- if .Params.categories }}

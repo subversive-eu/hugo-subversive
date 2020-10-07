@@ -63,7 +63,6 @@
 <!-- pagination -->
 {{- if gt $paginator.TotalPages 1 }}
 <div class="pagination">
-
     {{- if $paginator.HasPrev }}
     <button class="sample-btn float-left">
     <a class="pagination-link " href="{{ $paginator.Prev.URL }}">« {{ i18n "prev_page" }}</a>
@@ -73,14 +72,14 @@
     <button class="sample-btn float-right">
       <a class="pagination-link" href="{{ $paginator.Next.URL }}">{{ i18n "next_page" }} »</a>
     </button>
-    
     {{- end }}
-
 </div>
+{{- end }}
+
    <!-- Navbar share -->    
    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
    {{- partial "share_icons.html" .}}
    {{- end }}
-{{- end }}
+
 </div> <!-- end container-->
 {{- end  }}{{- /* end main */ -}}
