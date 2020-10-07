@@ -78,3 +78,46 @@ For css /your-theme/layouts/_default/_markup/render-link.html
 
 rawhtml + collapse + blockquote
 
+---
+
+## Menu with svg icons
+
+You can add, what you want.
+Follow the [list of icons]() or add some in /your-theme/layouts/partials/svg.html
+
+### Right-menu | SocialIcons
+
+This params will appear in the right of the menu.
+name: name of svg.
+
+* params:
+ * socialIcons:
+    - name: rss
+      url: 'posts/index.xml'
+    - name: github
+      url: 'https://github.com/subversive-eu/hugo-theme-subversive'
+
+### Left-menu | PageIcons
+
+Main menu, in the left.
+
+* params:
+ * menu:
+    - name: home
+      url: '/'
+      weight: 5
+    - name: info
+      url: /about/
+      weight: 10
+    - name: tag
+      url: /tags/
+     weight: 15
+    - name: categorie
+      url: /categories/
+      weight: 20
+    - name: serie
+      url: /series/
+      weight: 25
+    - name: archive   
+      url: /archives/
+      weight: 30
