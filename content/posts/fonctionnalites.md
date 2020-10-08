@@ -44,16 +44,12 @@ List of all features/Mod for this Subversive theme.
 * twitter
 * whatsapp
 
-| Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
-
 ## Css tricks
 
 There is a lot of css options for class, use it like bootstrapp :
 
 * options class="" :  
-        - text-justify  
+ - text-justify  
         - text-center  
         - no-deco ="list-style-type:none + text-decoration:none"  
         - float-left  
