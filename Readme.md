@@ -5,8 +5,10 @@
 # Hugo Theme Subversive 
 
 - [Presentation](https://github.com/subversive-eu/hugo-subversive#hello-and-presentation)
+- [Photos](https://github.com/subversive-eu/hugo-subversive#photos)
 - [Bugs](https://github.com/subversive-eu/hugo-subversive#bugs)
 - [Features/Mods](https://github.com/subversive-eu/hugo-subversive#featuresmods)
+- [Perfomance](https://github.com/subversive-eu/hugo-subversive#lighthouse-perfomance)
 
 ## Hello and presentation
 
@@ -22,14 +24,18 @@ It's a free, fast, responsive, performance theme for [hugo website](https://gohu
 Check the [exampleSite](https://github.com/subversive-eu/hugo-subversive/tree/exampleSite)
 
 --- 
-/photos/
+
+## Photos
+
+(soon, I hope)
+
 ---
 
 ## Bugs
 
 I don't study/work on website development, and more generally in computer science/data processing.
 
-Dev issues or css.
+Dev issues or css :
 
 Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues), thx !
 
@@ -47,5 +53,8 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 * SEO
 
 ---
-/lighthouse/
+
+## Lighthouse Perf
+
+(soon, I hope too)
 
