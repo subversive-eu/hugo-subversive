@@ -9,6 +9,7 @@ date: 2020-10-06T17:44:04+02:00
 ---
 
 List of all social icons by svg + all menu icons 
+<!--more-->
 
 > /layouts/partials/svg.html
 

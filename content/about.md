@@ -15,10 +15,10 @@ url: "/about/"
 
 Example of using yousite.com/about/ with :  
 
-- ShowToc: true
-- hidemeta: true
-- tocopen: true
-- disableShare: true
+ShowToc: true
+hidemeta: true
+tocopen: true
+disableShare: true
 
 The html of this page.md comes from /layouts/_default/single.html  
 
@@ -29,3 +29,8 @@ Html will come from /layouts/myabouttype/single.html  You have to make it and pe
 
 /archives/ come from /layouts/myarchivetype/single.html.  
 So, it's become easier to css and personnalize.
+
+## command
+
+`hugo new about.md`  
+`hugo new photos/africa.md`

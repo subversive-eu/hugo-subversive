@@ -92,6 +92,8 @@ There is a lot of css options for class, use it like bootstrapp :
 
 ---
 
+## [Add Pages](https://subversive-eu.github.io/hugo-subversive/about/)
+
 ## More
 
 * Draft page indication
