@@ -322,7 +322,6 @@ a{
 /* new*/
 .toc {
   margin-bottom: 40px;
-  
   margin: 5px;
   padding: 8px 16px;
   font-size: 16px;
@@ -353,12 +352,16 @@ a{
 }
 
 .toc blockquote {
-    margin: 0 20px;
-    padding: 10px 20px;
+  border-left: 2px solid;
+  margin: 20px;
+  padding: 10px 40px;
 }
 
 .toc li ul {
     margin-left: 20px;
+}
+.toc a:hover{
+  font-weight: bold;
 }
 
 /* Terms.html Tags + Categories + Series 
