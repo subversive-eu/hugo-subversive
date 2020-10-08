@@ -279,7 +279,6 @@ a{
   background-clip: padding-box;
 }
 
-/* new  border: 2px solid #282D32;*/
 .toc {
   margin-bottom: 40px;
   margin: 5px;
@@ -289,7 +288,7 @@ a{
   transition-duration: 0.4s;
   color: #f8f9fa;
   background-color: #343a40;
- 
+ 	border: 2px solid #282D32;
   border-radius: 2px;
 }
 .toc:hover{
