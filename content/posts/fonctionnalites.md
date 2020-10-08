@@ -35,12 +35,12 @@ List of all features/Mod for this Subversive theme.
 
 #### Share Buttons :
 
-| facebook |
-| linkedin |
-| reddit |
-| telegram |
-| twitter |
-| whatsapp |
+| facebook      |
+| linkedin      |
+| reddit        |
+| telegram      |
+| twitter       |
+| whatsapp      |
 
 ## Css tricks
 
@@ -82,6 +82,7 @@ There is a lot of css options for class, use it like bootstrapp :
 ## Shortcodes + Markup
 
 * Render-link.html -> cf /layouts/_default/_markup/render-link.html
+
 * Render-image.html -> cf /layouts/_default/_markup/render-image.html  
 > css -> cf /layouts/assets/all.css  .sources-link{}
 
