@@ -1,5 +1,5 @@
 ---
-title: "Using tricks"
+title: "Installation tricks"
 author: subversive.eu
 ShowToc: true
 draft: false

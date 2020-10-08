@@ -96,7 +96,7 @@ There is a lot of css options for class, use it like bootstrapp :
 
 * Draft page indication
 * Scroll to top button
-* I18n three language : fr + en + es
+* [I18n three language : fr + en + es](https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language)
 * Google Analytics integration
 * Open-Graph support
 * Twitter Cards Support
