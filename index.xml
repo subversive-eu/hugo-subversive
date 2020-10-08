@@ -17,14 +17,21 @@
     </item>
     
     <item>
+      <title>Perfomance with Lighthouse</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</link>
+      <pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</guid>
+      <description>&lt;p&gt;Stats about lighthouse of this theme. Soon.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Social-Media</title>
       <link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link>
       <pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate>
       
       <guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid>
-      <description>List of all social icons by svg + all menu icons
- /layouts/partials/svg.html
-    name platform link     123rf 123rf.com   adobestock stock.adobe.com   behance behance.net   codepen codepen.io   cryptohack cryptohack.org   dev dev.to   discogs discogs.com   dreamstime dreamstime.com   dribbble dribbble.com   email -   facebook facebook.com   freepik freepik.com   github github.</description>
+      <description>&lt;p&gt;List of all social icons by svg + all menu icons&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,11 +87,14 @@ There is savegame of simple tricks too.&lt;/p&gt;</description>
       
       <guid>https://subversive-eu.github.io/hugo-subversive/about/</guid>
       <description>/about/ Example of using yousite.com/about/ with :
- ShowToc: true hidemeta: true tocopen: true disableShare: true  The html of this page.md comes from /layouts/_default/single.html
+ShowToc: true hidemeta: true tocopen: true disableShare: true
+The html of this page.md comes from /layouts/_default/single.html
 For this page, you can use type: myabouttype + url: &amp;ldquo;/about/&amp;rdquo; like archive.md.
 Html will come from /layouts/myabouttype/single.html You have to make it and personnalize.
 /archives/ /archives/ come from /layouts/myarchivetype/single.html.
-So, it&amp;rsquo;s become easier to css and personnalize.</description>
+So, it&amp;rsquo;s become easier to css and personnalize.
+command hugo new about.md
+hugo new photos/africa.md</description>
     </item>
     
   </channel>

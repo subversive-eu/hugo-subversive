@@ -38,15 +38,22 @@
   </url>
   
   <url>
-    <loc>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</loc>
+    <loc>https://subversive-eu.github.io/hugo-subversive/categories/features/</loc>
     <lastmod>2020-10-06T17:44:04+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://subversive-eu.github.io/hugo-subversive/categories/features/</loc>
-    <lastmod>2020-10-04T17:44:04+02:00</lastmod>
+    <loc>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</loc>
+    <lastmod>2020-10-06T17:44:04+02:00</lastmod>
+    <changefreq>dayly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</loc>
+    <lastmod>2020-10-06T17:44:04+02:00</lastmod>
     <changefreq>dayly</changefreq>
     <priority>0.5</priority>
   </url>
