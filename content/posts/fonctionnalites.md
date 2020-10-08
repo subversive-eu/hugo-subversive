@@ -28,7 +28,7 @@ List of all features/Mod for this Subversive theme.
 | draft         | boolean | true | false |  
 | ------------- | ------- | ---- | ----- |  
 | comments      | boolean | true | false |  
-| ------------- | ------- | ---- | ----- |  
+
 
 
 ### [Social-Media](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
@@ -81,7 +81,7 @@ There is a lot of css options for class, use it like bootstrapp :
 | ShowShareButtons      | boolean | true | false |
 | --------------------- | ------- | ---- | ----- |
 | Comments              | boolean | true | false |
-| --------------------- | ------- | ---- | ----- |
+
 
 | Italics   | Bold     | Code   |
 | --------  | -------- | ------ |
