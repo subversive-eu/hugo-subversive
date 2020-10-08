@@ -185,7 +185,7 @@ services:
 
 In the root directory of your site, go to /archetypes/default.md
 
-This the schema when you use the command `hugo new posts/mypost.md` or `hugo new photos.md`.  
+This is the schema when you use the command `hugo new posts/mypost.md` or `hugo new photos.md`.  
 The default.md is add to your new page.
 
 This is a example :
@@ -209,7 +209,7 @@ date: {{ .Date }}
 
 ## more options
 
-If you want to personnalize a page you can add this :  
+If you want to personnalize a page you can add this at the top of the page:  
 
 ```yml
 cover:

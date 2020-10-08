@@ -17,9 +17,9 @@ List of all features/Mod for this Subversive theme.
 
 ### [Page-Variables](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables)
 
-| showtoc | boolean | true \| false |
-| tocopen | boolean | true \| false |
-| hidemeta | boolean | true \| false |
+| showtoc | boolean | true \| false |  
+| tocopen | boolean | true \| false |  
+| hidemeta | boolean | true \| false |  
 | disableShare | boolean | true \| false |  
 | draft | boolean | true \| false |  
 | comments | boolean | true \| false |  
@@ -44,23 +44,23 @@ List of all features/Mod for this Subversive theme.
 There is a lot of css options for class, use it like bootstrapp :
 
 * options class="" :  
- * text-justify  
- * text-center  
- * no-deco ="list-style-type:none + text-decoration:none"  
- * float-left  
- * float-right  
- *  a ="cursor: pointer"  
- * Bootstrapp tricks :  
-  * bg-dark  
-  * bg-light  
-  * text-light  
-  * text-dark  
-  * text-white  
-  * text-warning  
-  * text-success  
-  * text-info  
+  * text-justify  
+  * text-center  
+  * no-deco ="list-style-type:none + text-decoration:none"  
+  * float-left  
+  * float-right  
+  *  a ="cursor: pointer"  
+  - Bootstrapp tricks :  
+   * bg-dark  
+   * bg-light  
+   * text-light  
+   * text-dark  
+   * text-white  
+   * text-warning  
+   * text-success  
+   * text-info  
 
-* 
+
 * CSS Minify for perfomance
 * Scroll bar themed
 * Navbar on the left for Sharebuttons
@@ -72,9 +72,9 @@ There is a lot of css options for class, use it like bootstrapp :
 
 * Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
 
-| ShowReadingTime | boolean | true \| false |
-| ShowShareButtons | boolean | true \| false |
-| Comments | boolean | true \| false |
+| ShowReadingTime | boolean | true \| false |  
+| ShowShareButtons | boolean | true \| false |  
+| Comments | boolean | true \| false |  
 
 ---
 

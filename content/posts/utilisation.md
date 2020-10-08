@@ -10,6 +10,8 @@ date: 2020-10-06T17:44:04+02:00
 
 List of all social icons by svg + all menu icons 
 
+> /layouts/partials/svg.html
+
 | name          | platform link                 |
 | ------------- | -----------------             |
 | 123rf         | 123rf.com                     |
@@ -52,6 +54,3 @@ List of all social icons by svg + all menu icons
 | categorie     | yoursite.com/categorie/       |
 | serie         | yoursite.com/series/          |
 | default_link  | -                             |
-| other         | -                             |
-
-> /layouts/partials/svg.html

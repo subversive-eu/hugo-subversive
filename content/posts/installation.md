@@ -19,7 +19,7 @@ I used this <https://favicon.io/favicon-generator/>
 
 First, download files listed below :
 
-Paste the file in themes/your-theme/static/  
+Paste the files in themes/your-theme/static/  
 
 {{< highlight html >}}
 
@@ -48,20 +48,22 @@ There is three languages : French(fr), English(en), Spanish(es).
 
 I don't know if there is default language. Be carefull.
 
-Check in themes/your-theme/i18n/ [here](https://github.com/subversive-eu/hugo-subversive/tree/main/i18n)
+Check in themes/your-theme/i18n/ - [here](https://github.com/subversive-eu/hugo-subversive/tree/main/i18n)
 
 ____
 
 ## Home Page
 
-If you want to introduce your website :  
+If you want to introduce your website : 
 
-{{< highlight yml >}}
+* Do not touch in params: 
+>{{< highlight yml >}}
 * Do not touch in params:  
   homeInfoParams:  
       Title: Hi there wave  
       Content: Can be Info, links, about...  
-{{< / highlight >}}
+>{{< / highlight >}}
+
 
 * If you just want a list of post + Title, delete it in config.yml  
 
@@ -71,33 +73,39 @@ If you want to introduce your website :
 
 ### Youtube
 
-There is a shortcode for youtube video without cookie, and privacy (Only European) cf [hugo-privacy-settings](https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings).
+There is a shortcode for youtube video without cookie, and privacy (Only European).
 
-For css /your-theme/layouts/shortcodes/youtube.html
+> [hugo-privacy-settings](https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings).
+
+> /your-theme/layouts/shortcodes/youtube.html
 
 ### Image 
 
-For css /your-theme/layouts/_default/_markup/render-image.html
+> /your-theme/layouts/_default/_markup/render-image.html
 
 ### links
 
-For css /your-theme/layouts/_default/_markup/render-link.html
+> /your-theme/layouts/_default/_markup/render-link.html
 
 ### others shortcodes
 
-rawhtml.html + collapse.html + blockquote.html
+> rawhtml.html
+> collapse.html 
+> blockquote.html
 
 ---
 
 ## Menu with svg icons
 
 You can add, what you want.
-Follow the [list of icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/) or add some in /your-theme/layouts/partials/svg.html
+
+Check the [list of icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/) or add some in /your-theme/layouts/partials/svg.html
 
 ### Right-menu | SocialIcons
 
 This params will appear in the right of the menu.
-name: name of svg.  
+
+> In config -> name: nameofsvg.  
 
 {{< highlight yml >}}
 * params:  
