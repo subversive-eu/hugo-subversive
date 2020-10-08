@@ -9,6 +9,9 @@ categories:
 date: 2020-10-07T17:44:04+02:00
 ---
 
+A sample guide tools about installing hugo theme and Configuration.
+<!--more-->
+
 # Prerequisite
 
 - [Install hugo](https://gohugo.io/getting-started/installing/)
