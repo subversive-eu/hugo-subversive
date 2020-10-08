@@ -278,48 +278,8 @@ a{
   border-top: 60px solid transparent;
   background-clip: padding-box;
 }
-/* older
-.toc {
-  margin: 5px;
-  padding: 8px 16px;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  color: #f8f9fa;
-  background-color: #343a40;
-  border: 2px solid #282D32;
-}
-.toc:hover{
-  background-color: #f8f9fa;
-  color:#343a40;
-  border: 2px solid #282D32;
-}
-.toc details summary {
-  cursor: zoom-in;
-}
-.toc details[open] summary {
-  cursor: zoom-out;
-}
-.toc .details {
-  display: inline;
-  font-weight: 500;
-}
-.toc blockquote {
-  border-left: 2px solid;
-  margin: 20px;
-  padding: 10px 40px;
-}
-.toc ul{
-  list-style-type: none;
-}
-.toc ul a{
-  text-decoration: none;
-}
-.toc a:hover{
-  font-weight: bold;
-}
--------------- */
-/* new*/
+
+/* new  border: 2px solid #282D32;*/
 .toc {
   margin-bottom: 40px;
   margin: 5px;
@@ -329,7 +289,7 @@ a{
   transition-duration: 0.4s;
   color: #f8f9fa;
   background-color: #343a40;
-  border: 2px solid #282D32;
+ 
   border-radius: 2px;
 }
 .toc:hover{
