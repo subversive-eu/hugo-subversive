@@ -63,6 +63,12 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 
 ---
 
+## Social-Media
+
+[Page-example](https://subversive-eu.github.io/hugo-subversive/posts/example/)
+[ShareBar](https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/#share-buttons-)
+[All-svg-icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
+
 ## Lighthouse Perf
 
 (soon, I hope too)
