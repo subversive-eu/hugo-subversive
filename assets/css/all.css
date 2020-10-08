@@ -414,9 +414,8 @@ a{
   position: relative;
   width: 100%;
   height: 40px;
-}
-/* MArKdoWn !!
------------------------------------------------------------------------------ */
+}/* MArKdoWn !!
+-----------------------------------------------------------------------------*/
 .post-content h3,
 .post-content h4,
 .post-content h5,
@@ -548,7 +547,7 @@ a{
 }
 .post-content code {
     margin: auto 4px;
-    padding: 4px 6px;
+    padding: 5px;
     font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
     font-size: 0.78em;
     line-height: 1.5;
@@ -558,11 +557,14 @@ a{
 }
 .post-content pre code {
     display: block;
-    margin: auto 0;
+    margin: 10px;
     padding: 10px;
+    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    line-height: 1.5;
     color: white;
     background:#282D32;
-    border-radius: 0;
+    border-radius: 2px;
     overflow-x: auto;
 }
 .post-content blockquote {
@@ -570,10 +572,11 @@ a{
     border-left: 2px solid grey;
 }
 .post-content hr {
-    margin: 30px;
+    margin: 15px;
     height: 2px;
     background: gray;
 }
+
 
 
 /* Render-link.html */
