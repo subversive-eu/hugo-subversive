@@ -181,7 +181,7 @@ services:
 
 ```
 
-# default.md
+# Page Variables
 
 In the root directory of your site, go to /archetypes/default.md
 
