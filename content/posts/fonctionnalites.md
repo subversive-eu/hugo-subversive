@@ -37,6 +37,12 @@ List of all features/Mod for this Subversive theme.
 * twitter
 * whatsapp
 
+> Be carefull, the navbarShare is not in hidemeta for all posts. or page who use /_default/single.html
+> You can add it if you want.
+
+> If you don't want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.
+> Delete navbarshare in /_default/list.html 
+
 ---
 
 ## Css tricks
