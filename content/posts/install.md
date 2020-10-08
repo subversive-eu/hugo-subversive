@@ -53,7 +53,7 @@ git submodule update --remote --merge
 
 To understand the file configuration checkout, and take attention of [exampleSite](https://github.com/subversive-eu/hugo-subversive/tree/exampleSite)
 
-# Configuration 
+# config.yml
 
 ## theme
 
@@ -63,11 +63,11 @@ config.yml :
 `theme: hugo-subversive`
 
 config.toml :  
-`theme = "hugo-subversive`
+`theme = "hugo-subversive"`
 
 ## all params
 
-I show you a config.yml :
+I show you an example config.yml :
 
 
 ```yml
@@ -89,6 +89,7 @@ buildExpored: false
 
 googleAnalytics: UA-423-45
 
+# rise perfomance
 minify:
   disableXML: true
   minifyOutput: true
@@ -178,9 +179,48 @@ services:
   twitter:
     disableInlineCSS: true
 
+```
+
+# default.md
+
+In the root directory of your site, go to /archetypes/default.md
+
+This the schema when you use the command `hugo new posts/mypost.md` or `hugo new photos.md`.  
+The default.md is add to your new page.
+
+This is a example :
+
 ```yml
+---
+title: "{{ replace .Name "-" " " | title }}"
+author: "{{ .Site.Params.author }}"
+ShowToc: true
+draft: false
+hidemeta: false
+tocopen: false
+disableShare: false
+categories:
+ - 
+date: {{ .Date }}
+---
 
-Suite:
-<https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-installation/>
+<!--more-->
+```
 
-<https://subversive-eu.github.io/hugo-subversive/posts/install/#prerequisite>
+## more options
+
+If you want to personnalize a page you can add this :  
+
+```yml
+cover:
+ image: '<image path/url>'
+ alt: '<alt text>'
+ caption: '<text>'
+comments: false
+tags:
+ -
+series:
+ - 
+```
+
+You can change ̀`true` to `false` and vice versa.
