@@ -35,12 +35,16 @@ List of all features/Mod for this Subversive theme.
 
 #### Share Buttons :
 
-| facebook      |
-| linkedin      |
-| reddit        |
-| telegram      |
-| twitter       |
-| whatsapp      |
+| facebook      |  
+| linkedin      |  
+| reddit        |  
+| telegram      |  
+| twitter       |  
+| whatsapp      |  
+
+| Italics   | Bold     | Code   |
+| --------  | -------- | ------ |
+| *italics* | **bold** | `code` |
 
 ## Css tricks
 
@@ -78,6 +82,10 @@ There is a lot of css options for class, use it like bootstrapp :
 | --------------------- | ------- | ---- | ----- |
 | Comments              | boolean | true | false |
 | --------------------- | ------- | ---- | ----- |
+
+| Italics   | Bold     | Code   |
+| --------  | -------- | ------ |
+| *italics* | **bold** | `code` |
 
 ## Shortcodes + Markup
 
