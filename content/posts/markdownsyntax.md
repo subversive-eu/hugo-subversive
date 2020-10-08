@@ -6,7 +6,7 @@ ShowToc: true
 draft: false
 categories:
  - Markdown
-date: 2020-10-02T17:44:04+02:00
+date: 2020-10-04T17:44:04+02:00
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.

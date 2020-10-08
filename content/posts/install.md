@@ -6,7 +6,7 @@ tocopen: true
 draft: false
 categories:
  - Install
-date: 2020-10-07T17:44:04+02:00
+date: 2020-10-08T17:44:04+02:00
 ---
 
 A sample guide tools about installing hugo theme and Configuration.
