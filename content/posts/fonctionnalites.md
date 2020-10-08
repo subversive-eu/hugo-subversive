@@ -29,8 +29,6 @@ List of all features/Mod for this Subversive theme.
 
 | comments      | boolean | true | false |  
 
-
-
 ### Social-Media
 
 #### [SVG icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
@@ -44,32 +42,36 @@ List of all features/Mod for this Subversive theme.
 * twitter
 * whatsapp
 
+---
+
 ## Css tricks
 
 There is a lot of css options for class, use it like bootstrapp :
 
 * options class="" :  
- - text-justify  
- - text-center  
- - no-deco ="list-style-type:none + text-decoration:none"  
- - float-left  
- - float-right  
- -  a ="cursor: pointer"  
- - Bootstrapp tricks :  
-  - bg-dark  
-  - bg-light  
-  - text-light  
-  - text-dark  
-  - text-white  
-  - text-warning  
-  - text-success  
-  - text-info  
+ * text-justify  
+ * text-center  
+ * no-deco ="list-style-type:none + text-decoration:none"  
+ * float-left  
+ * float-right  
+ *  a ="cursor: pointer"  
+ * Bootstrapp tricks :  
+  * bg-dark  
+  * bg-light  
+  * text-light  
+  * text-dark  
+  * text-white  
+  * text-warning  
+  * text-success  
+  * text-info  
 
-
+* 
 * CSS Minify for perfomance
 * Scroll bar themed
 * Navbar on the left for Sharebuttons
 * Menu button sticky
+
+---
 
 ## Site-Variables
 
@@ -80,6 +82,8 @@ There is a lot of css options for class, use it like bootstrapp :
 | ShowShareButtons      | boolean | true | false |
 
 | Comments              | boolean | true | false |
+
+---
 
 ## Shortcodes + Markup
 
