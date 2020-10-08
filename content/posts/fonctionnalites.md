@@ -75,7 +75,7 @@ There is a lot of css options for class, use it like bootstrapp :
 
 ## Site-Variables
 
-### Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
+* Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
 
 | ShowReadingTime       | boolean | true | false |
 
@@ -88,11 +88,25 @@ There is a lot of css options for class, use it like bootstrapp :
 ## Shortcodes + Markup
 
 * Render-link.html
-> -> cf /layouts/_default/_markup/render-link.html
+> /layouts/_default/_markup/render-link.html
 
 * Render-image.html
->-> cf /layouts/_default/_markup/render-image.html  
-> css -> cf /layouts/assets/all.css  .sources-link{}
+> /layouts/_default/_markup/render-image.html  
+> css -> /layouts/assets/all.css  .sources-link{}
 
 * Shortcodes : youtube + rawhtml + collapse + blockquote 
->-> cf /layouts/shortcodes/name.html
+> /layouts/shortcodes/name.html
+
+---
+
+## More
+
+* Draft page indication
+* Scroll to top button
+* I18n three language : fr + en + es
+* Google Analytics integration
+* Open-Graph support
+* Twitter Cards Support
+* Syntax highlighting
+* Twitter cards and opengraph tags support
+* RSS feeds
