@@ -19,28 +19,30 @@ List of all features/Mod for this Subversive theme.
 
 | Showtoc       | boolean | true | false |  
 | ------------- | ------- - ---- | ----- |  
-| tocopen       | boolean | true | false |  
-| ------------- | ------- | ---- | ----- |  
+| tocopen       | boolean | true | false |
+
 | hidemeta      | boolean | true | false |  
 | ------------- | ------- | ---- | ----- |  
 | disableShare  | boolean | true | false |  
-| ------------- | ------- | ---- | ----- |  
+
 | draft         | boolean | true | false |  
 | ------------- | ------- | ---- | ----- |  
 | comments      | boolean | true | false |  
 
 
 
-### [Social-Media](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
+### Social-Media
+
+#### [SVG icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
 
 #### Share Buttons :
 
-| facebook      |  
-| linkedin      |  
-| reddit        |  
-| telegram      |  
-| twitter       |  
-| whatsapp      |  
+* facebook 
+* linkedin
+* reddit
+* telegram
+* twitter
+* whatsapp
 
 | Italics   | Bold     | Code   |
 | --------  | -------- | ------ |
