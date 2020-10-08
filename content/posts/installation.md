@@ -92,7 +92,7 @@ rawhtml.html + collapse.html + blockquote.html
 ## Menu with svg icons
 
 You can add, what you want.
-Follow the [list of icons]() or add some in /your-theme/layouts/partials/svg.html
+Follow the [list of icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/) or add some in /your-theme/layouts/partials/svg.html
 
 ### Right-menu | SocialIcons
 

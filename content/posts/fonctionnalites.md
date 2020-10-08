@@ -17,17 +17,12 @@ List of all features/Mod for this Subversive theme.
 
 ### [Page-Variables](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables)
 
-| Showtoc       | boolean | true | false |  
-
-| tocopen       | boolean | true | false |
-
-| hidemeta      | boolean | true | false |  
- 
-| disableShare  | boolean | true | false |  
-
-| draft         | boolean | true | false |  
-
-| comments      | boolean | true | false |  
+| showtoc | boolean | true \| false |
+| tocopen | boolean | true \| false |
+| hidemeta | boolean | true \| false |
+| disableShare | boolean | true \| false |  
+| draft | boolean | true \| false |  
+| comments | boolean | true \| false |  
 
 ### Social-Media
 
@@ -77,11 +72,9 @@ There is a lot of css options for class, use it like bootstrapp :
 
 * Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
 
-| ShowReadingTime       | boolean | true | false |
-
-| ShowShareButtons      | boolean | true | false |
-
-| Comments              | boolean | true | false |
+| ShowReadingTime | boolean | true \| false |
+| ShowShareButtons | boolean | true \| false |
+| Comments | boolean | true \| false |
 
 ---
 
