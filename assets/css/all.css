@@ -278,6 +278,7 @@ a{
   border-top: 60px solid transparent;
   background-clip: padding-box;
 }
+/* older
 .toc {
   margin: 5px;
   padding: 8px 16px;
@@ -317,6 +318,38 @@ a{
 .toc a:hover{
   font-weight: bold;
 }
+-------------- */
+/* new*/
+.toc {
+    margin-bottom: 40px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: .5em;
+}
+
+.toc details summary {
+    cursor: zoom-in;
+    margin-left: 20px;
+}
+
+.toc details[open] summary {
+    cursor: zoom-out;
+}
+
+.toc .details {
+    display: inline;
+    font-weight: 500;
+}
+
+.toc blockquote {
+    margin: 0 20px;
+    padding: 10px 20px;
+}
+
+.toc li ul {
+    margin-left: var(--gap);
+}
+
 /* Terms.html Tags + Categories + Series 
 ------------------------------------ */
 .terms-title{
