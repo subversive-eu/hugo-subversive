@@ -217,6 +217,7 @@ cover:
  alt: '<alt text>'
  caption: '<text>'
 comments: false
+description: 'description of your page or article'
 tags:
  -
 series:
