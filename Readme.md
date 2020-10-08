@@ -8,6 +8,7 @@
 - [Photos](https://github.com/subversive-eu/hugo-subversive#photos)
 - [Bugs](https://github.com/subversive-eu/hugo-subversive#bugs)
 - [Features/Mods](https://github.com/subversive-eu/hugo-subversive#featuresmods)
+- [Installation](https://github.com/subversive-eu/hugo-subversive#install)
 - [Perfomance](https://github.com/subversive-eu/hugo-subversive#lighthouse-perfomance)
 
 ## Hello and presentation
@@ -51,6 +52,14 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 * Minify css + js
 * Cover image
 * SEO
+
+[See More](https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/)
+
+---
+
+## Install
+
+[Instructions](https://subversive-eu.github.io/hugo-subversive/posts/install/)
 
 ---
 
