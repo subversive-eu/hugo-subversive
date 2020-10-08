@@ -13,11 +13,7 @@
       <pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate>
       
       <guid>https://subversive-eu.github.io/hugo-subversive/posts/install/</guid>
-      <description>Prerequisite  Install hugo Make your site  Minimum version of hugo 0.74.0 .
-Install theme When your website is on. You will install the theme.
-Go in the folder /themes/ and run the command :
-by clone  git clone https://github.com/subversive-eu/hugo-subversive.git  To update the theme use this :
- cd themes/hugo-PaperMod git pull  by submodule  git submodule add https://github.com/subversive-eu/hugo-subversive.git hugo-subversive  To update the theme use this :</description>
+      <description>&lt;p&gt;A sample guide tools about installing hugo theme and Configuration.&lt;/p&gt;</description>
     </item>
     
     <item>
