@@ -39,7 +39,7 @@
 <meta itemprop="description" content="List of all features/Mod for this Subversive theme.">
 <meta itemprop="datePublished" content="2020-10-04T17:44:04+02:00" />
 <meta itemprop="dateModified" content="2020-10-04T17:44:04+02:00" />
-<meta itemprop="wordCount" content="74">
+<meta itemprop="wordCount" content="202">
 
 
 
@@ -179,7 +179,8 @@
         <a href="#site-variables">Site-Variables</a><ul>
             <li>
         <a href="#check-here-for-confighttpssubversive-eugithubiohugo-subversivepostsinstallconfigyml">Check here for <a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml" >config</a></a></li></ul>
-</li></ul>
+    </li><li>
+        <a href="#shortcodes--markup">Shortcodes + Markup</a></li></ul>
 </li></ul>
       </blockquote>
     </details>
@@ -191,17 +192,85 @@
 <h1 id="guide">Guide</h1>
 <h2 id="extras">Extras</h2>
 <h3 id="page-variableshttpssubversive-eugithubiohugo-subversivepostsinstallpage-variables"><a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables" >Page-Variables</a></h3>
+<p>| Showtoc | boolean | true | false |
+| &mdash;&mdash;- | &mdash;&mdash;- - &mdash;- | &mdash;&ndash; |</p>
+<table>
+<thead>
+<tr>
+<th>tocopen</th>
+<th>boolean</th>
+<th>true</th>
+<th>false</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hidemeta</td>
+<td>boolean</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>&mdash;&mdash;&ndash;</td>
+<td>&mdash;&mdash;-</td>
+<td> &mdash;-</td>
+<td> &mdash;&ndash;</td>
+</tr>
+<tr>
+<td> disableShare</td>
+<td>boolean</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>&mdash;&mdash;&mdash;&mdash;</td>
+<td>&mdash;&mdash;-</td>
+<td>&mdash;-</td>
+<td>&mdash;&ndash;</td>
+</tr>
+<tr>
+<td>draft</td>
+<td>boolean</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>&mdash;&ndash;</td>
+<td>&mdash;&mdash;-</td>
+<td>&mdash;-</td>
+<td>&mdash;&ndash;</td>
+</tr>
+<tr>
+<td>comments</td>
+<td>boolean</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>&mdash;&mdash;&ndash;</td>
+<td>&mdash;&mdash;-</td>
+<td>&mdash;-</td>
+<td>&mdash;&ndash;</td>
+</tr>
+</tbody>
+</table>
 <h3 id="social-mediahttpssubversive-eugithubiohugo-subversivepostsutilisation"><a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >Social-Media</a></h3>
+<p>| facebook |
+| linkedin |
+| reddit |
+| telegram |
+| twitter |
+| whatsapp |</p>
 <h2 id="css-tricks">Css tricks</h2>
 <p>There is a lot of css options for class, use it like bootstrapp :</p>
 <ul>
 <li>options class=&quot;&quot; :<br>
 - text-justify<br>
 - text-center<br>
-- no-deco: list-style-type:none + text-decoration:none;<br>
+- no-deco =&ldquo;list-style-type:none + text-decoration:none&rdquo;<br>
 - float-left<br>
 - float-right<br>
-- a cursor: pointer<br>
+- a =&ldquo;cursor: pointer&rdquo;<br>
 * Bootstrapp tricks :<br>
 - bg-dark<br>
 - bg-light<br>
@@ -213,7 +282,45 @@
 - text-info</li>
 </ul>
 <h2 id="site-variables">Site-Variables</h2>
-<h3 id="check-here-for-confighttpssubversive-eugithubiohugo-subversivepostsinstallconfigyml">Check here for <a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml" >config</a></h3></div>
+<h3 id="check-here-for-confighttpssubversive-eugithubiohugo-subversivepostsinstallconfigyml">Check here for <a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml" >config</a></h3>
+<p>| ShowReadingTime | boolean | true | false |
+| &mdash;&mdash;&mdash;&mdash;&mdash; | &mdash;&mdash;- - &mdash;- | &mdash;&ndash; |</p>
+<table>
+<thead>
+<tr>
+<th>ShowShareButtons</th>
+<th>boolean</th>
+<th>true</th>
+<th>false</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Comments</td>
+<td>boolean</td>
+<td>true</td>
+<td>false</td>
+</tr>
+<tr>
+<td>&mdash;&mdash;&ndash;</td>
+<td>&mdash;&mdash;-</td>
+<td>&mdash;-</td>
+<td>&mdash;&ndash;</td>
+</tr>
+</tbody>
+</table>
+<h2 id="shortcodes--markup">Shortcodes + Markup</h2>
+<ul>
+<li>
+<p>Render-link.html -&gt; cf /layouts/_default/_markup/render-link.html</p>
+</li>
+<li>
+<p>Render-image.html -&gt; cf /layouts/_default/_markup/render-image.html | css -&gt; cf /layouts/assets/all.css  .sources-link{}</p>
+</li>
+<li>
+<p>Shortcodes : Youtube + rawhtml + collapse + blockquote</p>
+</li>
+</ul></div>
 
   
   
