@@ -321,12 +321,23 @@ a{
 -------------- */
 /* new*/
 .toc {
-    margin-bottom: 40px;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: .5em;
+  margin-bottom: 40px;
+  
+  margin: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  color: #f8f9fa;
+  background-color: #343a40;
+  border: 2px solid #282D32;
+  border-radius: 2px;
 }
-
+.toc:hover{
+  background-color: #f8f9fa;
+  color:#343a40;
+  border: 2px solid #282D32;
+}
 .toc details summary {
     cursor: zoom-in;
     margin-left: 20px;
@@ -347,7 +358,7 @@ a{
 }
 
 .toc li ul {
-    margin-left: var(--gap);
+    margin-left: 20px;
 }
 
 /* Terms.html Tags + Categories + Series 
