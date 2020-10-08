@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Subversive</title><link>https://subversive-eu.github.io/hugo-subversive/categories/</link><description>Recent content in Categories on Subversive</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 07 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Install</title><link>https://subversive-eu.github.io/hugo-subversive/categories/install/</link><pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/categories/install/</guid><description/></item><item><title>Features</title><link>https://subversive-eu.github.io/hugo-subversive/categories/features/</link><pubDate>Sun, 04 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/categories/features/</guid><description/></item><item><title>Markdown</title><link>https://subversive-eu.github.io/hugo-subversive/categories/markdown/</link><pubDate>Fri, 02 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/categories/markdown/</guid><description/></item><item><title>Example</title><link>https://subversive-eu.github.io/hugo-subversive/categories/example/</link><pubDate>Thu, 01 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/categories/example/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Subversive</title>
+    <link>https://subversive-eu.github.io/hugo-subversive/categories/</link>
+    <description>Recent content in Categories on Subversive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/categories/install/</link>
+      <pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/categories/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/categories/features/</link>
+      <pubDate>Sun, 04 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/categories/features/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/categories/markdown/</link>
+      <pubDate>Fri, 02 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/categories/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/categories/example/</link>
+      <pubDate>Thu, 01 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/categories/example/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
