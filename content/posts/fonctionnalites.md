@@ -1,5 +1,5 @@
 ---
-title: "Features/Mod | Subversive"
+title: "Features/Mod"
 author: subversive.eu
 ShowToc: true
 draft: false
@@ -17,21 +17,23 @@ List of all features/Mod for this Subversive theme.
 
 ### [Page-Variables](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables)
 
-| Showtoc | boolean | true | false |
-| ------- | ------- - ---- | ----- |
-| tocopen | boolean | true | false |
-| ------- | ------- | ---- | ----- |
-| hidemeta | boolean | true | false |
-| -------- | ------- | ---- | ----- |
-| disableShare | boolean | true | false |
-| ------------ | ------- | ---- | ----- |
-| draft | boolean | true | false |
-| ----- | ------- | ---- | ----- |
-| comments | boolean | true | false |
-| -------- | ------- | ---- | ----- |
+| Showtoc       | boolean | true | false |  
+| ------------- | ------- - ---- | ----- |  
+| tocopen       | boolean | true | false |  
+| ------------- | ------- | ---- | ----- |  
+| hidemeta      | boolean | true | false |  
+| ------------- | ------- | ---- | ----- |  
+| disableShare  | boolean | true | false |  
+| ------------- | ------- | ---- | ----- |  
+| draft         | boolean | true | false |  
+| ------------- | ------- | ---- | ----- |  
+| comments      | boolean | true | false |  
+| ------------- | ------- | ---- | ----- |  
 
 
 ### [Social-Media](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
+
+#### Share Buttons :
 
 | facebook |
 | linkedin |
@@ -61,20 +63,26 @@ There is a lot of css options for class, use it like bootstrapp :
         - text-success  
         - text-info  
 
+* CSS Minify for perfomance
+* Scroll bar themed
+* Navbar on the left for Sharebuttons
+* Menu button sticky
+
 ## Site-Variables
 
 ### Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
 
-| ShowReadingTime | boolean | true | false |
-| --------------- | ------- - ---- | ----- |
-| ShowShareButtons | boolean | true | false |
-| ---------------- | ------- | ---- | ----- |
-| Comments | boolean | true | false |
-| -------- | ------- | ---- | -----
+| ShowReadingTime       | boolean | true | false |
+| --------------------- | ------- - ---- | ----- |
+| ShowShareButtons      | boolean | true | false |
+| --------------------- | ------- | ---- | ----- |
+| Comments              | boolean | true | false |
+| --------------------- | ------- | ---- | ----- |
 
 ## Shortcodes + Markup
 
 * Render-link.html -> cf /layouts/_default/_markup/render-link.html
-* Render-image.html -> cf /layouts/_default/_markup/render-image.html | css -> cf /layouts/assets/all.css  .sources-link{}
+* Render-image.html -> cf /layouts/_default/_markup/render-image.html  
+> css -> cf /layouts/assets/all.css  .sources-link{}
 
 * Shortcodes : Youtube + rawhtml + collapse + blockquote
