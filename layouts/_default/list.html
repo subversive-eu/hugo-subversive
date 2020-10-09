@@ -52,7 +52,8 @@
     {{- i18n "read_time" .ReadingTime | default  $default_txt  }}{{ end }}
     {{- if or .Params.author .Site.Params.author }}&nbsp;·&nbsp;{{- .Params.author | default .Site.Params.author }}{{ end }}
   </div>
-  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">ok?</a>
 
 </div>
 
