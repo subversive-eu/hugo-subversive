@@ -631,6 +631,10 @@ a{
   width: 100%;
   height: 350px;
 }
+.image-css{
+  width: 560px;
+  height: 315px;
+}
 /* Mobile Section All Params
 ------------------------------------------ */
 @media only screen and (max-width: 1199px){
@@ -691,6 +695,10 @@ a{
   }
   .sample-btn{
     padding: 4px 8px;
+  }
+  .image-css{
+    width: 255px;
+    height: 160px;
   }
 }
 @media only screen and (max-width: 599px){
