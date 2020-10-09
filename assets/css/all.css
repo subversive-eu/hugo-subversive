@@ -182,6 +182,7 @@ header.html + social_icons.html
   color: #343a40;
   background-color: #f8f9fa;
   border: 2px solid #343a40;
+  border-radius: 2px;
 }
 .sample-btn:hover{
   background-color: #343a40;
