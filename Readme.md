@@ -32,8 +32,8 @@ Check the [exampleSite](https://github.com/subversive-eu/hugo-subversive/tree/ex
 ## Photos
 
 <p align="center">
-  <kbd><img width=600px src="https://subversive-eu.github.io/hugo-subversive/media/mobile-homepage-top.jpg" alt="HomeInfo" /></kbd>
-  <kbd><img width=153px src="https://subversive-eu.github.io/hugo-subversive/media/home-page.png" alt="HomeInfo" /></kbd>
+  <kbd><img width=153px src="https://subversive-eu.github.io/hugo-subversive/media/mobile-homepage-top.jpg" alt="HomeInfo" /></kbd>
+  <kbd><img width=600px src="https://subversive-eu.github.io/hugo-subversive/media/home-page.png" alt="HomeInfo" /></kbd>
 </p>
 
 ---
