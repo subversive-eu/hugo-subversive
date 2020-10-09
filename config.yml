@@ -75,7 +75,8 @@ taxonomies:
 privacy:
   vimeo:
     disabled: false
-
+    simple: true
+    
   twitter:
     disabled: false
     enableDNT: false
@@ -85,6 +86,7 @@ privacy:
 
   youtube:
     disabled: false
+    simple: true
     privacyEnhanced: false
 
 services:

@@ -53,15 +53,10 @@ cover: 'absolute url'
 
 {{< twitter 877500564405444608 >}}
 
-/ Twitter Simple
-
-{{< twitter_simple 877500564405444608 >}}
 
 ## vimeo
 
-/ Vimeo Simple
-
-{{< vimeo_simple 146022717 >}}
+{{< vimeo 146022717 >}}
 
 ## Instagram
 
