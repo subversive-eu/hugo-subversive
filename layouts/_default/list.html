@@ -24,8 +24,9 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-
-  <a class="{{ $class }}" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">
+<a style="display:block" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+<div class="{{ $class }}">
+  
   {{- if .Params.cover }}
   <figure class="entry-cover">
     <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title }}">
@@ -53,6 +54,7 @@
     {{- if or .Params.author .Site.Params.author }}&nbsp;·&nbsp;{{- .Params.author | default .Site.Params.author }}{{ end }}
   </div>
 
+</div>
 </a>
 {{- end }}
 <!-- pagination -->
