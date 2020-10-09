@@ -87,11 +87,11 @@ There is a shortcode for youtube video without cookie, and privacy (Only Europea
 
 > /your-theme/layouts/_default/_markup/render-link.html
 
-### others shortcodes
+### other shortcodes
 
-> rawhtml.html
-> collapse.html 
-> blockquote.html
+- rawhtml.html
+- collapse.html 
+- blockquote.html
 
 ---
 
@@ -101,7 +101,7 @@ You can add, what you want.
 
 Check the [list of icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/) or add some in /your-theme/layouts/partials/svg.html
 
-### Right-menu | SocialIcons
+### Right-menu | Social-icons
 
 This params will appear in the right of the menu.
 
@@ -116,7 +116,7 @@ This params will appear in the right of the menu.
       url: 'https://github.com/subversive-eu/hugo-theme-subversive'  
 {{< / highlight >}}
 
-### Left-menu | PageIcons
+### Left-menu | Page-icons
 
 Main menu, in the left.  
 

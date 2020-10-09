@@ -17,18 +17,20 @@ List of all features/Mod for this Subversive theme.
 
 ### [Page-Variables](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables)
 
-| showtoc | boolean | true \| false |  
-| tocopen | boolean | true \| false |  
-| hidemeta | boolean | true \| false |  
-| disableShare | boolean | true \| false |  
-| draft | boolean | true \| false |  
-| comments | boolean | true \| false |  
+- showtoc: true / false  
+- tocopen: true / false  
+- hidemeta: true / false  
+- disableShare: true / false  
+- draft: true / false  
+- comments: true / false  
 
 ### Social-Media
 
 #### [SVG icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
 
 #### Share Buttons :
+
+List of :
 
 * facebook 
 * linkedin
@@ -37,10 +39,10 @@ List of all features/Mod for this Subversive theme.
 * twitter
 * whatsapp
 
-> Be carefull, the navbarShare is not in hidemeta for all posts. or page who use /_default/single.html
+Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_default/single.html
 > You can add it if you want.
 
-> If you don't want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.
+If you don't want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.
 > Delete navbarshare in /_default/list.html 
 
 ---
@@ -78,9 +80,9 @@ There is a lot of css options for class, use it like bootstrapp :
 
 * Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
 
-| ShowReadingTime | boolean | true \| false |  
-| ShowShareButtons | boolean | true \| false |  
-| Comments | boolean | true \| false |  
+- ShowReadingTime: true / false  
+- ShowShareButtons : true / false
+- Comments: true / false
 
 ---
 

@@ -51,6 +51,12 @@ To update the theme use this :
 git submodule update --remote --merge
 {{< / highlight>}}
 
+## by download
+
+> On github repository, clic on -code (green button) then download zip.  
+> Copy and paste the folder in your sitefolder/themes/ rename it by hugo-subversive.
+
+
 To understand the file configuration checkout, and take attention of [exampleSite](https://github.com/subversive-eu/hugo-subversive/tree/exampleSite)
 
 # config.yml
@@ -188,7 +194,7 @@ In the root directory of your site, go to /archetypes/default.md
 This is the schema when you use the command `hugo new posts/mypost.md` or `hugo new photos.md`.  
 The default.md is add to your new page.
 
-This is a example :
+This is an example :
 
 ```yml
 ---
@@ -224,4 +230,4 @@ series:
  - 
 ```
 
-You can change ̀`true` to `false` and vice versa.
+You can use ̀`true or false`.
