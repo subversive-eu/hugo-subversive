@@ -12,7 +12,5 @@
   translation: "Page Précédente"
 - id: next_page
   translation: "Page Suivante"
-- id: read_more
-  translation: "Lire l'article !"
 - id: draft
   translation: "brouillon"

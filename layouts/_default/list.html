@@ -43,13 +43,6 @@
     <p>{{ .Summary | plainify | htmlUnescape }}</p>
   </div>
   {{- end }}
-  <div class="">
-<button class="sample-btn">
-    <a class="" title="{{ .Title | plainify }}" href="{{ .Permalink }}">
-    {{ i18n "read_more" }}  </a>
-  </button>
-
-  </div>
 
   <div class="entry-footer">
     <time>{{ .Date.Format "January 2, 2006" }}</time>

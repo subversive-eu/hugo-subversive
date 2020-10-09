@@ -12,7 +12,5 @@
   translation: "Página anterior"
 - id: next_page
   translation: "Siguiente página"
-- id: read_more
-  translation: "Leer el artículo !"
 - id: draft
   translation: "borrador"
