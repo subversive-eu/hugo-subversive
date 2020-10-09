@@ -47,7 +47,7 @@ cover: 'absolute url'
 
 / cf layouts/shortcodes/youtube.html
 
-{{< youtube 8IZ9Cqi2rGM >}}
+{{< youtube "8IZ9Cqi2rGM" >}}
 
 ## tweeter
 
