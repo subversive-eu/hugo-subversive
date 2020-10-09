@@ -18,6 +18,8 @@ Stats about lighthouse of this theme. Soon.
 
 ![](/media/home-page-desktop.png "home page lighthouse")
 
+{{< iframepdf gt-metrix-report >}}
+
 ## Mobile
 
 ### Home page
