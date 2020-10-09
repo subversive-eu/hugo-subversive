@@ -59,6 +59,7 @@
     {{- if or .Params.author .Site.Params.author }}&nbsp;·&nbsp;{{- .Params.author | default .Site.Params.author }}{{ end }}
   </div>
 </div>
+<a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 {{- end }}
 <!-- pagination -->
 {{- if gt $paginator.TotalPages 1 }}
