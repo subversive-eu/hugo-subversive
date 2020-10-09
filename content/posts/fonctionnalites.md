@@ -24,7 +24,7 @@ List of all features/Mod for this Subversive theme.
 - draft: true / false  
 - comments: true / false  
 
-[See more](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables)
+[See more](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables "page-variable")
 
 ### Social-Media
 
