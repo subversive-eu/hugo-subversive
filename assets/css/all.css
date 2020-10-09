@@ -182,13 +182,13 @@ header.html + social_icons.html
   color: #343a40;
   background-color: #f8f9fa;
   border: 2px solid #343a40;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 .sample-btn:hover{
   background-color: #343a40;
   color: #f8f9fa;
   border: 2px solid #e7e7e7;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 /* Color Background utilities like bootstrapp ^^
