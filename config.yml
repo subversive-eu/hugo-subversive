@@ -89,7 +89,6 @@ privacy:
 
 services:
   instagram:
-    disableInlineCSS: false
-    hidecaption: true
+    disableInlineCSS: true
   twitter:
     disableInlineCSS: false
