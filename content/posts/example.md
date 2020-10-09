@@ -35,13 +35,7 @@ I added this to my personnal website
       </button>&nbsp;·&nbsp;
 ```
 
-## Cover for a post
-
-cover: 'absolute url'
-  can also paste direct link from external site
-  ex. https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png
-
-/ Allows you to add an image to the post.
+* Do not forget to add i18n translation for all languages
 
 ## youtube
 
