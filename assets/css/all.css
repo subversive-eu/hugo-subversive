@@ -91,6 +91,7 @@ header.html + social_icons.html
   color: #f8f9fa;
   background-color: #343a40;
   border: 2px solid #f8f9fa;
+  border-radius: 6px;
 }
 #sticky-top{
   position:-webkit-sticky;
@@ -104,10 +105,11 @@ header.html + social_icons.html
   padding: 5px;
 }
 .navbar:hover{
-    color: #343a40;;
-    background-color: #f8f9fa;
-    color: #343a40;
-    border: 2px solid #343a40;
+  color: #343a40;;
+  background-color: #f8f9fa;
+  color: #343a40;
+  border: 2px solid #343a40;
+  border-radius: 6px;
 }
 .navbar ul{
   display: inline;
