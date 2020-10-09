@@ -37,7 +37,7 @@ I added this to my personnal website
 
 * Do not forget to add i18n translation for all languages
 
-## youtube
+## youtube
 
 / cf layouts/shortcodes/youtube.html
 
