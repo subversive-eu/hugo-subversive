@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/subversive-eu/hugo-subversive/blob/main/LICENSE)
+[![License: GPL-3.0 License](https://img.shields.io/badge/License-GPL%203.0-yellow.svg)](https://github.com/subversive-eu/hugo-subversive/blob/main/LICENSE)
 [![Made with hugo](https://img.shields.io/badge/Made%20with-hugo-%23ff69b4)](https://gohugo.io/)
 [![Author](https://img.shields.io/badge/Author-@Subversive-blue)](www.subversive.eu)
 
@@ -9,7 +9,9 @@
 - [Bugs](https://github.com/subversive-eu/hugo-subversive#bugs)
 - [Features/Mods](https://github.com/subversive-eu/hugo-subversive#featuresmods)
 - [Installation](https://github.com/subversive-eu/hugo-subversive#install)
+- [Social](https://github.com/subversive-eu/hugo-subversive#social-media)
 - [Perfomance](https://github.com/subversive-eu/hugo-subversive#lighthouse-perfomance)
+- [Rights](https://github.com/subversive-eu/hugo-subversive#rights)
 
 ## Hello and presentation
 
@@ -65,11 +67,21 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 
 ## Social-Media
 
-[Page-example](https://subversive-eu.github.io/hugo-subversive/posts/example/)
-[ShareBar](https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/#share-buttons-)
+[Page-example](https://subversive-eu.github.io/hugo-subversive/posts/example/)  
+[ShareBar](https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/#share-buttons-)  
 [All-svg-icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
+
+---
 
 ## Lighthouse Perf
 
 (soon, I hope too)
 
+---
+
+## Rights
+
+See available french license :
+<https://www.data.gouv.fr/fr/licences>.
+
+[License](https://github.com/subversive-eu/hugo-subversive/blob/main/LICENSE)
