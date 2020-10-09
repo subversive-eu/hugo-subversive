@@ -24,7 +24,7 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-<a style="display:block" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+<a style="display:block" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">
 <div class="{{ $class }}">
   
   {{- if .Params.cover }}
