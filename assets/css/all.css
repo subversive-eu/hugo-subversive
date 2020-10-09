@@ -632,8 +632,11 @@ a{
   height: 350px;
 }
 .image-css{
-  width: 560px;
-  height: 315px;
+  display: block;
+  max-width:500px;
+  max-height:206px;
+  width: auto;
+  height: auto;
 }
 /* Mobile Section All Params
 ------------------------------------------ */
@@ -697,8 +700,11 @@ a{
     padding: 4px 8px;
   }
   .image-css{
-    width: 255px;
-    height: 160px;
+    display: block;
+    max-width:100%;
+    max-height:103px;
+    width: auto;
+    height: auto;
   }
 }
 @media only screen and (max-width: 599px){

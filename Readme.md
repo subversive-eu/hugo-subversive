@@ -31,7 +31,8 @@ Check the [exampleSite](https://github.com/subversive-eu/hugo-subversive/tree/ex
 
 ## Photos
 
-(soon, I hope)
+![Homepage-mobile](https://subversive-eu.github.io/hugo-subversive/media/mobile-homepage-top.jpg)
+![Homepage-desktop](https://subversive-eu.github.io/hugo-subversive/media/home-page.png)
 
 ---
 
