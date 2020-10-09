@@ -79,7 +79,10 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 
 ## Lighthouse Perf
 
-(soon, I hope too)
+<kbd>
+<img width=400px src="https://subversive-eu.github.io/hugo-subversive/media/home-page-desktop.png" alt="LightHouse"/>
+</kbd>
+
 
 ---
 
