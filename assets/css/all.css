@@ -627,6 +627,10 @@ a{
   width: 560px;
   height: 315px;
 }
+.iframpdf{
+  width: 100%;
+  height: 350px;
+}
 /* Mobile Section All Params
 ------------------------------------------ */
 @media only screen and (max-width: 1199px){
