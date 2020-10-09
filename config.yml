@@ -78,14 +78,14 @@ privacy:
 
   twitter:
     disabled: false
-    enableDNT: true
+    enableDNT: false
 
   instagram:
     disabled: false
 
   youtube:
     disabled: false
-    privacyEnhanced: true
+    privacyEnhanced: false
 
 services:
   instagram:
