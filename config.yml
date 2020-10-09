@@ -92,6 +92,6 @@ privacy:
 
 services:
   instagram:
-    disableInlineCSS: true
+    disableInlineCSS: false
   twitter:
-    disableInlineCSS: true
+    disableInlineCSS: false
