@@ -230,4 +230,4 @@ series:
  - 
 ```
 
-You can use ̀`true or false`.
+You can use `true or false`.

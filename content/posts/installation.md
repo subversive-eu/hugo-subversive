@@ -56,13 +56,13 @@ ____
 
 If you want to introduce your website : 
 
-* Do not touch in params: 
+* Do not touch in params :
+
 >{{< highlight yml >}}
-* Do not touch in params:  
   homeInfoParams:  
       Title: Hi there wave  
       Content: Can be Info, links, about...  
->{{< / highlight >}}
+{{< / highlight >}}
 
 
 * If you just want a list of post + Title, delete it in config.yml  

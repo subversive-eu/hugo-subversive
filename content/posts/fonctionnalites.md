@@ -15,18 +15,22 @@ List of all features/Mod for this Subversive theme.
 
 ## Extras
 
-### [Page-Variables](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables)
+### Page-Variables
 
 - showtoc: true / false  
 - tocopen: true / false  
-- hidemeta: true / false  
-- disableShare: true / false  
+- hidemeta: true / false
+- disableShare: true / false  
 - draft: true / false  
 - comments: true / false  
 
+[See more](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables)
+
 ### Social-Media
 
-#### [SVG icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
+#### SVG icons
+
+[List of svg icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
 
 #### Share Buttons :
 
@@ -78,7 +82,7 @@ There is a lot of css options for class, use it like bootstrapp :
 
 ## Site-Variables
 
-* Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
+Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
 
 - ShowReadingTime: true / false  
 - ShowShareButtons : true / false
@@ -100,7 +104,9 @@ There is a lot of css options for class, use it like bootstrapp :
 
 ---
 
-## [Add Pages](https://subversive-eu.github.io/hugo-subversive/about/)
+## Add Pages
+
+[Want more page](https://subversive-eu.github.io/hugo-subversive/about/)
 
 ## More
 
