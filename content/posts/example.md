@@ -58,7 +58,6 @@ I added this to my personnal website
 
 {{< instagram BWNjjyYFxVx hidecaption >}}
 
-{{< instagram BWNjjyYFxVx >}}
 
 ---
 

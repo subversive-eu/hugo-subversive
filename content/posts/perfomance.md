@@ -11,14 +11,15 @@ date: 2020-10-03T17:44:04+02:00
 Stats about lighthouse of this theme. Soon.
 <!--more-->
 
-# Desktop
+## Desktop
 
-## Home page
+### Home page
 
-## Post page
 
-# Mobile
+![](/media/home-page-desktop.png "home page lighthouse")
 
-## Home page
+## Mobile
 
-## Post page
+### Home page
+
+![](/media/home-page-mobile.png "home page lighthouse")
