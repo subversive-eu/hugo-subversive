@@ -56,8 +56,7 @@ I added this to my personnal website
 
 / Hidingcaption
 
-{{< instagram BWNjjyYFxVx >}}
-
+/ problems...
 
 ---
 
