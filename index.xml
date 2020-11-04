@@ -773,12 +773,10 @@ allowfullscreen
 &lt;/iframe>
 &lt;h2 id="tweeter">tweeter&lt;/h2>
 &lt;iframe
-style="text-align: center;"
 class="tweet-css"
 src="https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/877500564405444608"
 data-conversation="none"
 data-dnt="true"
-align="center"
 >
 &lt;/iframe>
 &lt;h2 id="vimeo">vimeo&lt;/h2>
