@@ -61,7 +61,11 @@ I added this to my personnal website
 
 ---
 
-{{< iframepdf https://www.subversive.eu/pdf/Bitcoin%20Monnaie%20Universelle.pdf >}}
+## iframe for pdf
+
+- just put the name of you pdf file, and paste it in /static/media/
+
+{{< iframepdf gt-metrix-report >}}
 
 # Conclusion
 
