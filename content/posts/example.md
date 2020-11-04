@@ -45,9 +45,9 @@ I added this to my personnal website
 
 ## tweeter
 
+{{< tweet-simple 877500564405444608 >}}
+
 {{< tweet 877500564405444608 >}}
-
-
 
 ## vimeo
 
@@ -57,7 +57,7 @@ I added this to my personnal website
 
 / Hidingcaption
 
-/ problems...
+{{< instagram BWNjjyYFxVx >}}
 
 ---
 
