@@ -9,22 +9,11 @@
       {{- $default_txt := print .ReadingTime " " "min" }}
       {{- i18n "read_time" .ReadingTime | default  $default_txt  }}{{ end }}
       {{- if or .Params.author .Site.Params.author }}&nbsp;·&nbsp;{{- .Params.author | default .Site.Params.author }}{{ end }}
-      <!-- translated-->
-      {{- if .IsTranslated -}}
-      &nbsp;|&nbsp;
-      <ul class="i18n_list">
-        {{- i18n "translations" | default "Translations"}}:
-        {{- range .Translations }}
-        <li>
-          <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-        </li>
-        {{- end }}
-      </ul>
-      {{- end }}
+ 
       <!--- This is the end of meta. not for me. I add  printer option -->
-      &nbsp;·&nbsp;<button class="sample-btn">
+      &nbsp;·&nbsp;
       <a name ="Imprimer" href="javascript:if(window.print)window.print()">{{ i18n "print" }}</a>
-      </button>&nbsp;·&nbsp;
+      &nbsp;·&nbsp;
     </div><!--- This is the end of meta. not for me. I add  printer option -->
     {{- end}}
     <h1 class="post-title">
