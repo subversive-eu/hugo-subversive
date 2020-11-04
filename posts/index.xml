@@ -762,7 +762,77 @@ src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png" alt="
 &lt;ul>
 &lt;li>there is no way with facebook &amp;hellip;&lt;/li>
 &lt;/ul>
-&lt;hr>
+&lt;h2 id="blockquote">Blockquote&lt;/h2>
+&lt;p>Normal quote:
+&lt;blockquote>
+&lt;p>This is a simple quote.&lt;/p>
+&lt;footer>
+&lt;strong>&lt;/strong>
+&lt;/footer>
+&lt;/blockquote>
+&lt;/p>
+&lt;p>Quote with author
+&lt;blockquote>
+&lt;p>This is a quote with only an Author named Author2.&lt;/p>
+&lt;footer>
+&lt;strong>Author2&lt;/strong>
+&lt;/footer>
+&lt;/blockquote>
+&lt;/p>
+&lt;p>Quote with author and source
+&lt;blockquote>
+&lt;p>This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p>
+&lt;footer>
+&lt;strong>Author3&lt;/strong>
+&lt;cite>Source&lt;/cite>
+&lt;/footer>
+&lt;/blockquote>
+&lt;/p>
+&lt;p>Quote with author and link
+&lt;blockquote>
+&lt;p>This is a quote from Author4 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a>.&lt;/p>
+&lt;footer>
+&lt;strong>Author4&lt;/strong>
+&lt;cite>
+&lt;a href="https://www.google.com" title="https://www.google.com">google.com&lt;/a>
+&lt;/cite>
+&lt;/footer>
+&lt;/blockquote>
+&lt;/p>
+&lt;p>Quote with author, link and title
+&lt;blockquote>
+&lt;p>This is a quote from Author5 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a> with title &amp;ldquo;Google.&amp;rdquo;&lt;/p>
+&lt;footer>
+&lt;strong>Author5&lt;/strong>
+&lt;cite>
+&lt;a href="https://www.google.com" title="https://www.google.com">Google&lt;/a>
+&lt;/cite>
+&lt;/footer>
+&lt;/blockquote>
+&lt;/p>
+&lt;p>Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+&lt;blockquote>
+&lt;p>This is a quote from Author5 and links to &lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737">https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a> which is longer than 32 characters.
+&lt;!-- raw HTML omitted -->And this is a new line in the quote with the HTML br tag.&lt;/p>
+&lt;footer>
+&lt;strong>Author6&lt;/strong>
+&lt;cite>
+&lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737" title="https://twitter.com/CryptoGangsta/status/716427930126196737">twitter.com/CryptoGangsta/...&lt;/a>
+&lt;/cite>
+&lt;/footer>
+&lt;/blockquote>
+&lt;/p>
+&lt;h2 id="hahahugoshortcode-s9-hbhb">Test from the Octopress blockquote page at: &lt;a href="http://octopress.org/docs/plugins/blockquote/">http://octopress.org/docs/plugins/blockquote/&lt;/a>
+&lt;blockquote>
+&lt;p>Over the past 24 hours I&amp;rsquo;ve been reflecting on my life &amp;amp; I&amp;rsquo;ve realized only one thing. I need a medieval battle axe.&lt;/p>
+&lt;footer>
+&lt;strong>@allanbranch&lt;/strong>
+&lt;cite>
+&lt;a href="https://twitter.com/allanbranch/status/90766146063712256" title="https://twitter.com/allanbranch/status/90766146063712256">twitter.com/allanbranch/status/...&lt;/a>
+&lt;/cite>
+&lt;/footer>
+&lt;/blockquote>
+&lt;/h2>
 &lt;h2 id="iframe-for-pdf">iframe for pdf&lt;/h2>
 &lt;ul>
 &lt;li>just put the name of you pdf file, and paste it in /static/media/&lt;/li>
