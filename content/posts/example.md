@@ -90,9 +90,7 @@ Quote with author and a link longer than 32 characters, string is first cut at 3
   <br>And this is a new line in the quote with the HTML br tag.
 {{< /blockquote >}}
 
-Test from the Octopress blockquote page at: http://octopress.org/docs/plugins/blockquote/
-{{< blockquote author="@allanbranch" link="https://twitter.com/allanbranch/status/90766146063712256" >}}
-  Over the past 24 hours I've been reflecting on my life & I've realized only one thing. I need a medieval battle axe.
+
 {{< /blockquote >}}
 ---
 
