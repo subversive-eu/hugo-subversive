@@ -778,6 +778,7 @@ class="tweet-css"
 src="https://publish.twitter.com/oembed?url=https://twitter.com/Interior/status/877500564405444608"
 data-conversation="none"
 data-dnt="true"
+align="center"
 >
 &lt;/iframe>
 &lt;p>// TEST ?&lt;/p>
