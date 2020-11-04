@@ -47,6 +47,7 @@ I added this to my personnal website
 
 {{< twitter 877500564405444608 >}}
 
+{{< twitter-simple 877500564405444608 >}}
 
 ## vimeo
 

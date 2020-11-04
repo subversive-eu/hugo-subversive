@@ -77,9 +77,6 @@ privacy:
     disabled: false
     simple: true
     
-  twitter:
-    disabled: false
-    enableDNT: false
 
   instagram:
     disabled: false
