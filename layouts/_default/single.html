@@ -22,6 +22,7 @@
       <div class="entry-isdraft"><sup>&nbsp;&nbsp;[{{ i18n "draft" }}]</sup></div>{{- end }}
     </h1>
   </div>
+
   <!--- Table of contents -->
   {{- if .Params.ShowToc }}
   <div class="toc text-light bg-dark">
@@ -35,6 +36,7 @@
     </details>
   </div>
   {{- end }}
+
   <div class="post-container">
   <!-- cover params -->
   {{- if .Params.cover }}
@@ -91,12 +93,10 @@
 
   {{- end }}<!-- end of hidemeta secondsector -->
   </div><!-- end post-container -->
+
    <!-- Navbar share -->    
    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
    {{- partial "share_icons.html" .}}
    {{- end }}
-
-
-
-
+   
 {{- end  }}{{/* end main */}}

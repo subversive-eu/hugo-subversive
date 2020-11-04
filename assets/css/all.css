@@ -134,10 +134,8 @@ header.html + social_icons.html
   box-shadow: -2px -2px 2px #282D32;
 }
 .list-container{
-  .container{
     margin: auto;
     width: 80%;
-  }
 }
 .entry-header h2{
   font-size: 24px;
