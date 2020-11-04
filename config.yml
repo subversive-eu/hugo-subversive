@@ -71,3 +71,9 @@ taxonomies:
   category: categories
 #  tag: tags
 #  series: series
+
+privacy:
+  vimeo:
+    disable: false
+    enableDNT: true
+    simple: false
