@@ -2,8 +2,8 @@ baseURL: 'https://subversive-eu.github.io/hugo-subversive/'
 title: Subversive
 author: subversive.eu
 paginate: 5
-languageCode: en
-DefaultContentLanguage: en
+languageCode: fr
+DefaultContentLanguage: fr
 enableInlineShortcodes: true
 theme: hugo-subversive
 
@@ -32,7 +32,7 @@ params:
 
   socialIcons:
     - name: rss
-      url: 'posts/index.xml'
+      url: 'https://subversive-eu.github.io/hugo-subversive/posts/index.xml'
     - name: github
       url: 'https://github.com/subversive-eu/hugo-subversive'
 
