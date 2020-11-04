@@ -76,8 +76,11 @@ privacy:
   vimeo:
     disable: false
     enableDNT: true
-    simple: false
+    simple: true
   twitter:
     disable: false
     enableDNT: true
-    simple: false
+    simple: true
+  youtube:
+    disable: false
+    privacyEnhanced: true
