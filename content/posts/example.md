@@ -56,7 +56,7 @@ I added this to my personnal website
 
 / Hidingcaption
 
-{{< instagram BWNjjyYFxVx hidecaption >}}
+{{< instagram BWNjjyYFxVx >}}
 
 
 ---
