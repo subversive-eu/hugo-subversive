@@ -1,2 +1,789 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Subversive</title><link>https://subversive-eu.github.io/hugo-subversive/posts/</link><description>Recent content in Posts on Subversive</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 08 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://subversive-eu.github.io/hugo-subversive/posts/install/</link><pubDate>Thu, 08 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/install/</guid><description>&lt;p>A sample guide tools about installing hugo theme and Configuration.&lt;/p></description></item><item><title>Features/Mod</title><link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link><pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid><description>&lt;p>List of all features/Mod for this Subversive theme.&lt;/p></description></item><item><title>Installation tricks</title><link>https://subversive-eu.github.io/hugo-subversive/posts/installation/</link><pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/installation/</guid><description>&lt;p>Hey, I will give you some tricks to make your website.&lt;/p></description></item><item><title>Social-Media</title><link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link><pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid><description>&lt;p>List of all social icons by svg + all menu icons&lt;/p></description></item><item><title>Markdown Syntax</title><link>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</link><pubDate>Sun, 04 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>Perfomance with Lighthouse</title><link>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</link><pubDate>Sat, 03 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</guid><description>&lt;p>Stats about lighthouse of this theme. Soon.&lt;/p></description></item><item><title>Example</title><link>https://subversive-eu.github.io/hugo-subversive/posts/example/</link><pubDate>Sun, 27 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/example/</guid><description>&lt;p>I will show you some extras about Markdown, css, and shortcodes.
-There is savegame of simple tricks too.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/posts/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>fr</language><lastBuildDate>Thu, 08 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://subversive-eu.github.io/hugo-subversive/posts/install/</link><pubDate>Thu, 08 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/install/</guid><description>&lt;p>A sample guide tools about installing hugo theme and Configuration.&lt;/p>
+&lt;h1 id="prerequisite">Prerequisite&lt;/h1>
+&lt;ul>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/getting-started/installing/" >Install hugo&lt;/a>&lt;/li>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/getting-started/quick-start/" >Make your site&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Minimum version of hugo 0.74.0 .&lt;/p>
+&lt;h1 id="install-theme">Install theme&lt;/h1>
+&lt;p>When your website is on. You will install the theme.&lt;/p>
+&lt;p>Go in the folder /themes/ and run the command :&lt;/p>
+&lt;h2 id="by-clone">by clone&lt;/h2>
+&lt;blockquote>
+&lt;pre>&lt;code class="language-git" data-lang="git"> git clone https://github.com/subversive-eu/hugo-subversive.git&lt;/code>&lt;/pre>
+&lt;/blockquote>
+&lt;p>To update the theme use this :&lt;/p>
+&lt;blockquote>
+&lt;pre>&lt;code class="language-git" data-lang="git">cd themes/hugo-PaperMod
+git pull&lt;/code>&lt;/pre>
+&lt;/blockquote>
+&lt;h2 id="by-submodule">by submodule&lt;/h2>
+&lt;blockquote>
+&lt;pre>&lt;code class="language-git" data-lang="git"> git submodule add https://github.com/subversive-eu/hugo-subversive.git hugo-subversive&lt;/code>&lt;/pre>
+&lt;/blockquote>
+&lt;p>To update the theme use this :&lt;/p>
+&lt;blockquote>
+&lt;pre>&lt;code class="language-git" data-lang="git">git submodule update --remote --merge&lt;/code>&lt;/pre>
+&lt;/blockquote>
+&lt;h2 id="by-download">by download&lt;/h2>
+&lt;blockquote>
+&lt;p>On github repository, clic on -code (green button) then download zip.&lt;br>
+Copy and paste the folder in your sitefolder/themes/ rename it by hugo-subversive.&lt;/p>
+&lt;/blockquote>
+&lt;p>To understand the file configuration checkout, and take attention of &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/tree/exampleSite" >exampleSite&lt;/a>&lt;/p>
+&lt;h1 id="configyml">config.yml&lt;/h1>
+&lt;h2 id="theme">theme&lt;/h2>
+&lt;p>In your config file write the name of your folder like this :&lt;/p>
+&lt;p>config.yml :&lt;br>
+&lt;code>theme: hugo-subversive&lt;/code>&lt;/p>
+&lt;p>config.toml :&lt;br>
+&lt;code>theme = &amp;quot;hugo-subversive&amp;quot;&lt;/code>&lt;/p>
+&lt;h2 id="all-params">all params&lt;/h2>
+&lt;p>I show you an example config.yml :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">
+&lt;span style="color:#f92672">baseURL&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://mywebsite.com/&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">mywebsite&lt;/span>
+&lt;span style="color:#f92672">paginate&lt;/span>: &lt;span style="color:#ae81ff">5&lt;/span>
+&lt;span style="color:#f92672">theme&lt;/span>: &lt;span style="color:#ae81ff">hugo-subversive&lt;/span>
+&lt;span style="color:#f92672">author&lt;/span>: &lt;span style="color:#ae81ff">John Mac Artur&lt;/span>
+&lt;span style="color:#f92672">languageCode&lt;/span>: &lt;span style="color:#ae81ff">en&lt;/span>
+&lt;span style="color:#f92672">DefaultContentLanguage&lt;/span>: &lt;span style="color:#ae81ff">en&lt;/span>
+&lt;span style="color:#f92672">enableInlineShortcodes&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">enableRobotsTXT&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">buildDrafts&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">buildFuture&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">buildExpored&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">googleAnalytics&lt;/span>: &lt;span style="color:#ae81ff">UA-423-45&lt;/span>
+&lt;span style="color:#75715e"># rise perfomance&lt;/span>
+&lt;span style="color:#f92672">minify&lt;/span>:
+&lt;span style="color:#f92672">disableXML&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">minifyOutput&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">params&lt;/span>:
+&lt;span style="color:#f92672">env&lt;/span>: &lt;span style="color:#ae81ff">production&lt;/span> &lt;span style="color:#75715e"># enable google analytics, opengraph, twitter-cards and schema.&lt;/span>
+&lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">mywebsite&lt;/span>
+&lt;span style="color:#f92672">description&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;mywebsite&amp;#39;&lt;/span>&lt;span style="color:#ae81ff">s description&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">author&lt;/span>: &lt;span style="color:#ae81ff">John Mac Artur&lt;/span>
+&lt;span style="color:#f92672">images&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;&amp;lt;link or path of image for opengraph, twitter-cards&amp;gt;&amp;#34;&lt;/span>
+&lt;span style="color:#f92672">ShowReadingTime&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">ShowShareButtons&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">comments&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">disableSpecial1stPost &lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">contentTypeName&lt;/span>: &lt;span style="color:#ae81ff">posts&lt;/span>
+&lt;span style="color:#f92672">keyword&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;hugo, hugo-theme, subversive&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">homeInfoParams&lt;/span>:
+&lt;span style="color:#f92672">Title&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Hey \U0001F44B&amp;#34;&lt;/span>
+&lt;span style="color:#f92672">Content&lt;/span>: &lt;span style="color:#ae81ff">Welcome to my super website !! &lt;/span>
+&lt;span style="color:#f92672">socialIcons&lt;/span>:
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">twitter&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://twitter.com/&amp;#39;&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">stackoverflow&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://stackoverflow.com&amp;#39;&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">github&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://github.com/&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">menu&lt;/span>:
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">home&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;/&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">5&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">info&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/about/&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">10&lt;/span>
+&lt;span style="color:#75715e"># - name: tag&lt;/span>
+&lt;span style="color:#75715e"># url: /tags/&lt;/span>
+&lt;span style="color:#75715e"># weight: 15&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">categorie&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/categories/&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">20&lt;/span>
+&lt;span style="color:#75715e"># - name: serie&lt;/span>
+&lt;span style="color:#75715e"># url: /series/&lt;/span>
+&lt;span style="color:#75715e"># weight: 25&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">archive &lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/archives/&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">30&lt;/span>
+&lt;span style="color:#f92672">sitemap&lt;/span>:
+&lt;span style="color:#f92672">changefreq&lt;/span>: &lt;span style="color:#ae81ff">dayly&lt;/span>
+&lt;span style="color:#f92672">filename&lt;/span>: &lt;span style="color:#ae81ff">sitemap.xml&lt;/span>
+&lt;span style="color:#f92672">priority&lt;/span>: &lt;span style="color:#ae81ff">0.5&lt;/span>
+&lt;span style="color:#f92672">markup&lt;/span>:
+&lt;span style="color:#f92672">tableOfContents&lt;/span>:
+&lt;span style="color:#f92672">endLevel&lt;/span>: &lt;span style="color:#ae81ff">3&lt;/span>
+&lt;span style="color:#f92672">ordered&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">startLevel&lt;/span>: &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;span style="color:#f92672">taxonomies&lt;/span>:
+&lt;span style="color:#f92672">category&lt;/span>: &lt;span style="color:#ae81ff">categories&lt;/span>
+&lt;span style="color:#f92672">tag&lt;/span>: &lt;span style="color:#ae81ff">tags&lt;/span>
+&lt;span style="color:#f92672">series&lt;/span>: &lt;span style="color:#ae81ff">series&lt;/span>
+&lt;span style="color:#f92672">privacy&lt;/span>:
+&lt;span style="color:#f92672">vimeo&lt;/span>:
+&lt;span style="color:#f92672">disabled&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">simple&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">twitter&lt;/span>:
+&lt;span style="color:#f92672">disabled&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">enableDNT&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">simple&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">instagram&lt;/span>:
+&lt;span style="color:#f92672">disabled&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">simple&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">youtube&lt;/span>:
+&lt;span style="color:#f92672">disabled&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">privacyEnhanced&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">services&lt;/span>:
+&lt;span style="color:#f92672">instagram&lt;/span>:
+&lt;span style="color:#f92672">disableInlineCSS&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">twitter&lt;/span>:
+&lt;span style="color:#f92672">disableInlineCSS&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="page-variables">Page Variables&lt;/h1>
+&lt;p>In the root directory of your site, go to /archetypes/default.md&lt;/p>
+&lt;p>This is the schema when you use the command &lt;code>hugo new posts/mypost.md&lt;/code> or &lt;code>hugo new photos.md&lt;/code>.&lt;br>
+The default.md is add to your new page.&lt;/p>
+&lt;p>This is an example :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">---
+&lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;{{ replace .Name &amp;#34;&lt;/span>-&lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34; | title }}&amp;#34;&lt;/span>
+&lt;span style="color:#f92672">author&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;{{ .Site.Params.author }}&amp;#34;&lt;/span>
+&lt;span style="color:#f92672">ShowToc&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#f92672">draft&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">hidemeta&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">tocopen&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">disableShare&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">categories&lt;/span>:
+-
+&lt;span style="color:#f92672">date&lt;/span>: {{ &lt;span style="color:#ae81ff">.Date }}&lt;/span>
+---
+&lt;span style="color:#ae81ff">&amp;lt;!--more--&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="more-options">more options&lt;/h2>
+&lt;p>If you want to personnalize a page you can add this at the top of the page:&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">cover&lt;/span>:
+&lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;&amp;lt;image path/url&amp;gt;&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">alt&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;&amp;lt;alt text&amp;gt;&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">caption&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;&amp;lt;text&amp;gt;&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">comments&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
+&lt;span style="color:#f92672">description&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;description of your page or article&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">tags&lt;/span>:
+-
+&lt;span style="color:#f92672">series&lt;/span>:
+-
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can use &lt;code>true or false&lt;/code>.&lt;/p></description></item><item><title>Features/Mod</title><link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link><pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid><description>&lt;p>List of all features/Mod for this Subversive theme.&lt;/p>
+&lt;p>​&lt;/p>
+&lt;h1 id="guide">Guide&lt;/h1>
+&lt;h2 id="extras">Extras&lt;/h2>
+&lt;h3 id="page-variables">Page-Variables&lt;/h3>
+&lt;ul>
+&lt;li>showtoc: true / false&lt;/li>
+&lt;li>tocopen: true / false&lt;/li>
+&lt;li>hidemeta: true / false&lt;/li>
+&lt;li>disableShare: true / false&lt;/li>
+&lt;li>draft: true / false&lt;/li>
+&lt;li>comments: true / false&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables" title="page-variable" >See more&lt;/a>&lt;/p>
+&lt;h3 id="social-media">Social-Media&lt;/h3>
+&lt;h4 id="svg-icons">SVG icons&lt;/h4>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >List of svg icons&lt;/a>&lt;/p>
+&lt;h4 id="share-buttons-">Share Buttons :&lt;/h4>
+&lt;p>List of :&lt;/p>
+&lt;ul>
+&lt;li>facebook&lt;/li>
+&lt;li>linkedin&lt;/li>
+&lt;li>reddit&lt;/li>
+&lt;li>telegram&lt;/li>
+&lt;li>twitter&lt;/li>
+&lt;li>whatsapp&lt;/li>
+&lt;/ul>
+&lt;p>Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_default/single.html&lt;/p>
+&lt;blockquote>
+&lt;p>You can add it if you want.&lt;/p>
+&lt;/blockquote>
+&lt;p>If you don&amp;rsquo;t want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.&lt;/p>
+&lt;blockquote>
+&lt;p>Delete navbarshare in /_default/list.html&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="css-tricks">Css tricks&lt;/h2>
+&lt;p>There is a lot of css options for class, use it like bootstrapp :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>options class=&amp;quot;&amp;quot; :&lt;/p>
+&lt;ul>
+&lt;li>text-justify&lt;/li>
+&lt;li>text-center&lt;/li>
+&lt;li>no-deco =&amp;ldquo;list-style-type:none + text-decoration:none&amp;rdquo;&lt;/li>
+&lt;li>float-left&lt;/li>
+&lt;li>float-right&lt;/li>
+&lt;li>a =&amp;ldquo;cursor: pointer&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>Bootstrapp tricks :&lt;/li>
+&lt;/ul>
+&lt;ul>
+&lt;li>bg-dark&lt;/li>
+&lt;li>bg-light&lt;/li>
+&lt;li>text-light&lt;/li>
+&lt;li>text-dark&lt;/li>
+&lt;li>text-white&lt;/li>
+&lt;li>text-warning&lt;/li>
+&lt;li>text-success&lt;/li>
+&lt;li>text-info&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>CSS Minify for perfomance&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Scroll bar themed&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Navbar on the left for Sharebuttons&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Menu button sticky&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="site-variables">Site-Variables&lt;/h2>
+&lt;p>Check here for &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml" >config&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>ShowReadingTime: true / false&lt;/li>
+&lt;li>ShowShareButtons : true / false&lt;/li>
+&lt;li>Comments: true / false&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="shortcodes--markup">Shortcodes + Markup&lt;/h2>
+&lt;ul>
+&lt;li>Render-link.html&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>/layouts/_default/_markup/render-link.html&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Render-image.html&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>/layouts/_default/_markup/render-image.html&lt;br>
+css -&amp;gt; /layouts/assets/all.css .sources-link{}&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Shortcodes : youtube + rawhtml + collapse + blockquote&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>/layouts/shortcodes/name.html&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="add-pages">Add Pages&lt;/h2>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/about/" >Want more page&lt;/a>&lt;/p>
+&lt;h2 id="more">More&lt;/h2>
+&lt;ul>
+&lt;li>Draft page indication&lt;/li>
+&lt;li>Scroll to top button&lt;/li>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language" >I18n three language : fr + en + es&lt;/a>&lt;/li>
+&lt;li>Google Analytics integration&lt;/li>
+&lt;li>Open-Graph support&lt;/li>
+&lt;li>Twitter Cards Support&lt;/li>
+&lt;li>Syntax highlighting&lt;/li>
+&lt;li>Twitter cards and opengraph tags support&lt;/li>
+&lt;li>RSS feeds&lt;/li>
+&lt;/ul></description></item><item><title>Installation tricks</title><link>https://subversive-eu.github.io/hugo-subversive/posts/installation/</link><pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/installation/</guid><description>&lt;p>Hey, I will give you some tricks to make your website.&lt;/p>
+&lt;h2 id="favicons">Favicons&lt;/h2>
+&lt;p>I used this &lt;a href="https://favicon.io/favicon-generator/">https://favicon.io/favicon-generator/&lt;/a>&lt;/p>
+&lt;h3 id="deploy">Deploy&lt;/h3>
+&lt;p>First, download files listed below :&lt;/p>
+&lt;p>Paste the files in themes/your-theme/static/&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> android-chrome-192x192.png
+android-chrome-512x512.png
+apple-touch-icon.png
+favicon-16x16.png
+favicon-32x32.png
+favicon.ico
+site.webmanifest&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>That&amp;rsquo;s all !&lt;/p>
+&lt;hr>
+&lt;h2 id="i18-language">i18 Language&lt;/h2>
+&lt;p>To use it, just add and use in &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/exampleSite/config.yml" >config.yml&lt;/a> :&lt;/p>
+&lt;p>languageCode: fr&lt;br>
+DefaultContentLanguage: fr&lt;/p>
+&lt;p>There is three languages : French(fr), English(en), Spanish(es).&lt;/p>
+&lt;p>I don&amp;rsquo;t know if there is default language. Be carefull.&lt;/p>
+&lt;p>Check in themes/your-theme/i18n/ - &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/tree/main/i18n" >here&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="home-page">Home Page&lt;/h2>
+&lt;p>If you want to introduce your website :&lt;/p>
+&lt;ul>
+&lt;li>Do not touch in params :&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml"> &lt;span style="color:#f92672">homeInfoParams&lt;/span>:
+&lt;span style="color:#f92672">Title&lt;/span>: &lt;span style="color:#ae81ff">Hi there wave &lt;/span>
+&lt;span style="color:#f92672">Content&lt;/span>: &lt;span style="color:#ae81ff">Can be Info, links, about... &lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>If you just want a list of post + Title, delete it in config.yml&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="markdown">Markdown&lt;/h2>
+&lt;h3 id="youtube">Youtube&lt;/h3>
+&lt;p>There is a shortcode for youtube video without cookie, and privacy (Only European).&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings" >hugo-privacy-settings&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>/your-theme/layouts/shortcodes/youtube.html&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="image">Image&lt;/h3>
+&lt;blockquote>
+&lt;p>/your-theme/layouts/_default/_markup/render-image.html&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="links">links&lt;/h3>
+&lt;blockquote>
+&lt;p>/your-theme/layouts/_default/_markup/render-link.html&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="other-shortcodes">other shortcodes&lt;/h3>
+&lt;ul>
+&lt;li>rawhtml.html&lt;/li>
+&lt;li>collapse.html&lt;/li>
+&lt;li>blockquote.html&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="menu-with-svg-icons">Menu with svg icons&lt;/h2>
+&lt;p>You can add, what you want.&lt;/p>
+&lt;p>Check the &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >list of icons&lt;/a> or add some in /your-theme/layouts/partials/svg.html&lt;/p>
+&lt;h3 id="right-menu--social-icons">Right-menu | Social-icons&lt;/h3>
+&lt;p>This params will appear in the right of the menu.&lt;/p>
+&lt;blockquote>
+&lt;p>In config -&amp;gt; name: nameofsvg.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">* params&lt;/span>:
+&lt;span style="color:#f92672">* socialIcons&lt;/span>:
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">rss &lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;posts/index.xml&amp;#39;&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">github &lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://github.com/subversive-eu/hugo-theme-subversive&amp;#39;&lt;/span> &lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 id="left-menu-page-icons">Left-menu | Page-icons&lt;/h3>
+&lt;p>Main menu, in the left.&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">* params&lt;/span>:
+&lt;span style="color:#f92672">* menu&lt;/span>:
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">home&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;/&amp;#39;&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">5&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">info&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/about/&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">10&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">tag&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/tags/&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">15&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">categorie&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/categories/&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">20&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">serie&lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/series/&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">25&lt;/span>
+- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">archive &lt;/span>
+&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/archives/&lt;/span>
+&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">30&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;hr></description></item><item><title>Social-Media</title><link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link><pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid><description>&lt;p>List of all social icons by svg + all menu icons&lt;/p>
+&lt;blockquote>
+&lt;p>/layouts/partials/svg.html&lt;/p>
+&lt;/blockquote>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>name&lt;/th>
+&lt;th>platform link&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>123rf&lt;/td>
+&lt;td>123rf.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>adobestock&lt;/td>
+&lt;td>stock.adobe.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>behance&lt;/td>
+&lt;td>behance.net&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>codepen&lt;/td>
+&lt;td>codepen.io&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>cryptohack&lt;/td>
+&lt;td>cryptohack.org&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dev&lt;/td>
+&lt;td>dev.to&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>discogs&lt;/td>
+&lt;td>discogs.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dreamstime&lt;/td>
+&lt;td>dreamstime.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>dribbble&lt;/td>
+&lt;td>dribbble.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>email&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>facebook&lt;/td>
+&lt;td>facebook.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>freepik&lt;/td>
+&lt;td>freepik.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>github&lt;/td>
+&lt;td>github.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>gitlab&lt;/td>
+&lt;td>gitlab.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>hackerrank&lt;/td>
+&lt;td>hackerrank.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>hackthebox&lt;/td>
+&lt;td>hackthebox.eu&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>instagram&lt;/td>
+&lt;td>instagram.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>lastfm&lt;/td>
+&lt;td>last.fm&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>linkedin&lt;/td>
+&lt;td>linkedin.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>mixcloud&lt;/td>
+&lt;td>mixcloud.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>paypal&lt;/td>
+&lt;td>paypal.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>qq&lt;/td>
+&lt;td>qq.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>soundcloud&lt;/td>
+&lt;td>soundcloud.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>shutterstock&lt;/td>
+&lt;td>shutterstock.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>slack&lt;/td>
+&lt;td>slack.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>sourcerer&lt;/td>
+&lt;td>sourcerer.io&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>stackoverflow&lt;/td>
+&lt;td>stackoverflow.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>steam&lt;/td>
+&lt;td>steampowered.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>telegram&lt;/td>
+&lt;td>telegram.org&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>twitch&lt;/td>
+&lt;td>twitch.tv&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>twitter&lt;/td>
+&lt;td>twitter.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>youtube&lt;/td>
+&lt;td>youtube.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>rss&lt;/td>
+&lt;td>yoursite.com/posts/index.xml&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>home&lt;/td>
+&lt;td>yoursite.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>info&lt;/td>
+&lt;td>yoursite.com/about/&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>tag&lt;/td>
+&lt;td>yoursite.com/tags/&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>archive&lt;/td>
+&lt;td>yoursite.com/archives/&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>categorie&lt;/td>
+&lt;td>yoursite.com/categorie/&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>serie&lt;/td>
+&lt;td>yoursite.com/series/&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>default_link&lt;/td>
+&lt;td>-&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Markdown Syntax</title><link>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</link><pubDate>Sun, 04 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://www.markdownguide.org/basic-syntax/" >Link&lt;/a> to the best Markdown Syntax Guide Ever !&lt;/p>
+&lt;h2 id="headings">Headings&lt;/h2>
+&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
+&lt;h1 id="h1">H1&lt;/h1>
+&lt;h2 id="h2">H2&lt;/h2>
+&lt;h3 id="h3">H3&lt;/h3>
+&lt;h4 id="h4">H4&lt;/h4>
+&lt;h5 id="h5">H5&lt;/h5>
+&lt;h6 id="h6">H6&lt;/h6>
+&lt;h2 id="paragraph">Paragraph&lt;/h2>
+&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
+&lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
+&lt;h2 id="blockquotes">Blockquotes&lt;/h2>
+&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
+&lt;h4 id="blockquote-without-attribution">Blockquote without attribution&lt;/h4>
+&lt;blockquote>
+&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="blockquote-with-attribution">Blockquote with attribution&lt;/h4>
+&lt;blockquote>
+&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted -->
+— &lt;!-- raw HTML omitted -->Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="tables">Tables&lt;/h2>
+&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Age&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Bob&lt;/td>
+&lt;td>27&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alice&lt;/td>
+&lt;td>23&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h4 id="inline-markdown-within-tables">Inline Markdown within tables&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Italics&lt;/th>
+&lt;th>Bold&lt;/th>
+&lt;th>Code&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;em>italics&lt;/em>&lt;/td>
+&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
+&lt;td>&lt;code>code&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="highlight">Highlight&lt;/h3>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-angular2" data-lang="angular2">highlight shortcode Here testing angular2&lt;/code>&lt;/pre>&lt;/div>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode" >check More here&lt;/a>&lt;/p>
+&lt;h2 id="code-blocks">Code Blocks&lt;/h2>
+&lt;h4 id="code-block-with-backticks">Code block with backticks&lt;/h4>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&lt;span style="color:#75715e">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;en&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;utf-8&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Test&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
+&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/h4>
+&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
+&amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
+&amp;lt;head&amp;gt;
+&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code>&lt;/pre>
+&lt;h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&lt;span style="color:#75715e">&amp;lt;!doctype html&amp;gt;&lt;/span>
+&amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;en&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;utf-8&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Test&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="list-types">List Types&lt;/h2>
+&lt;h4 id="ordered-list">Ordered List&lt;/h4>
+&lt;ol>
+&lt;li>First item&lt;/li>
+&lt;li>Second item&lt;/li>
+&lt;li>Third item&lt;/li>
+&lt;/ol>
+&lt;h4 id="unordered-list">Unordered List&lt;/h4>
+&lt;ul>
+&lt;li>List item&lt;/li>
+&lt;li>Another item&lt;/li>
+&lt;li>And another item&lt;/li>
+&lt;/ul>
+&lt;h4 id="nested-list">Nested list&lt;/h4>
+&lt;ul>
+&lt;li>Fruit
+&lt;ul>
+&lt;li>Apple&lt;/li>
+&lt;li>Orange&lt;/li>
+&lt;li>Banana&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Dairy
+&lt;ul>
+&lt;li>Milk&lt;/li>
+&lt;li>Cheese&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="other-elements">Other Elements&lt;/h2>
+&lt;h3 id="hr">hr&lt;/h3>
+&lt;hr>
+&lt;hr>
+&lt;hr>
+&lt;h3 id="abbr-sub-sup-kbd-mark">abbr, sub, sup, kbd, mark&lt;/h3>
+&lt;p>&lt;!-- raw HTML omitted -->GIF&lt;!-- raw HTML omitted --> is a bitmap image format.&lt;/p>
+&lt;p>H&lt;!-- raw HTML omitted -->2&lt;!-- raw HTML omitted -->O&lt;/p>
+&lt;p>X&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted --> + Y&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted --> = Z&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;p>Press &lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->CTRL&lt;!-- raw HTML omitted -->+&lt;!-- raw HTML omitted -->ALT&lt;!-- raw HTML omitted -->+&lt;!-- raw HTML omitted -->Delete&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted --> to end the session.&lt;/p>
+&lt;p>Most &lt;!-- raw HTML omitted -->salamanders&lt;!-- raw HTML omitted --> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=PAAkCSZUG1c" >talk&lt;/a> during Gopherfest, November 18, 2015. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Perfomance with Lighthouse</title><link>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</link><pubDate>Sat, 03 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</guid><description>&lt;p>Stats about lighthouse of this theme. Soon.&lt;/p>
+&lt;h2 id="desktop">Desktop&lt;/h2>
+&lt;h3 id="home-page">Home page&lt;/h3>
+&lt;p>&lt;p align="center">
+&lt;img class="image-css"
+src="https://subversive-eu.github.io/hugo-subversive/media/home-page-desktop.png" alt="" title="home page lighthouse" />
+&lt;/p>
+&lt;/p>
+&lt;p style="text-align: center;">
+&lt;iframe class="iframepdf" frameborder="0" allowfullscreen
+src="https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf">
+&lt;/iframe>
+&lt;/p>
+&lt;h2 id="mobile">Mobile&lt;/h2>
+&lt;h3 id="home-page-1">Home page&lt;/h3>
+&lt;p>&lt;p align="center">
+&lt;img class="image-css"
+src="https://subversive-eu.github.io/hugo-subversive/media/home-page-mobile.png" alt="" title="home page lighthouse" />
+&lt;/p>
+&lt;/p></description></item><item><title>Example</title><link>https://subversive-eu.github.io/hugo-subversive/posts/example/</link><pubDate>Sun, 27 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/example/</guid><description>&lt;p>I will show you some extras about Markdown, css, and shortcodes.
+There is savegame of simple tricks too.&lt;/p>
+&lt;h1 id="image">Image&lt;/h1>
+&lt;p>&lt;p align="center">
+&lt;img class="image-css"
+src="https://subversive-eu.github.io/hugo-subversive/media/logo.png" alt="Drag Racing" title="coucou" />
+&lt;/p>
+&lt;/p>
+&lt;p>&lt;p align="center">
+&lt;img class="image-css"
+src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png" alt="" title="roman empire" />
+&lt;/p>
+&lt;/p>
+&lt;h2 id="postmeta">PostMeta&lt;/h2>
+&lt;p>I added this to my personnal website&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> &lt;span style="color:#75715e">&amp;lt;!--- This is the end of meta. not for me. I add some download options + printer option --&amp;gt;&lt;/span>
+&amp;amp;nbsp;·&amp;amp;nbsp;
+&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Télécharger&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/pdf/{{ .Title }}.pdf&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">target&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;noopener noreferrer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">download&lt;/span>&amp;gt;{{ i18n &amp;#34;pdf&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name &lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Imprimer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;javascript:if(window.print)window.print()&amp;#34;&lt;/span>&amp;gt;{{ i18n &amp;#34;print&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Télécharger&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/epub/{{ .Title }}.epub&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">target&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;noopener noreferrer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">download&lt;/span>&amp;gt;{{ i18n &amp;#34;ebook&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
+&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;
+&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Do not forget to add i18n translation for all languages&lt;/li>
+&lt;/ul>
+&lt;h2 id="youtube">youtube&lt;/h2>
+&lt;p>/ cf layouts/shortcodes/youtube.html&lt;/p>
+&lt;p style="text-align: center;">
+&lt;iframe class="youtube-css" src="https://www.youtube-nocookie.com/embed/8IZ9Cqi2rGM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;/p>
+&lt;h2 id="tweeter">tweeter&lt;/h2>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + &lt;a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify&lt;/a> _redirects etc. file support&lt;a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ&lt;/a> &lt;a href="https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gohugo&lt;/a> &lt;a href="https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw">#golang&lt;/a> &lt;a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13&lt;/a> &lt;a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays&lt;/a>&lt;/p>&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;h2 id="vimeo">vimeo&lt;/h2>
+&lt;style>
+.__h_video {
+position: relative;
+padding-bottom: 56.23%;
+height: 0;
+overflow: hidden;
+width: 100%;
+background: #000;
+}
+.__h_video img {
+width: 100%;
+height: auto;
+color: #000;
+}
+.__h_video .play {
+height: 72px;
+width: 72px;
+left: 50%;
+top: 50%;
+margin-left: -36px;
+margin-top: -36px;
+position: absolute;
+cursor: pointer;
+}
+&lt;/style>
+&lt;div class="s_video_simple __h_video">
+&lt;a href="https://vimeo.com/1.46022717e&amp;#43;08" rel="noopener" target="_blank">
+&lt;img src="https://i.vimeocdn.com/video/544362910_295x166.jpg" srcset="https://i.vimeocdn.com/video/544362910_295x166.jpg 1x, https://i.vimeocdn.com/video/544362910.jpg 2x" alt="The Clock of the Long Now">
+&lt;div class="play">&lt;svg version="1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 61">&lt;circle cx="30.5" cy="30.5" r="30.5" opacity=".8" fill="#000">&lt;/circle>&lt;path d="M25.3 19.2c-2.1-1.2-3.8-.2-3.8 2.2v18.1c0 2.4 1.7 3.4 3.8 2.2l16.6-9.1c2.1-1.2 2.1-3.2 0-4.4l-16.6-9z" fill="#fff">&lt;/path>&lt;/svg>&lt;/div>&lt;/a>&lt;/div>
+&lt;h2 id="instagram">Instagram&lt;/h2>
+&lt;p>/ Hidingcaption&lt;/p>
+&lt;p>/ problems&amp;hellip;&lt;/p>
+&lt;hr>
+&lt;h1 id="conclusion">Conclusion&lt;/h1>
+&lt;p>Do not use Instagram ? or Vimeo ? I hope will work on soon.&lt;/p></description></item></channel></rss>
