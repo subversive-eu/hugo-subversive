@@ -74,8 +74,8 @@ There is a lot of css options for class, use it like bootstrapp :
 
 
 * CSS Minify for perfomance
-* Scroll bar themed
-* Navbar on the left for Sharebuttons
+* Navbar sahre button
+* Table of contents
 * Menu button sticky
 
 ---
@@ -99,7 +99,7 @@ Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/in
 > /layouts/_default/_markup/render-image.html  
 > css -> /layouts/assets/all.css  .sources-link{}
 
-* Shortcodes : youtube + rawhtml + collapse + blockquote 
+* Shortcodes : iframepdf + rawhtml + collapse + blockquote 
 > /layouts/shortcodes/name.html
 
 ---
@@ -119,3 +119,4 @@ Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/in
 * Syntax highlighting
 * Twitter cards and opengraph tags support
 * RSS feeds
+* Blockquote
