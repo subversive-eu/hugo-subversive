@@ -1,5 +1,5 @@
 {{- define "main" }}
-<div class="container">
+
   <div class="post-header">
     {{- if .Params.hideMeta }}{{ else }}
     <div class="post-meta">
@@ -90,14 +90,13 @@
 
 
   {{- end }}<!-- end of hidemeta secondsector -->
-  </div>
+  </div><!-- end post-container -->
    <!-- Navbar share -->    
    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
    {{- partial "share_icons.html" .}}
    {{- end }}
 
 
-</div> <!-- end container -->
 
 
 {{- end  }}{{/* end main */}}

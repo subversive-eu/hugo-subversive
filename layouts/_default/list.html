@@ -1,7 +1,7 @@
 {{- define "main" }}
 
 <!-- List page -->
-<div class="container">
+<div class="list-container">
 {{- if not .IsHome | and .Title }}
 <header class="list-header">
   <h1>{{ .Title }}</h1>
@@ -78,5 +78,5 @@
    {{- partial "share_icons.html" .}}
    {{- end }}
 
-</div> <!-- end container-->
+</div> <!-- end list-container-->
 {{- end  }}{{- /* end main */ -}}
