@@ -90,8 +90,6 @@ Quote with author and a link longer than 32 characters, string is first cut at 3
   <br>And this is a new line in the quote with the HTML br tag.
 {{< /blockquote >}}
 
-
-{{< /blockquote >}}
 ---
 
 ## iframe for pdf
