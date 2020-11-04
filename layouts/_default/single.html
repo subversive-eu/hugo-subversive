@@ -35,6 +35,7 @@
     </details>
   </div>
   {{- end }}
+  <div class="post-container">
   <!-- cover params -->
   {{- if .Params.cover }}
   <figure class="entry-cover">
@@ -89,7 +90,7 @@
 
 
   {{- end }}<!-- end of hidemeta secondsector -->
-
+  </div>
    <!-- Navbar share -->    
    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
    {{- partial "share_icons.html" .}}
