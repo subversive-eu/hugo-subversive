@@ -53,12 +53,7 @@ I added this to my personnal website
 
 ## Instagram
 
-/ Hidingcaption
-
-{{< instagram fA9uwTtkSN >}}
-
-/ TEst
-{{< instagram BWNjjyYFxVx >}}
+* there is no way with facebook ...
 
 ---
 
