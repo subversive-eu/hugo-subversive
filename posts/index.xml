@@ -773,10 +773,17 @@ data-dnt="true"
 &lt;h2 id="instagram">Instagram&lt;/h2>
 &lt;p>/ Hidingcaption&lt;/p>
 &lt;iframe
+url="https://api.instagram.com/oembed?url=https://www.instagram.com/p/fA9uwTtkSN/"
+hidecaption="true"
+>
+&lt;/iframe>
+&lt;p>/ TEst
+&lt;iframe
 url="https://api.instagram.com/oembed?url=https://www.instagram.com/p/BWNjjyYFxVx/"
 hidecaption="true"
 >
 &lt;/iframe>
+&lt;/p>
 &lt;hr>
 &lt;h2 id="iframe-for-pdf">iframe for pdf&lt;/h2>
 &lt;ul>
