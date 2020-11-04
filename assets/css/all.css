@@ -118,10 +118,7 @@ header.html + social_icons.html
 
 /* List Page HTML 
 --------------------------------------- */
-.container{
-  margin: auto;
-  width: 75%;
-}
+
 .post-entry{
   background-color: #282D32;;
   min-width:0;
@@ -648,13 +645,12 @@ a{
     width: 80%;
   }
   .container{
-    margin: auto;
-    width: 80%;
+    margin-left: 25px;
+    max-width: 700px;
   }
   .footer{
     margin-top: 60px;
   }
-  .
 }
 @media only screen and (max-width: 1300px){
   .navbar{
@@ -662,8 +658,8 @@ a{
     width: 80%;
   }
   .container{
-    margin: auto;
-    width: 80%;
+    margin-left: 25px;
+    max-width: 650px;
   }
   .footer{
     margin-top: 60px;
