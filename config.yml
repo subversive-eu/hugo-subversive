@@ -2,8 +2,8 @@ baseURL: 'https://subversive-eu.github.io/hugo-subversive/'
 title: Subversive
 author: subversive.eu
 paginate: 5
-languageCode: fr
-DefaultContentLanguage: fr
+languageCode: en
+DefaultContentLanguage: en
 enableInlineShortcodes: true
 theme: hugo-subversive
 
@@ -69,25 +69,6 @@ markup:
 
 taxonomies:
   category: categories
-  tag: tags
-  series: series
+#  tag: tags
+#  series: series
 
-privacy:
-  vimeo:
-    disabled: false
-    simple: true
-    
-
-  instagram:
-    disabled: false
-
-  youtube:
-    disabled: false
-    simple: true
-    privacyEnhanced: false
-
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: false

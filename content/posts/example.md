@@ -45,9 +45,9 @@ I added this to my personnal website
 
 ## tweeter
 
-{{< twitter 877500564405444608 >}}
+{{< tweet 877500564405444608 >}}
 
-{{< twitter-simple 877500564405444608 >}}
+
 
 ## vimeo
 
