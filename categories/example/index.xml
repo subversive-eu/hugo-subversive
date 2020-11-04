@@ -104,17 +104,7 @@ src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png" alt="
 &lt;/footer>
 &lt;/blockquote>
 &lt;/p>
-&lt;h2 id="hahahugoshortcode-s9-hbhb">Test from the Octopress blockquote page at: &lt;a href="http://octopress.org/docs/plugins/blockquote/">http://octopress.org/docs/plugins/blockquote/&lt;/a>
-&lt;blockquote>
-&lt;p>Over the past 24 hours I&amp;rsquo;ve been reflecting on my life &amp;amp; I&amp;rsquo;ve realized only one thing. I need a medieval battle axe.&lt;/p>
-&lt;footer>
-&lt;strong>@allanbranch&lt;/strong>
-&lt;cite>
-&lt;a href="https://twitter.com/allanbranch/status/90766146063712256" title="https://twitter.com/allanbranch/status/90766146063712256">twitter.com/allanbranch/status/...&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/h2>
+&lt;hr>
 &lt;h2 id="iframe-for-pdf">iframe for pdf&lt;/h2>
 &lt;ul>
 &lt;li>just put the name of you pdf file, and paste it in /static/media/&lt;/li>
