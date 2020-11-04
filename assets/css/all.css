@@ -10,7 +10,9 @@ body {
     background: #343a40;
     overflow-y:scroll;
 }
-
+a:visited {
+  text-decoration: none;
+}
 /* Navigation block
 header.html + social_icons.html
 ------------------------------------------------------*/
@@ -35,7 +37,7 @@ header.html + social_icons.html
   z-index:1020;
 }
 .link-svg-item{
-  vertical-align: middle;
+
   padding: 5px;
 }
 .navbar:hover{
