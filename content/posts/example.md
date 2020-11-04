@@ -45,11 +45,6 @@ I added this to my personnal website
 
 ## tweeter
 
-{{< tweet-simple 877500564405444608 >}}
-
-// TEST ?
-
-
 {{< tweet 877500564405444608 >}}
 
 ## vimeo

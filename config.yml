@@ -72,3 +72,19 @@ taxonomies:
 #  tag: tags
 #  series: series
 
+
+privacy:
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: false
+  instagram:
+    disable: false
+    simple: false
+
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
