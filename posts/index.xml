@@ -228,10 +228,10 @@ The default.md is add to your new page.&lt;/p>
 &lt;p>CSS Minify for perfomance&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Scroll bar themed&lt;/p>
+&lt;p>Navbar sahre button&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Navbar on the left for Sharebuttons&lt;/p>
+&lt;p>Table of contents&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Menu button sticky&lt;/p>
@@ -261,7 +261,7 @@ The default.md is add to your new page.&lt;/p>
 css -&amp;gt; /layouts/assets/all.css .sources-link{}&lt;/p>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>Shortcodes : youtube + rawhtml + collapse + blockquote&lt;/li>
+&lt;li>Shortcodes : iframepdf + rawhtml + collapse + blockquote&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>/layouts/shortcodes/name.html&lt;/p>
@@ -280,6 +280,7 @@ css -&amp;gt; /layouts/assets/all.css .sources-link{}&lt;/p>
 &lt;li>Syntax highlighting&lt;/li>
 &lt;li>Twitter cards and opengraph tags support&lt;/li>
 &lt;li>RSS feeds&lt;/li>
+&lt;li>Blockquote&lt;/li>
 &lt;/ul></description></item><item><title>Installation tricks</title><link>https://subversive-eu.github.io/hugo-subversive/posts/installation/</link><pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/installation/</guid><description>&lt;p>Hey, I will give you some tricks to make your website.&lt;/p>
 &lt;h2 id="favicons">Favicons&lt;/h2>
 &lt;p>I used this &lt;a href="https://favicon.io/favicon-generator/">https://favicon.io/favicon-generator/&lt;/a>&lt;/p>
