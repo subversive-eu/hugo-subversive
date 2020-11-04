@@ -10,7 +10,9 @@ body {
     background: #343a40;
     overflow-y:scroll;
 }
-a:visited {
+a:visited,
+a,
+a:hover{
   text-decoration: none;
 }
 /* Navigation block
