@@ -298,11 +298,13 @@ css -&amp;gt; /layouts/assets/all.css .sources-link{}&lt;/p>
 src="https://subversive-eu.github.io/hugo-subversive/media/home-page-desktop.png" alt="" title="home page lighthouse" />
 &lt;/p>
 &lt;/p>
-&lt;p style="text-align: center;">
-&lt;iframe class="iframepdf" frameborder="0" allowfullscreen
-src="https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf">
+&lt;iframe
+class="iframepdf"
+frameborder="0"
+allowfullscreen
+src="https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf"
+>
 &lt;/iframe>
-&lt;/p>
 &lt;h2 id="mobile">Mobile&lt;/h2>
 &lt;h3 id="home-page-1">Home page&lt;/h3>
 &lt;p>&lt;p align="center">
