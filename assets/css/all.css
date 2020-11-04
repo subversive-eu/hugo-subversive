@@ -574,14 +574,6 @@ a{
 } 
 /* END MARKDOWN */
 
-/* Render-link.html */
-.sources-link{
-  text-decoration: underline;
-}
-.sources-link:hover{
-  font-weight: bold;
-  transition: 0.1s;
-}
 
 /* 404.html */
 .not-found{
@@ -589,8 +581,7 @@ a{
   text-align: center;
 }
 
-/* share_icons.html Sidebar share. */
-
+/* share_icons.html*/
 .share-buttons {
   position: fixed;
   z-index: 1;
@@ -615,15 +606,12 @@ a{
   opacity: 0.9;
 }
 /* Shortcodes */
-.youtube-css{
-  width: 560px;
-  height: 315px;
-}
 .iframepdf{
   text-align: center;
   width: 100%;
   height: 350px;
 }
+/* Render-image.html */
 .image-css{
   display: block;
   max-width:500px;
@@ -631,10 +619,60 @@ a{
   width: auto;
   height: auto;
 }
-
+/* Render-link.html */
+.sources-link{
+  text-decoration: underline;
+}
+.sources-link:hover{
+  font-weight: bold;
+  transition: 0.1s;
+}
 /* Mobile Section All Params
 ------------------------------------------ */
-@media only screen and (max-width: 1199px){
+@media only screen and (max-width: 1500px){
+  .navbar{
+    margin: auto;
+    width: 80%;
+  }
+  .container{
+    margin-left: 25px;
+    max-width: 750px;
+  }
+  .footer{
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 1400px){
+  .navbar{
+    margin: auto;
+    width: 80%;
+  }
+  .container{
+    margin: auto;
+    width: 80%;
+  }
+  .footer{
+    margin-top: 60px;
+  }
+  .
+}
+@media only screen and (max-width: 1300px){
+  .navbar{
+    margin: auto;
+    width: 80%;
+  }
+  .container{
+    margin: auto;
+    width: 80%;
+  }
+  .footer{
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 1200px){
+
+}
+@media only screen and (max-width: 1100px){
   .navbar{
     margin: auto;
     width: 80%;
