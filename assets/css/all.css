@@ -412,157 +412,167 @@ a{
 }
 /* MArKdoWn !!
 -----------------------------------------------------------------------------*/
-
-pre,
-code {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin: 24px 0 16px 0;
 }
-
-pre {
-  padding: .5rem;
-  line-height: 1.25;
-  overflow-x: scroll;
+.post-content h1 {
+    margin: 40px auto 32px auto;
+    font-size: 40px;
 }
-
-.modest-no-decoration {
-  text-decoration: none;
+.post-content h2 {
+    margin: 32px auto 24px auto;
+    font-size: 32px;
+    margin-left: 1%;
 }
-
-html {
-  font-size: 12px;
+.post-content h3 {
+    font-size: 24px;
+    margin-left: 2%;
 }
-
-@media screen and (min-width: 32rem) and (max-width: 48rem) {
-  html {
-    font-size: 15px;
-  }
-}
-
-@media screen and (min-width: 48rem) {
-  html {
+.post-content h4 {
     font-size: 16px;
-  }
+    margin-left: 3%;
 }
-
-body {
-  line-height: 1.85;
+.post-content h5 {
+    font-size: 14px;
+    margin-left: 4%;
 }
-
-p,
-.modest-p {
-  font-size: 1rem;
-  margin-bottom: 1.3rem;
+.post-content h6 {
+    font-size: 12px;
+    margin-left: 5%;
 }
-
-h1,
-.modest-h1,
-h2,
-.modest-h2,
-h3,
-.modest-h3,
-h4,
-.modest-h4 {
-  margin: 1.414rem 0 .5rem;
-  font-weight: inherit;
-  line-height: 1.42;
+.post-content a {
+    box-shadow: 0 1px 0 var(--primary);
 }
-
-h1,
-.modest-h1 {
-  margin-top: 0;
-  font-size: 3.998rem;
+.post-content a code {
+    margin: auto 0;
+    border-radius: 0;
+    box-shadow: 0 -1px 0 var(--primary) inset;
 }
-
-h2,
-.modest-h2 {
-  font-size: 2.827rem;
+.post-content del {
+    text-decoration: none;
+    background: linear-gradient(to right, var(--primary) 100%, transparent 0) 0 50% / 1px 1px repeat-x;
 }
-
-h3,
-.modest-h3 {
-  font-size: 1.999rem;
+.post-content p,
+.post-content ul,
+.post-content ol,
+.post-content dl {
+    margin-bottom: var(--content-gap);
 }
-
-h4,
-.modest-h4 {
-  font-size: 1.414rem;
+.post-content ul,
+.post-content ol {
+    padding-left: 20px;
 }
-
-h5,
-.modest-h5 {
-  font-size: 1.121rem;
+.post-content li {
+    margin-top: 5px;
 }
-
-h6,
-.modest-h6 {
-  font-size: .88rem;
+.post-content li p {
+    margin-bottom: 0;
 }
-
-small,
-.modest-small {
-  font-size: .707em;
+.post-content dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
 }
-
-/* https://github.com/mrmrs/fluidity */
-
-img,
-canvas,
-iframe,
-video,
-svg,
-select,
-textarea {
-  max-width: 100%;
+.post-content dt {
+    width: 25%;
+    font-weight: 700;
 }
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
-
-@import url(http://fonts.googleapis.com/css?family=Arimo:700,700italic);
-
-html {
-  font-size: 18px;
-  max-width: 100%;
+.post-content dd {
+    width: 75%;
+    margin-left: 0;
+    padding-left: 10px;
 }
-
-body {
-  color: #444;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-weight: 300;
-  margin: 0 auto;
-  max-width: 48rem;
-  line-height: 1.45;
-  padding: .25rem;
+.post-content dt~dt,
+.post-content dd~dd {
+    margin-top: 10px;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Arimo, Helvetica, sans-serif;
+.post-content table {
+    margin-bottom: 32px;
 }
-
-h1,
-h2,
-h3 {
-  border-bottom: 2px solid #fafafa;
-  margin-bottom: 1.15rem;
-  padding-bottom: .5rem;
-  text-align: center;
+.post-content table th,
+.post-content table:not(.highlighttable) td {
+    min-width: 80px;
+    padding: 12px 8px;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--border);
 }
-
-blockquote {
-  border-left: 8px solid #fafafa;
-  padding: 1rem;
+.post-content table th {
+    font-size: 14px;
+    text-align: left;
 }
-
-pre,
-code {
-  background-color: #fafafa;
+.post-content table:not(.highlighttable) td code:only-child {
+    margin: auto 0;
 }
-
-
+.post-content .highlight,
+.post-content pre {
+    margin: auto calc(var(--gap) * -1) 32px calc(var(--gap) * -1);
+    background: var(--hljs-bg) !important;
+    border-radius: var(--radius);
+    background-color: yellow;
+}
+.post-content li>.highlight {
+    margin-right: 0
+}
+.post-content ul pre {
+    margin-left: calc(var(--gap) * -2);
+}
+.post-content .highlight pre {
+    margin: 0;
+}
+.post-content .highlighttable {
+    table-layout: fixed;
+}
+.post-content .highlighttable td:first-child {
+    width: 40px;
+}
+.post-content .highlighttable td .linenodiv {
+    padding-right: 0 !important;
+}
+.post-content .highlighttable td .linenodiv pre,
+.post-content .highlighttable td .highlight {
+    margin-bottom: 0;
+}
+.post-content .highlighttable td .highlight pre code::-webkit-scrollbar {
+    display: none;
+}
+.post-content .highlight span {
+    background: transparent !important;
+}
+.post-content code {
+    margin: auto 4px;
+    padding: 5px;
+    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    line-height: 1.5;
+    color: white;
+    background: #282D32;
+    border-radius: 2px;
+}
+.post-content pre code {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    line-height: 1.5;
+    color: white;
+    background:#282D32;
+    border-radius: 2px;
+    overflow-x: auto;
+}
+.post-content blockquote {
+    padding: 0 32px;
+    border-left: 2px solid grey;
+}
+.post-content hr {
+    margin: 15px;
+    height: 2px;
+    background: gray;
+} 
+/* END MARKDOWN */
 
 /* Render-link.html */
 .sources-link{
@@ -620,9 +630,7 @@ code {
   width: auto;
   height: auto;
 }
-.tweet-css{
-  text-align: center;
-}
+
 /* Mobile Section All Params
 ------------------------------------------ */
 @media only screen and (max-width: 1199px){
