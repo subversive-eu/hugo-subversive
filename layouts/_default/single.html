@@ -22,7 +22,66 @@
       <div class="entry-isdraft"><sup>&nbsp;&nbsp;[{{ i18n "draft" }}]</sup></div>{{- end }}
     </h1>
   </div>
+  <div class="raw">
+  <!-- post-container colum 1-->
+  <div class="post-container col-l">
+    <!-- cover params -->
+    {{- if .Params.cover }}
+    <figure class="entry-cover">
+      <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title | plainify }}">
+    </figure>
+    {{- end }}
+    <!-- post content -->
+    <div class="post-content">{{ .Content }}</div>
+  
+    <!-- post-footer =  Terms + Comments checkout by hidemeta -->
+    <!-- Terms = tags + series + categories 
+         If you want to put navbarshare in hidemeta, copy/paste in "if .params.hiteMeta else"-->
+    {{- if .Params.hideMeta }}{{ else }}
+    <div class="post-footer">
+      {{- if .Params.categories }}
+  
+      <ul class="">
+        <!-- here we use <li> for lighthouse accessibility .thx.-->
+        <li>
+          {{- range .Params.categories }}
+          {{- $href := print (absLangURL "categories/") (urlize .) }}
+          <button class="sample-btn"><a href="{{ $href }}">{{ . }}</a></button>&nbsp;·&nbsp;
+          {{- end }}
+        </li>
+      </ul>
+        <ul class="">
+        
+        <li>
+        {{- range .Params.tags }}
+        {{- $href := print (absLangURL "tags/") (urlize .) }}
+        <button class="sample-btn"><a href="{{ $href }}">{{ . }}</a></button>&nbsp;·&nbsp;
+        {{- end }}
+        </li>
+      </ul>
+      <ul class="">
+        
+        <li>
+        {{- range .Params.series }}
+        {{- $href := print (absLangURL "series/") (urlize .) }}
+        <button class="sample-btn"><a href="{{ $href }}">{{ . }}</a></button>&nbsp;·&nbsp;
+        {{- end }}
+      </li>
+      </ul>
+      {{- end }}
+    </div>
+    <!-- comments sector -->
+    {{- if $.Site.Params.comments }}
+    <div class="post-comments">
+      {{- partial "comments.html" . }}
+    </div>
+    {{- end }}
+  
+  
+    {{- end }}<!-- end of hidemeta secondsector -->
+    </div><!-- end post-container -->
 
+    <div class="col-r">
   <!--- Table of contents -->
   {{- if .Params.ShowToc }}
   <div class="toc text-light bg-dark">
@@ -37,66 +96,17 @@
   </div>
   {{- end }}
 
-  <div class="post-container">
-  <!-- cover params -->
-  {{- if .Params.cover }}
-  <figure class="entry-cover">
-    <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title | plainify }}">
-  </figure>
-  {{- end }}
-  <!-- post content -->
-  <div class="post-content">{{ .Content }}</div>
-
-  <!-- post-footer =  Terms + Comments checkout by hidemeta -->
-  <!-- Terms = tags + series + categories 
-       If you want to put navbarshare in hidemeta, copy/paste in "if .params.hiteMeta else"-->
-  {{- if .Params.hideMeta }}{{ else }}
-  <div class="post-footer">
-    {{- if .Params.categories }}
-
-    <ul class="">
-      <!-- here we use <li> for lighthouse accessibility .thx.-->
-      <li>
-        {{- range .Params.categories }}
-        {{- $href := print (absLangURL "categories/") (urlize .) }}
-        <button class="sample-btn"><a href="{{ $href }}">{{ . }}</a></button>&nbsp;·&nbsp;
-        {{- end }}
-      </li>
-    </ul>
-      <ul class="">
-      
-      <li>
-      {{- range .Params.tags }}
-      {{- $href := print (absLangURL "tags/") (urlize .) }}
-      <button class="sample-btn"><a href="{{ $href }}">{{ . }}</a></button>&nbsp;·&nbsp;
-      {{- end }}
-      </li>
-    </ul>
-    <ul class="">
-      
-      <li>
-      {{- range .Params.series }}
-      {{- $href := print (absLangURL "series/") (urlize .) }}
-      <button class="sample-btn"><a href="{{ $href }}">{{ . }}</a></button>&nbsp;·&nbsp;
-      {{- end }}
-    </li>
-    </ul>
-    {{- end }}
-  </div>
-  <!-- comments sector -->
-  {{- if $.Site.Params.comments }}
-  <div class="post-comments">
-    {{- partial "comments.html" . }}
-  </div>
-  {{- end }}
+  <!-- Navbar share -->    
+     {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
+     {{- partial "share_icons.html" .}}
+     {{- end }}
+    </div>
+    </div> <!-- end of raw-->
 
 
-  {{- end }}<!-- end of hidemeta secondsector -->
-  </div><!-- end post-container -->
 
-   <!-- Navbar share -->    
-   {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
-   {{- partial "share_icons.html" .}}
-   {{- end }}
-   
+
+
+
+
 {{- end  }}{{/* end main */}}

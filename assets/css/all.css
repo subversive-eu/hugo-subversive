@@ -239,7 +239,7 @@ h2{
 a{
   cursor: pointer;
 }
-/* Post Sample  /single.html
+/* single.html
 ------------------------------------------ */
 .post-header{
   margin: 10px;
@@ -252,6 +252,13 @@ a{
 }
 .post-title{
   padding: 5px;
+}
+.col-l{
+  float: right;
+  width: 750px;
+}
+.col-r{
+  
 }
 .post-content{
   width: 100%;
@@ -596,6 +603,18 @@ a{
   background: var(--code-bg);
   border-radius: var(--radius);
   margin-top: 24px;
+
+  background-color: #282D32;;
+  min-width:0;
+  word-wrap:break-word;
+  background-clip:border-box;
+  border:1px solid rgba(0,0,0,.125);
+  border-radius:.25rem;
+  margin: 10px;
+  margin-bottom: 25px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #282D32;
+  box-shadow: -2px -2px 2px #282D32;
 }
 .share-buttons a{
   display: block;
