@@ -61,6 +61,8 @@ I added this to my personnal website
 
 ---
 
+{{< iframepdf https://www.subversive.eu/pdf/Bitcoin%20Monnaie%20Universelle.pdf >}}
+
 # Conclusion
 
 Do not use Instagram ? or Vimeo ? I hope will work on soon.
