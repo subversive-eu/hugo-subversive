@@ -1,0 +1,163 @@
+/* MArKdoWn !!
+-----------------------------------------------------------------------------*/
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin: 24px 0 16px 0;
+}
+.post-content h1 {
+    margin: 40px auto 32px auto;
+    font-size: 40px;
+}
+.post-content h2 {
+    margin: 32px auto 24px auto;
+    font-size: 32px;
+    margin-left: 1%;
+}
+.post-content h3 {
+    font-size: 24px;
+    margin-left: 2%;
+}
+.post-content h4 {
+    font-size: 16px;
+    margin-left: 3%;
+}
+.post-content h5 {
+    font-size: 14px;
+    margin-left: 4%;
+}
+.post-content h6 {
+    font-size: 12px;
+    margin-left: 5%;
+}
+.post-content a {
+    box-shadow: 0 1px 0 var(--primary);
+}
+.post-content a code {
+    margin: auto 0;
+    border-radius: 0;
+    box-shadow: 0 -1px 0 var(--primary) inset;
+}
+.post-content del {
+    text-decoration: none;
+    background: linear-gradient(to right, var(--primary) 100%, transparent 0) 0 50% / 1px 1px repeat-x;
+}
+.post-content p,
+.post-content ul,
+.post-content ol,
+.post-content dl {
+    margin-bottom: var(--content-gap);
+}
+.post-content ul,
+.post-content ol {
+    padding-left: 20px;
+}
+.post-content li {
+    margin-top: 5px;
+}
+.post-content li p {
+    margin-bottom: 0;
+}
+.post-content dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.post-content dt {
+    width: 25%;
+    font-weight: 700;
+}
+.post-content dd {
+    width: 75%;
+    margin-left: 0;
+    padding-left: 10px;
+}
+.post-content dt~dt,
+.post-content dd~dd {
+    margin-top: 10px;
+}
+.post-content table {
+    margin-bottom: 32px;
+}
+.post-content table th,
+.post-content table:not(.highlighttable) td {
+    min-width: 80px;
+    padding: 12px 8px;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--border);
+}
+.post-content table th {
+    font-size: 14px;
+    text-align: left;
+}
+.post-content table:not(.highlighttable) td code:only-child {
+    margin: auto 0;
+}
+.post-content .highlight,
+.post-content pre {
+    margin: auto calc(var(--gap) * -1) 32px calc(var(--gap) * -1);
+    background: var(--hljs-bg) !important;
+    border-radius: var(--radius);
+    background-color: yellow;
+}
+.post-content li>.highlight {
+    margin-right: 0
+}
+.post-content ul pre {
+    margin-left: calc(var(--gap) * -2);
+}
+.post-content .highlight pre {
+    margin: 0;
+}
+.post-content .highlighttable {
+    table-layout: fixed;
+}
+.post-content .highlighttable td:first-child {
+    width: 40px;
+}
+.post-content .highlighttable td .linenodiv {
+    padding-right: 0 !important;
+}
+.post-content .highlighttable td .linenodiv pre,
+.post-content .highlighttable td .highlight {
+    margin-bottom: 0;
+}
+.post-content .highlighttable td .highlight pre code::-webkit-scrollbar {
+    display: none;
+}
+.post-content .highlight span {
+    background: transparent !important;
+}
+.post-content code {
+    margin: auto 4px;
+    padding: 5px;
+    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    line-height: 1.5;
+    color: white;
+    background: #282D32;
+    border-radius: 2px;
+}
+.post-content pre code {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
+    font-size: 0.78em;
+    line-height: 1.5;
+    color: white;
+    background:#282D32;
+    border-radius: 2px;
+    overflow-x: auto;
+}
+.post-content blockquote {
+    padding: 0 32px;
+    border-left: 2px solid grey;
+}
+.post-content hr {
+    margin: 15px;
+    height: 2px;
+    background: gray;
+} 
+/* END MARKDOWN */

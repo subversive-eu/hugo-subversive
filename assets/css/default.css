@@ -1,0 +1,208 @@
+/* Reset
+ * !important
+ */
+ html {
+	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	background: #343a40;
+	color: white;
+}
+a, a:visited {
+    color: var(--primary);
+	text-decoration: none;
+}
+body{
+	margin: 0;
+}
+/* css tricks */
+.no-deco{
+	text-decoration: none;
+}
+.text-center{
+	text-align:center;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float:right;
+}
+.text-justify{
+	text-align: justify;
+}
+
+/* baseof.html
+ * Sidebar
+ */
+
+.sidebar {
+	text-align: left;
+	color: rgba(255,255,255,.5);
+	background-color: #202020;
+	overflow-y: auto;
+}
+.sidebar a {
+	color: #fff;
+}
+.sidebar-nav {
+	margin-bottom: 1rem;
+}
+.sidebar-nav ul{
+	transition-duration: 0.4s;
+	cursor: pointer;
+	color: #f8f9fa;
+	background-color: #343a40;
+	border: 2px solid #f8f9fa;
+	border-radius: 6px;
+}
+.sidebar-nav ul:hover{
+	color: #343a40;;
+	background-color: #f8f9fa;
+	border: 2px solid #343a40;
+	border-radius: 6px;
+}
+.sidebar-nav-item {
+	display: inline-block;
+}
+.sidebar-nav-item svg:hover{
+	opacity: 0.9;
+}
+
+/* 404.html */
+.not-found{
+    padding: 5%;
+    text-align: center;
+}
+/* 
+ * list.html
+---------------------------------------------------------------------------- 
+ */
+ .link-post-card{
+	display:block;
+}
+.post-card{
+	background-color: #282D32;;
+	min-width:0;
+	word-wrap:break-word;
+	background-clip:border-box;
+	border:1px solid rgba(0,0,0,.125);
+	border-radius:.25rem;
+	margin: 10px;
+	margin-bottom: 25px;
+	padding: 10px;
+	box-shadow: 2px 2px 2px #282D32;
+	box-shadow: -2px -2px 2px #282D32;
+}
+.entry-header h2{
+	font-size: 1.5rem;
+	padding: 1%;
+}
+.entry-cover img {
+    pointer-events: none;
+    width: 100%;
+}
+.entry-isdraft{
+  display: inline;
+  color: #f8f9fa;
+  font-size: 0.875rem;
+}
+.entry-content{
+  padding: 1%;
+}
+.entry-footer{
+  margin: 5px;
+  color: #f8f9fa;
+  font-size: 0,812rem;
+  padding:0,5%;
+}
+.pagination{
+	margin: 15px;
+	height: 45px;
+}
+/* single.html
+------------------------------------------ */
+.post-header{
+	margin: 10px;
+}
+.post-meta{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.post-title{
+	padding: 5px;
+}
+.post-content{
+	
+	padding: 1%;
+}
+.post-footer{
+	margin: 10px;
+	height: 45px;
+
+}
+.post-footer ul {
+	list-style-type: none;
+}
+
+/* Terms.html Tags + Categories + Series 
+------------------------------------ */
+.terms-title{
+	margin: 10px;
+}
+.list-title{
+	margin: 10px;
+}
+.terms-tags li {
+	margin: 10px;
+	font-weight: 500;
+}
+.terms-tags a {
+	display: block;
+	padding: 3px 10px;
+	border-radius: 6px;
+	transition: transform 0.1s;
+}
+.terms-tags a:hover {
+	transform: scale(0.96);
+}
+/* Table Of Contents
+-------------------------------------------------------------------------- */
+/* working for anchor problems Table Of Contents vertical align.*/
+:target {
+	margin-top: -25px;
+	border-top: 60px solid transparent;
+	background-clip: padding-box;
+}
+.toc {
+	margin-bottom: 40px;
+	margin: 5px;
+	padding: 8px 16px;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	color: #f8f9fa;
+	background-color: #343a40;
+	   border: 2px solid #282D32;
+	border-radius: 2px;
+}
+.toc details summary {
+	  cursor: zoom-in;
+	  margin-left: 20px;
+}
+.toc details[open] summary {
+	  cursor: zoom-out;
+}
+.toc .details {
+	  display: inline;
+	  font-weight: 500;
+}
+.toc blockquote {
+	border-left: 2px solid;
+	margin: 20px;
+	padding: 10px 40px;
+}
+.toc li ul {
+	  margin-left: 20px;
+}
+.toc a:hover{
+	font-weight: bold;
+}

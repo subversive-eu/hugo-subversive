@@ -1,8 +1,10 @@
 {{- define "main" }}
 
 <!-- List page -->
-<div class="list-container">
-  
+
+
+
+
 {{- if not .IsHome | and .Title }}
 <header class="list-header">
   <h1>{{ .Title }}</h1>
@@ -17,7 +19,7 @@
 {{- $class := "post-entry" }}
 {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0)) }}
 {{- if .Site.Params.homeInfoParams | or .Site.Params.disableSpecial1stPost}}
-{{- partial "home_info.html" . }}
+
 {{- else}}
 {{- $class = "first-entry" }}
 {{- end }}
@@ -25,14 +27,17 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-<a style="display:block" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">
-<div class="{{ $class }}">
+<a class="link-post-card" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">
+
+
+<div class="post-card">
   
   {{- if .Params.cover }}
   <figure class="entry-cover">
     <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title }}">
   </figure>
   {{- end }}
+
   <div class="entry-header">
     <h2>
         {{ .Title }}
@@ -41,6 +46,7 @@
 
     </h2>
   </div>
+  
   {{- if (ne .Site.Params.hideSummary true)}}
   <div class="entry-content">
     <p>{{ .Summary | plainify | htmlUnescape }}</p>
@@ -58,6 +64,8 @@
 </div>
 </a>
 {{- end }}
+
+
 <!-- pagination -->
 {{- if gt $paginator.TotalPages 1 }}
 <div class="pagination">
@@ -74,10 +82,7 @@
 </div>
 {{- end }}
 
-   <!-- Navbar share -->    
-   {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
-   {{- partial "share_icons.html" .}}
-   {{- end }}
 
-</div> <!-- end list-container-->
+
+
 {{- end  }}{{- /* end main */ -}}

@@ -23,8 +23,12 @@
     <meta name="google-site-verification" content="{{ .Site.Params.analytics.google.SiteVerificationTag }}" />
     {{- end}}
     <!-- Styles -->
-    {{ $css := resources.Get "css/all.css" }}
-    {{ $stylesheet := $css | resources.Minify }}
+
+    {{ $media := resources.Get "css/media.css" | minify }}
+    {{ $partial := resources.Get "css/partial.css" | minify }}
+    {{ $markdown := resources.Get "css/markdown.css" | minify }}
+    {{ $default := resources.Get "css/default.css" | minify }}
+    {{ $stylesheet := slice $partial $markdown $default $media | resources.Concat "css/stylesheet.css" | minify }}
     <link href="{{ $stylesheet.Permalink }}" rel="stylesheet preload prefetch" as="style">
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
