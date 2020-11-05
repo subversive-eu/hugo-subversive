@@ -12,6 +12,7 @@ date: 2020-09-30T17:44:04+02:00
 cover: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"
 ---
 
+This is an example and a work base for trying new feature
 Cet article permet de tester des markups, des shortcodes, des variables et environnements
 
 <!--more-->
@@ -50,11 +51,8 @@ cover = "<absolute image url>"
 
 {{< vimeo 146022717 >}}
 
+## Footer hugo theme
 
-
-## Footer hugo theme
-
-
-    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo️️</a>️</span>
-    <span>&middot;</span>
-    <span>Theme️ <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+<span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo️️</a>️</span>
+<span>&middot;</span>
+<span>Theme️ <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
