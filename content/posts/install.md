@@ -179,12 +179,6 @@ privacy:
     disabled: false
     privacyEnhanced: true
 
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
-
 ```
 
 # Page Variables

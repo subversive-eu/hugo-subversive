@@ -58,25 +58,17 @@ There is a lot of css options for class, use it like bootstrapp :
 * options class="" :  
   * text-justify  
   * text-center  
-  * no-deco ="list-style-type:none + text-decoration:none"  
+  * no-deco ="text-decoration:none"  
   * float-left  
   * float-right  
-  *  a ="cursor: pointer"  
-  - Bootstrapp tricks :  
-   * bg-dark  
-   * bg-light  
-   * text-light  
-   * text-dark  
-   * text-white  
-   * text-warning  
-   * text-success  
-   * text-info  
+  * a ="cursor: pointer"  
 
 
 * CSS Minify for perfomance
-* Navbar sahre button
+* Sidebar responsive
 * Table of contents
-* Menu button sticky
+* Footer responsive
+* 404 available
 
 ---
 

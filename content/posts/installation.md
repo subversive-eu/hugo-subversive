@@ -73,11 +73,9 @@ If you want to introduce your website :
 
 ### Youtube
 
-There is a shortcode for youtube video without cookie, and privacy (Only European).
+Youtube video without cookie, and privacy (Only European).
 
 > [hugo-privacy-settings](https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings).
-
-> /your-theme/layouts/shortcodes/youtube.html
 
 ### Image 
 
@@ -92,6 +90,9 @@ There is a shortcode for youtube video without cookie, and privacy (Only Europea
 - rawhtml.html
 - collapse.html 
 - blockquote.html
+- iframepdf.html
+
+> {< iframepdf doc_name >}
 
 ---
 
