@@ -42,36 +42,26 @@
 &lt;ul>
 &lt;li>text-justify&lt;/li>
 &lt;li>text-center&lt;/li>
-&lt;li>no-deco =&amp;ldquo;list-style-type:none + text-decoration:none&amp;rdquo;&lt;/li>
+&lt;li>no-deco =&amp;ldquo;text-decoration:none&amp;rdquo;&lt;/li>
 &lt;li>float-left&lt;/li>
 &lt;li>float-right&lt;/li>
 &lt;li>a =&amp;ldquo;cursor: pointer&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;ul>
-&lt;li>Bootstrapp tricks :&lt;/li>
-&lt;/ul>
-&lt;ul>
-&lt;li>bg-dark&lt;/li>
-&lt;li>bg-light&lt;/li>
-&lt;li>text-light&lt;/li>
-&lt;li>text-dark&lt;/li>
-&lt;li>text-white&lt;/li>
-&lt;li>text-warning&lt;/li>
-&lt;li>text-success&lt;/li>
-&lt;li>text-info&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>CSS Minify for perfomance&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Navbar sahre button&lt;/p>
+&lt;p>Sidebar responsive&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Table of contents&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Menu button sticky&lt;/p>
+&lt;p>Footer responsive&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>404 available&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;hr>

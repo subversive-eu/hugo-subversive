@@ -126,11 +126,6 @@ Copy and paste the folder in your sitefolder/themes/ rename it by hugo-subversiv
 &lt;span style="color:#f92672">youtube&lt;/span>:
 &lt;span style="color:#f92672">disabled&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
 &lt;span style="color:#f92672">privacyEnhanced&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">services&lt;/span>:
-&lt;span style="color:#f92672">instagram&lt;/span>:
-&lt;span style="color:#f92672">disableInlineCSS&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">twitter&lt;/span>:
-&lt;span style="color:#f92672">disableInlineCSS&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="page-variables">Page Variables&lt;/h1>
 &lt;p>In the root directory of your site, go to /archetypes/default.md&lt;/p>
 &lt;p>This is the schema when you use the command &lt;code>hugo new posts/mypost.md&lt;/code> or &lt;code>hugo new photos.md&lt;/code>.&lt;br>
@@ -205,36 +200,26 @@ The default.md is add to your new page.&lt;/p>
 &lt;ul>
 &lt;li>text-justify&lt;/li>
 &lt;li>text-center&lt;/li>
-&lt;li>no-deco =&amp;ldquo;list-style-type:none + text-decoration:none&amp;rdquo;&lt;/li>
+&lt;li>no-deco =&amp;ldquo;text-decoration:none&amp;rdquo;&lt;/li>
 &lt;li>float-left&lt;/li>
 &lt;li>float-right&lt;/li>
 &lt;li>a =&amp;ldquo;cursor: pointer&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;ul>
-&lt;li>Bootstrapp tricks :&lt;/li>
-&lt;/ul>
-&lt;ul>
-&lt;li>bg-dark&lt;/li>
-&lt;li>bg-light&lt;/li>
-&lt;li>text-light&lt;/li>
-&lt;li>text-dark&lt;/li>
-&lt;li>text-white&lt;/li>
-&lt;li>text-warning&lt;/li>
-&lt;li>text-success&lt;/li>
-&lt;li>text-info&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
 &lt;p>CSS Minify for perfomance&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Navbar sahre button&lt;/p>
+&lt;p>Sidebar responsive&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Table of contents&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Menu button sticky&lt;/p>
+&lt;p>Footer responsive&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>404 available&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;hr>
@@ -320,12 +305,9 @@ DefaultContentLanguage: fr&lt;/p>
 &lt;hr>
 &lt;h2 id="markdown">Markdown&lt;/h2>
 &lt;h3 id="youtube">Youtube&lt;/h3>
-&lt;p>There is a shortcode for youtube video without cookie, and privacy (Only European).&lt;/p>
+&lt;p>Youtube video without cookie, and privacy (Only European).&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings" >hugo-privacy-settings&lt;/a>.&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>/your-theme/layouts/shortcodes/youtube.html&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="image">Image&lt;/h3>
 &lt;blockquote>
@@ -340,7 +322,11 @@ DefaultContentLanguage: fr&lt;/p>
 &lt;li>rawhtml.html&lt;/li>
 &lt;li>collapse.html&lt;/li>
 &lt;li>blockquote.html&lt;/li>
+&lt;li>iframepdf.html&lt;/li>
 &lt;/ul>
+&lt;blockquote>
+&lt;p>{&amp;lt; iframepdf doc_name &amp;gt;}&lt;/p>
+&lt;/blockquote>
 &lt;hr>
 &lt;h2 id="menu-with-svg-icons">Menu with svg icons&lt;/h2>
 &lt;p>You can add, what you want.&lt;/p>
