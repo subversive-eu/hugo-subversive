@@ -314,7 +314,8 @@
     display:none
   }
   .visibility-on-less-700{
-    display: contents;
+    display: block;
+
     padding-bottom: 10px;
     margin-top: 20px;
   }
@@ -335,7 +336,7 @@
   #myBtn {
     position: fixed;
     right: 1rem;
-    bottom: 2.8rem;
+    bottom: 2rem;
   }
 }
 @media only screen and (max-width: 500px){
