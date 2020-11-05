@@ -142,7 +142,9 @@ body{
 .post-footer ul {
 	list-style-type: none;
 }
-
+.sources-link{
+	text-decoration: underline;
+}
 /* Terms.html Tags + Categories + Series 
 ------------------------------------ */
 .terms-title{
