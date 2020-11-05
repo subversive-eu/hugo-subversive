@@ -8,7 +8,7 @@ categories:
 date: 2020-10-03T17:44:04+02:00
 ---
 
-Stats about lighthouse of this theme. Soon.
+Stats about lighthouse of this theme.
 <!--more-->
 
 ## Desktop
