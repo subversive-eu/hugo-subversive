@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/categories/d%C3%A9mocratie/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>en</language><lastBuildDate>Wed, 30 Sep 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/d%C3%A9mocratie/index.xml" rel="self" type="application/rss+xml"/><item><title>Article1</title><link>https://subversive-eu.github.io/hugo-subversive/posts/article1/</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/article1/</guid><description>&lt;p>Cet article permet de tester des markups, des shortcodes, des variables et environnements&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/categories/d%C3%A9mocratie/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>en</language><lastBuildDate>Wed, 30 Sep 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/d%C3%A9mocratie/index.xml" rel="self" type="application/rss+xml"/><item><title>Article1</title><link>https://subversive-eu.github.io/hugo-subversive/posts/article1/</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/article1/</guid><description>&lt;p>This is an example and a work base for trying new feature
+Cet article permet de tester des markups, des shortcodes, des variables et environnements&lt;/p>
 &lt;h2 id="image">Image&lt;/h2>
 &lt;p>&lt;p align="center">
 &lt;img class="image-css"
@@ -33,8 +34,7 @@ ex. &lt;a href="https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png">https://i.ib
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://player.vimeo.com/video/146022717?dnt=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
 &lt;/div>
-&lt;p>## Footer hugo theme&lt;/p>
-&lt;pre>&lt;code>&amp;lt;span&amp;gt;Powered by &amp;lt;a href=&amp;quot;https://gohugo.io/&amp;quot; rel=&amp;quot;noopener noreferrer&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Hugo️️&amp;lt;/a&amp;gt;️&amp;lt;/span&amp;gt;
-&amp;lt;span&amp;gt;&amp;amp;middot;&amp;lt;/span&amp;gt;
-&amp;lt;span&amp;gt;Theme️ &amp;lt;a href=&amp;quot;https://git.io/hugopapermod&amp;quot; rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;PaperMod&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;h2 id="footer-hugo-theme">Footer hugo theme&lt;/h2>
+&lt;p>&lt;!-- raw HTML omitted -->Powered by &lt;!-- raw HTML omitted -->Hugo️️&lt;!-- raw HTML omitted -->️&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->·&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->Theme️ &lt;!-- raw HTML omitted -->PaperMod&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p></description></item></channel></rss>
