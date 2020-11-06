@@ -112,36 +112,49 @@ About installating check [here](https://subversive-eu.github.io/hugo-subversive/
 * Details
 * Columns
 * Copy button
-* 
-### Social-Media
+* Figure
 
-#### SVG icons
+See [Markdown Syntax](https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/).
+
+> And look for [Installation and using](https://subversive-eu.github.io/hugo-subversive/posts/installation/#markdown)
+
+---
+
+## SVG Icons
 
 [List of svg icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
 
-#### Share Buttons :
+---
 
-Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_default/single.html
-> You can add it if you want.
+##  Draft Page Indication
 
-If you don't want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.
-> Delete navbarshare in /_default/list.html 
+Indicator : ```[Draft]```
+
+## Add Pages
+
+[Want more page](https://subversive-eu.github.io/hugo-subversive/about/)
 
 ---
 
-## Css tricks
+## More
 
-* CSS Minify for perfomance
-* Sidebar responsive
-* Table of contents
-* Footer responsive
-* 404 available
-
+* Dark Thème
+* [I18n three language : fr + en + es](https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language)
+* Table Of Contents
+* [Post Archive](https://subversive-eu.github.io/hugo-subversive/archives/)
+* [404 Available](https://subversive-eu.github.io/hugo-subversive/404/)
+* Responsive Footer
+* Responsive Sidebar
+* Css + js + html minify for performance
+* Scroll to top button
+* 
 ---
 
 
 ---
 
+
+# END
 ## Shortcodes + Markup
 
 * Render-link.html
@@ -153,22 +166,3 @@ If you don't want to see the sharebar in list, like homepage, yoursite.com/posts
 
 * Shortcodes : iframepdf + rawhtml + collapse + blockquote 
 > /layouts/shortcodes/name.html
-
----
-
-## Add Pages
-
-[Want more page](https://subversive-eu.github.io/hugo-subversive/about/)
-
-## More
-
-* Draft page indication
-* Scroll to top button
-* [I18n three language : fr + en + es](https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language)
-* Google Analytics integration
-* Open-Graph support
-* Twitter Cards Support
-* Syntax highlighting
-* Twitter cards and opengraph tags support
-* RSS feeds
-* Blockquote

@@ -15,8 +15,6 @@ Hey, I will give you some tricks to make your website.
 
 I used this <https://favicon.io/favicon-generator/>
 
-### Deploy
-
 First, download files listed below :
 
 Paste the files in themes/your-theme/static/  
@@ -39,10 +37,15 @@ That's all !
 
 ## i18 Language
 
-To use it, just add and use in [config.yml](https://github.com/subversive-eu/hugo-subversive/blob/exampleSite/config.yml) :
+To use it add this :
+
+```yml
 
 languageCode: fr  
 DefaultContentLanguage: fr
+
+```
+to your [config.yml](https://github.com/subversive-eu/hugo-subversive/blob/exampleSite/config.yml) :
 
 There is three languages : French(fr), English(en), Spanish(es). 
 
@@ -65,12 +68,60 @@ If you want to introduce your website :
 {{< / highlight >}}
 
 
-* If you just want a list of post + Title, delete it in config.yml  
+If you just want a list of post + Title, delete it in config.yml  
+Or do not copy it.
 
-***
+---
 
 ## Markdown
 
+The full markdownsyntax.md [here](https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/markdownsyntax.md). Use it to fund how to deploy your content.
+
+### Blockquote
+
+* [Example hard level](#)
+* [Sample example](#)
+(link error ? // Enrichir le markdown syntax...)
+
+> [blockquote.html](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/blockquote.html)
+
+### Image and Figure
+
+#### Image
+
+[render-image.html](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-image.html)
+> css : image-css
+
+#### Figure
+
+I recommand you to use this because it's responsive and beautifull !!
+
+* [Example]()
+
+### Render-Link
+
+[render-link.html](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-link.html)
+
+> css : sources-link
+
+### Pdf Reader
+
+Use shortcode {{< iframepdf nameofyourpdf >}}
+
+> ```\static\media\nameofyourpdf.pdf```
+
+[iframepdf](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/iframepdf.html)
+
+### Button
+
+Use shortcode :
+
+{{< button href="Link.com" class="" >}}Display Content{{< /button >}}
+
+* [Example]()
+
+[button](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/button.html)
+> 
 ### Youtube
 
 Youtube video without cookie, and privacy (Only European).
@@ -89,8 +140,7 @@ Youtube video without cookie, and privacy (Only European).
 
 - rawhtml.html
 - collapse.html 
-- blockquote.html
-- iframepdf.html
+
 
 > {< iframepdf doc_name >}
 

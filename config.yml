@@ -82,14 +82,13 @@ privacy:
     privacyEnhanced: true
 
 # RSS feed
-
 rsslimit: 5
 
+# testing:
 outputs:
   home:
   - HTML
   - RSS
-
 outputsFormats:
   RSS:
     mediatype: "application/rss"
