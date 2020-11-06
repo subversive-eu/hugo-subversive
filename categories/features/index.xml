@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/categories/features/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>en</language><lastBuildDate>Wed, 07 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/features/index.xml" rel="self" type="application/rss+xml"/><item><title>Features/Mod</title><link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link><pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid><description>&lt;p>List of all features/Mod for this Subversive theme.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/categories/features/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>en</language><lastBuildDate>Wed, 07 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/features/index.xml" rel="self" type="application/rss+xml"/><item><title>Features / Mod</title><link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link><pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid><description>&lt;p>List of all features/Mod for this Subversive theme.&lt;/p>
 &lt;p>​&lt;/p>
 &lt;h1 id="supported">Supported&lt;/h1>
 &lt;h2 id="page-varaibles">Page-Varaibles&lt;/h2>
@@ -166,7 +166,6 @@
 &lt;li>Responsive Sidebar&lt;/li>
 &lt;li>Css + js + html minify for performance&lt;/li>
 &lt;li>Scroll to top button&lt;/li>
-&lt;li>&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;hr>
@@ -364,6 +363,8 @@ css -&amp;gt; /layouts/assets/all.css .sources-link{}&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Perfomance with Lighthouse</title><link>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</link><pubDate>Sat, 03 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</guid><description>&lt;p>Stats about lighthouse of this theme.&lt;/p>
+&lt;p>There is a simple gtmetrix report too.&lt;/p>
+&lt;p>Soon, example.md SEO.&lt;/p>
 &lt;h2 id="desktop">Desktop&lt;/h2>
 &lt;h3 id="home-page">Home page&lt;/h3>
 &lt;p>&lt;p align="center">

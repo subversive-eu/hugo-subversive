@@ -239,48 +239,57 @@ Display Content
 &lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/button.html" >button&lt;/a>&lt;/p>
-&lt;blockquote>
-&lt;/blockquote>
-&lt;h3 id="youtube">Youtube&lt;/h3>
-&lt;p>Youtube video without cookie, and privacy (Only European).&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings" >hugo-privacy-settings&lt;/a>.&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="image-1">Image&lt;/h3>
-&lt;blockquote>
-&lt;p>/your-theme/layouts/_default/_markup/render-image.html&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="links">links&lt;/h3>
-&lt;blockquote>
-&lt;p>/your-theme/layouts/_default/_markup/render-link.html&lt;/p>
-&lt;/blockquote>
+&lt;h3 id="tabtabs">Tab/Tabs&lt;/h3>
+&lt;p>Use shortcode. Check markdownsyntax.md&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tab.html" >Tab&lt;/a>
+&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tabs.html" >Tabs&lt;/a>&lt;/p>
+&lt;h3 id="details">Details&lt;/h3>
+&lt;p>Use shortcode. Check markdownsyntax.md&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/details.html" >Details&lt;/a>&lt;/p>
+&lt;h3 id="columns">Columns&lt;/h3>
+&lt;p>Use shortcode. Check markdownsyntax.md&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/columns.html" >Columns&lt;/a>&lt;/p>
+&lt;h3 id="copy-button">Copy button&lt;/h3>
+&lt;p>There is a copy button for code text class=&amp;ldquo;highlight&amp;rdquo;.&lt;/p>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/assets/js/script.js" >Check script.js&lt;/a>&lt;/p>
 &lt;h3 id="other-shortcodes">other shortcodes&lt;/h3>
 &lt;ul>
 &lt;li>rawhtml.html&lt;/li>
 &lt;li>collapse.html&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>{&amp;lt; iframepdf doc_name &amp;gt;}&lt;/p>
-&lt;/blockquote>
 &lt;hr>
-&lt;h2 id="menu-with-svg-icons">Menu with svg icons&lt;/h2>
+&lt;h2 id="cover-image">Cover Image&lt;/h2>
+&lt;p>Used to add a post header image.&lt;/p>
+&lt;p>&lt;code>cover: &amp;quot;https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png&amp;quot;&lt;/code>&lt;/p>
+&lt;p>With a direct link too.
+Or a file from your \static\&lt;/p>
+&lt;h2 id="svg-icons-tricks">SVG icons tricks&lt;/h2>
 &lt;p>You can add, what you want.&lt;/p>
 &lt;p>Check the &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >list of icons&lt;/a> or add some in /your-theme/layouts/partials/svg.html&lt;/p>
-&lt;h3 id="right-menu--social-icons">Right-menu | Social-icons&lt;/h3>
-&lt;p>This params will appear in the right of the menu.&lt;/p>
+&lt;h3 id="social-icons">Social-icons&lt;/h3>
+&lt;p>This params will appear in the middle of the sidebar.&lt;/p>
 &lt;blockquote>
 &lt;p>In config -&amp;gt; name: nameofsvg.&lt;/p>
 &lt;/blockquote>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">* params&lt;/span>:
-&lt;span style="color:#f92672">* socialIcons&lt;/span>:
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml"> &lt;span style="color:#f92672">params&lt;/span>:
+&lt;span style="color:#f92672">socialIcons&lt;/span>:
 - &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">rss &lt;/span>
 &lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;posts/index.xml&amp;#39;&lt;/span>
 - &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">github &lt;/span>
 &lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://github.com/subversive-eu/hugo-theme-subversive&amp;#39;&lt;/span> &lt;/code>&lt;/pre>&lt;/div>
-&lt;h3 id="left-menu-page-icons">Left-menu | Page-icons&lt;/h3>
-&lt;p>Main menu, in the left.&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">* params&lt;/span>:
-&lt;span style="color:#f92672">* menu&lt;/span>:
+&lt;h3 id="page-icons">Page-icons&lt;/h3>
+&lt;p>Main menu :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml"> &lt;span style="color:#f92672">params&lt;/span>:
+&lt;span style="color:#f92672">menu&lt;/span>:
 - &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">home&lt;/span>
 &lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;/&amp;#39;&lt;/span>
 &lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">5&lt;/span>

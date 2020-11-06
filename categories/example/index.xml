@@ -1,6 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/categories/example/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>en</language><lastBuildDate>Sun, 27 Sep 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/example/index.xml" rel="self" type="application/rss+xml"/><item><title>Example</title><link>https://subversive-eu.github.io/hugo-subversive/posts/example/</link><pubDate>Sun, 27 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/example/</guid><description>&lt;p>I will show you some extras about Markdown, css, and shortcodes.
-There is savegame of simple tricks too.&lt;/p>
-&lt;h1 id="image">Image&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/categories/example/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>en</language><lastBuildDate>Sun, 27 Sep 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/example/index.xml" rel="self" type="application/rss+xml"/><item><title>Example</title><link>https://subversive-eu.github.io/hugo-subversive/posts/example/</link><pubDate>Sun, 27 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/example/</guid><description>&lt;p>I will show you some extras about Markdown, css, and shortcode.
+There is backup of simple tricks too.&lt;/p>
+&lt;p>Example post for demonstration.
+The TOC is open.&lt;/p>
+&lt;p>See &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/example.md" >raw article&lt;/a>&lt;/p>
+&lt;h2 id="image">Image&lt;/h2>
+&lt;h3 id="classic-markdown">Classic markdown&lt;/h3>
 &lt;p>&lt;p align="center">
 &lt;img class="image-css"
 src="https://subversive-eu.github.io/hugo-subversive/media/logo.png" alt="Drag Racing" title="coucou" />
@@ -11,32 +15,77 @@ src="https://subversive-eu.github.io/hugo-subversive/media/logo.png" alt="Drag R
 src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png" alt="" title="roman empire" />
 &lt;/p>
 &lt;/p>
+&lt;h3 id="figure-shortcode-with-css">figure shortcode with css&lt;/h3>
+&lt;figure class="no-class">
+&lt;img src="https://subversive-eu.github.io/hugo-subversive/media/logo.png"
+alt="image"/> &lt;figcaption>
+&lt;p>coucou&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="no-class">
+&lt;img src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png"
+alt="image"/> &lt;figcaption>
+&lt;p>roman empire&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>It&amp;rsquo;s better no ??&lt;/p>
+&lt;p>Let&amp;rsquo;s check more !&lt;/p>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;p>&lt;figure class="right">
+&lt;img src="https://via.placeholder.com/400x280"
+alt="image"/> &lt;figcaption>
+&lt;p>figure-right&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;figure class="left">
+&lt;img src="https://via.placeholder.com/400x280"
+alt="image"/> &lt;figcaption>
+&lt;p>figure-left&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&lt;figure>
+&lt;img src="https://via.placeholder.com/1600x800"
+alt="image"/> &lt;figcaption>
+&lt;p>figure-normal (without any classes)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;figure class="big">
+&lt;img src="https://via.placeholder.com/1600x800"
+alt="image"/> &lt;figcaption>
+&lt;p>figure-big&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
 &lt;h2 id="postmeta">PostMeta&lt;/h2>
-&lt;p>I added this to my personnal website&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> &lt;span style="color:#75715e">&amp;lt;!--- This is the end of meta. not for me. I add some download options + printer option --&amp;gt;&lt;/span>
+&lt;p>I added this to my personnal website :&lt;/p>
+&lt;blockquote>
+&lt;p>I was thinking about not using sample-btn css.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> &lt;span style="color:#75715e">&amp;lt;!--- I add some download options + printer option --&amp;gt;&lt;/span>
 &amp;amp;nbsp;·&amp;amp;nbsp;
 &amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
 &amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Télécharger&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/pdf/{{ .Title }}.pdf&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">target&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;noopener noreferrer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">download&lt;/span>&amp;gt;{{ i18n &amp;#34;pdf&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
 &amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
 &amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name &lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Imprimer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;javascript:if(window.print)window.print()&amp;#34;&lt;/span>&amp;gt;{{ i18n &amp;#34;print&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Télécharger&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/epub/{{ .Title }}.epub&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">target&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;noopener noreferrer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">download&lt;/span>&amp;gt;{{ i18n &amp;#34;ebook&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
 &amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;
 &lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>Do not forget to add i18n translation for all languages&lt;/li>
 &lt;/ul>
 &lt;h2 id="youtube">youtube&lt;/h2>
-&lt;p>/ cf layouts/shortcodes/youtube.html&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube-nocookie.com/embed/8IZ9Cqi2rGM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
 &lt;h2 id="tweeter">tweeter&lt;/h2>
+&lt;ul>
+&lt;li>With mobile, Tweeter appear simple blockquote.&lt;/li>
+&lt;/ul>
 &lt;blockquote class="twitter-tweet" data-dnt="true">&lt;p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + &lt;a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify&lt;/a> _redirects etc. file support&lt;a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ&lt;/a> &lt;a href="https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gohugo&lt;/a> &lt;a href="https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw">#golang&lt;/a> &lt;a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13&lt;/a> &lt;a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays&lt;/a>&lt;/p>&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017&lt;/a>&lt;/blockquote>
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
 &lt;h2 id="vimeo">vimeo&lt;/h2>
-&lt;ul>
-&lt;li>Not worked&lt;/li>
-&lt;/ul>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://player.vimeo.com/video/146022717?dnt=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
 &lt;/div>
@@ -44,7 +93,7 @@ src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png" alt="
 &lt;ul>
 &lt;li>there is no way with facebook &amp;hellip;&lt;/li>
 &lt;/ul>
-&lt;h2 id="blockquote">Blockquote&lt;/h2>
+&lt;h2 id="blockquote-hard">Blockquote hard&lt;/h2>
 &lt;p>Normal quote:
 &lt;blockquote>
 &lt;p>This is a simple quote.&lt;/p>
@@ -117,4 +166,4 @@ src="https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf"
 >
 &lt;/iframe>
 &lt;h1 id="conclusion">Conclusion&lt;/h1>
-&lt;p>Do not use Instagram ? or Vimeo ? I hope will work on soon.&lt;/p></description></item></channel></rss>
+&lt;p>Do not use Instagram ? I hope will work on soon.&lt;/p></description></item></channel></rss>
