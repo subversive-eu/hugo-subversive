@@ -27,33 +27,41 @@ Go in the folder /themes/ and run the command :
 
 ## by clone
 
+```html
 
-> {{< highlight git >}}
-  git clone https://github.com/subversive-eu/hugo-subversive.git
-{{< / highlight>}}
+git clone https://github.com/subversive-eu/hugo-subversive.git
+
+```
 
 To update the theme use this :
 
-> {{< highlight git >}}
+```html
+
 cd themes/hugo-PaperMod
 git pull
-{{< / highlight>}}
+
+```
 
 ## by submodule
 
-> {{< highlight git >}}
+```html
+
   git submodule add https://github.com/subversive-eu/hugo-subversive.git hugo-subversive
-{{< / highlight>}}
+
+```
 
 To update the theme use this :
 
-> {{< highlight git >}}
+```html
+
 git submodule update --remote --merge
-{{< / highlight>}}
+
+```
 
 ## by download
 
-> On github repository, clic on -code (green button) then download zip.  
+> On github repository, clic on -code (green button) then download zip.
+
 > Copy and paste the folder in your sitefolder/themes/ rename it by hugo-subversive.
 
 
@@ -65,10 +73,12 @@ To understand the file configuration checkout, and take attention of [exampleSit
 
 In your config file write the name of your folder like this :
 
-config.yml :  
+config.yml :
+
 `theme: hugo-subversive`
 
-config.toml :  
+config.toml :
+
 `theme = "hugo-subversive"`
 
 ## all params

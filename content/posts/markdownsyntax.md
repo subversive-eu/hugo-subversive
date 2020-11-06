@@ -31,6 +31,57 @@ Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptio
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
+## Tabs
+
+{{< tabs "uniqueid" >}}
+{{< tab "MacOS" >}} # MacOS Content {{< /tab >}}
+{{< tab "Linux" >}} # Linux Content {{< /tab >}}
+{{< tab "Windows" >}} # Windows Content {{< /tab >}}
+{{< /tabs >}}
+
+## Buttons
+
+{{< button href="https://youtu.be/QRcrsHro6xI" class="" >}}Go Home{{< /button >}}
+
+
+{{< button href="https://github.com/subversive-eu/hugo-subversive" class="" >}}Contribute{{< /button >}}
+
+## Colunms
+
+{{< columns >}} <!-- begin columns block -->
+### Left Content
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+
+<---> <!-- magic separator, between columns -->
+
+### Mid Content
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!
+
+<---> <!-- magic separator, between columns -->
+
+### Right Content
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+{{< /columns >}}
+
+
+## Details
+
+{{< details >}}
+#### Markdown content
+Lorem markdownum insigne...
+{{< /details >}}
+
+{{< details "Custom label" >}}
+#### Markdown content
+Lorem markdownum insigne...
+{{< /details >}}
+
+{{< details "Custom Label" "..." >}}
+#### Markdown content
+Lorem markdownum insigne...
+{{< /details >}}
+
+
 ## Blockquotes
 
 The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
@@ -49,6 +100,22 @@ The blockquote element represents content that is quoted from another source, op
 
 ## Tables
 
+Table:
+
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ | :-------------: | ------------: |
+| col 3 is      | some wordy text |         $1600 |
+| col 2 is      |    centered     |           $12 |
+| zebra stripes |    are neat     |            $1 |
+
+| Left-Aligned  | Center Aligned |
+| :------------ | :------------: |
+| col 3 is      |          $1600 |
+| col 2 is      |            $12 |
+| zebra stripes |             $1 |
+
+
 Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
 
    Name | Age
@@ -62,7 +129,8 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 | --------  | -------- | ------ |
 | *italics* | **bold** | `code` |
 
-### Highlight
+
+## Highlight
 
 {{< highlight angular2 >}}
 
