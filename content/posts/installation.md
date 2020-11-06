@@ -106,7 +106,7 @@ I recommand you to use this because it's responsive and beautifull !!
 
 ### Pdf Reader
 
-Use shortcode {{< iframepdf nameofyourpdf >}}
+Use shortcode ```{{ iframepdf nameofyourpdf }}```
 
 > ```\static\media\nameofyourpdf.pdf```
 

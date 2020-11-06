@@ -148,22 +148,4 @@ Indicator : ```[Draft]```
 * Css + js + html minify for performance
 * Scroll to top button
 
-
 ---
-
-
----
-
-
-# END
-## Shortcodes + Markup
-
-* Render-link.html
-> /layouts/_default/_markup/render-link.html
-
-* Render-image.html
-> /layouts/_default/_markup/render-image.html  
-> css -> /layouts/assets/all.css  .sources-link{}
-
-* Shortcodes : iframepdf + rawhtml + collapse + blockquote 
-> /layouts/shortcodes/name.html

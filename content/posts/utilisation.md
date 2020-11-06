@@ -1,7 +1,7 @@
 ---
 title: "Social-Media"
 author: subversive.eu
-ShowToc: true
+ShowToc: false
 draft: false
 categories:
  - Features
