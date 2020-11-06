@@ -167,29 +167,7 @@
 &lt;li>Css + js + html minify for performance&lt;/li>
 &lt;li>Scroll to top button&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;hr>
-&lt;h1 id="end">END&lt;/h1>
-&lt;h2 id="shortcodes--markup">Shortcodes + Markup&lt;/h2>
-&lt;ul>
-&lt;li>Render-link.html&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>/layouts/_default/_markup/render-link.html&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>Render-image.html&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>/layouts/_default/_markup/render-image.html&lt;br>
-css -&amp;gt; /layouts/assets/all.css .sources-link{}&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>Shortcodes : iframepdf + rawhtml + collapse + blockquote&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>/layouts/shortcodes/name.html&lt;/p>
-&lt;/blockquote></description></item><item><title>Social-Media</title><link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link><pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid><description>&lt;p>List of all social icons by svg + all menu icons&lt;/p>
+&lt;hr></description></item><item><title>Social-Media</title><link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link><pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid><description>&lt;p>List of all social icons by svg + all menu icons&lt;/p>
 &lt;blockquote>
 &lt;p>/layouts/partials/svg.html&lt;/p>
 &lt;/blockquote>

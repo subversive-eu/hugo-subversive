@@ -219,13 +219,7 @@ Or do not copy it.&lt;/p>
 &lt;p>css : sources-link&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="pdf-reader">Pdf Reader&lt;/h3>
-&lt;p>Use shortcode &lt;iframe
-class="iframepdf"
-frameborder="0"
-allowfullscreen
-src="https://subversive-eu.github.io/hugo-subversive/media/nameofyourpdf.pdf"
->
-&lt;/iframe>&lt;/p>
+&lt;p>Use shortcode &lt;code>{{ iframepdf nameofyourpdf }}&lt;/code>&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;code>\static\media\nameofyourpdf.pdf&lt;/code>&lt;/p>
 &lt;/blockquote>

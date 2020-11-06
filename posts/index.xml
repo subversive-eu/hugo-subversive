@@ -323,29 +323,7 @@ The default.md is add to your new page.&lt;/p>
 &lt;li>Css + js + html minify for performance&lt;/li>
 &lt;li>Scroll to top button&lt;/li>
 &lt;/ul>
-&lt;hr>
-&lt;hr>
-&lt;h1 id="end">END&lt;/h1>
-&lt;h2 id="shortcodes--markup">Shortcodes + Markup&lt;/h2>
-&lt;ul>
-&lt;li>Render-link.html&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>/layouts/_default/_markup/render-link.html&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>Render-image.html&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>/layouts/_default/_markup/render-image.html&lt;br>
-css -&amp;gt; /layouts/assets/all.css .sources-link{}&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>Shortcodes : iframepdf + rawhtml + collapse + blockquote&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>/layouts/shortcodes/name.html&lt;/p>
-&lt;/blockquote></description></item><item><title>Installation tricks</title><link>https://subversive-eu.github.io/hugo-subversive/posts/installation/</link><pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/installation/</guid><description>&lt;p>Hey, I will give you some tricks to make your website.&lt;/p>
+&lt;hr></description></item><item><title>Installation tricks</title><link>https://subversive-eu.github.io/hugo-subversive/posts/installation/</link><pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/installation/</guid><description>&lt;p>Hey, I will give you some tricks to make your website.&lt;/p>
 &lt;h2 id="favicons">Favicons&lt;/h2>
 &lt;p>I used this &lt;a href="https://favicon.io/favicon-generator/">https://favicon.io/favicon-generator/&lt;/a>&lt;/p>
 &lt;p>First, download files listed below :&lt;/p>
@@ -410,13 +388,7 @@ Or do not copy it.&lt;/p>
 &lt;p>css : sources-link&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="pdf-reader">Pdf Reader&lt;/h3>
-&lt;p>Use shortcode &lt;iframe
-class="iframepdf"
-frameborder="0"
-allowfullscreen
-src="https://subversive-eu.github.io/hugo-subversive/media/nameofyourpdf.pdf"
->
-&lt;/iframe>&lt;/p>
+&lt;p>Use shortcode &lt;code>{{ iframepdf nameofyourpdf }}&lt;/code>&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;code>\static\media\nameofyourpdf.pdf&lt;/code>&lt;/p>
 &lt;/blockquote>
