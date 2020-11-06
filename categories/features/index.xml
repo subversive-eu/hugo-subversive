@@ -140,31 +140,37 @@
 &lt;li>Details&lt;/li>
 &lt;li>Columns&lt;/li>
 &lt;li>Copy button&lt;/li>
+&lt;li>Figure&lt;/li>
+&lt;/ul>
+&lt;p>See &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/" >Markdown Syntax&lt;/a>.&lt;/p>
+&lt;blockquote>
+&lt;p>And look for &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/installation/#markdown" >Installation and using&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="svg-icons">SVG Icons&lt;/h2>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >List of svg icons&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="draft-page-indication">Draft Page Indication&lt;/h2>
+&lt;p>Indicator : &lt;code>[Draft]&lt;/code>&lt;/p>
+&lt;h2 id="add-pages">Add Pages&lt;/h2>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/about/" >Want more page&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="more">More&lt;/h2>
+&lt;ul>
+&lt;li>Dark Thème&lt;/li>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language" >I18n three language : fr + en + es&lt;/a>&lt;/li>
+&lt;li>Table Of Contents&lt;/li>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/archives/" >Post Archive&lt;/a>&lt;/li>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/404/" >404 Available&lt;/a>&lt;/li>
+&lt;li>Responsive Footer&lt;/li>
+&lt;li>Responsive Sidebar&lt;/li>
+&lt;li>Css + js + html minify for performance&lt;/li>
+&lt;li>Scroll to top button&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ul>
-&lt;h3 id="social-media">Social-Media&lt;/h3>
-&lt;h4 id="svg-icons">SVG icons&lt;/h4>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >List of svg icons&lt;/a>&lt;/p>
-&lt;h4 id="share-buttons-">Share Buttons :&lt;/h4>
-&lt;p>Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_default/single.html&lt;/p>
-&lt;blockquote>
-&lt;p>You can add it if you want.&lt;/p>
-&lt;/blockquote>
-&lt;p>If you don&amp;rsquo;t want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.&lt;/p>
-&lt;blockquote>
-&lt;p>Delete navbarshare in /_default/list.html&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="css-tricks-1">Css tricks&lt;/h2>
-&lt;ul>
-&lt;li>CSS Minify for perfomance&lt;/li>
-&lt;li>Sidebar responsive&lt;/li>
-&lt;li>Table of contents&lt;/li>
-&lt;li>Footer responsive&lt;/li>
-&lt;li>404 available&lt;/li>
-&lt;/ul>
 &lt;hr>
 &lt;hr>
+&lt;h1 id="end">END&lt;/h1>
 &lt;h2 id="shortcodes--markup">Shortcodes + Markup&lt;/h2>
 &lt;ul>
 &lt;li>Render-link.html&lt;/li>
@@ -184,23 +190,7 @@ css -&amp;gt; /layouts/assets/all.css .sources-link{}&lt;/p>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>/layouts/shortcodes/name.html&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="add-pages">Add Pages&lt;/h2>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/about/" >Want more page&lt;/a>&lt;/p>
-&lt;h2 id="more">More&lt;/h2>
-&lt;ul>
-&lt;li>Draft page indication&lt;/li>
-&lt;li>Scroll to top button&lt;/li>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language" >I18n three language : fr + en + es&lt;/a>&lt;/li>
-&lt;li>Google Analytics integration&lt;/li>
-&lt;li>Open-Graph support&lt;/li>
-&lt;li>Twitter Cards Support&lt;/li>
-&lt;li>Syntax highlighting&lt;/li>
-&lt;li>Twitter cards and opengraph tags support&lt;/li>
-&lt;li>RSS feeds&lt;/li>
-&lt;li>Blockquote&lt;/li>
-&lt;/ul></description></item><item><title>Social-Media</title><link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link><pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid><description>&lt;p>List of all social icons by svg + all menu icons&lt;/p>
+&lt;/blockquote></description></item><item><title>Social-Media</title><link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link><pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid><description>&lt;p>List of all social icons by svg + all menu icons&lt;/p>
 &lt;blockquote>
 &lt;p>/layouts/partials/svg.html&lt;/p>
 &lt;/blockquote>

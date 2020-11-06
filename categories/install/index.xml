@@ -157,7 +157,6 @@ The default.md is add to your new page.&lt;/p>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>You can use &lt;code>true or false&lt;/code>.&lt;/p></description></item><item><title>Installation tricks</title><link>https://subversive-eu.github.io/hugo-subversive/posts/installation/</link><pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/installation/</guid><description>&lt;p>Hey, I will give you some tricks to make your website.&lt;/p>
 &lt;h2 id="favicons">Favicons&lt;/h2>
 &lt;p>I used this &lt;a href="https://favicon.io/favicon-generator/">https://favicon.io/favicon-generator/&lt;/a>&lt;/p>
-&lt;h3 id="deploy">Deploy&lt;/h3>
 &lt;p>First, download files listed below :&lt;/p>
 &lt;p>Paste the files in themes/your-theme/static/&lt;/p>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> android-chrome-192x192.png
@@ -170,9 +169,11 @@ site.webmanifest&lt;/code>&lt;/pre>&lt;/div>
 &lt;p>That&amp;rsquo;s all !&lt;/p>
 &lt;hr>
 &lt;h2 id="i18-language">i18 Language&lt;/h2>
-&lt;p>To use it, just add and use in &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/exampleSite/config.yml" >config.yml&lt;/a> :&lt;/p>
-&lt;p>languageCode: fr&lt;br>
-DefaultContentLanguage: fr&lt;/p>
+&lt;p>To use it add this :&lt;/p>
+&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">
+&lt;span style="color:#f92672">languageCode&lt;/span>: &lt;span style="color:#ae81ff">fr &lt;/span>
+&lt;span style="color:#f92672">DefaultContentLanguage&lt;/span>: &lt;span style="color:#ae81ff">fr&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>to your &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/exampleSite/config.yml" >config.yml&lt;/a> :&lt;/p>
 &lt;p>There is three languages : French(fr), English(en), Spanish(es).&lt;/p>
 &lt;p>I don&amp;rsquo;t know if there is default language. Be carefull.&lt;/p>
 &lt;p>Check in themes/your-theme/i18n/ - &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/tree/main/i18n" >here&lt;/a>&lt;/p>
@@ -187,17 +188,65 @@ DefaultContentLanguage: fr&lt;/p>
 &lt;span style="color:#f92672">Title&lt;/span>: &lt;span style="color:#ae81ff">Hi there wave &lt;/span>
 &lt;span style="color:#f92672">Content&lt;/span>: &lt;span style="color:#ae81ff">Can be Info, links, about... &lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;/blockquote>
-&lt;ul>
-&lt;li>If you just want a list of post + Title, delete it in config.yml&lt;/li>
-&lt;/ul>
+&lt;p>If you just want a list of post + Title, delete it in config.yml&lt;br>
+Or do not copy it.&lt;/p>
 &lt;hr>
 &lt;h2 id="markdown">Markdown&lt;/h2>
+&lt;p>The full markdownsyntax.md &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/markdownsyntax.md" >here&lt;/a>. Use it to fund how to deploy your content.&lt;/p>
+&lt;h3 id="blockquote">Blockquote&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="#">Example hard level&lt;/a>&lt;/li>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="#">Sample example&lt;/a>
+(link error ? // Enrichir le markdown syntax&amp;hellip;)&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/blockquote.html" >blockquote.html&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="image-and-figure">Image and Figure&lt;/h3>
+&lt;h4 id="image">Image&lt;/h4>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-image.html" >render-image.html&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>css : image-css&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="figure">Figure&lt;/h4>
+&lt;p>I recommand you to use this because it&amp;rsquo;s responsive and beautifull !!&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="render-link">Render-Link&lt;/h3>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-link.html" >render-link.html&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>css : sources-link&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="pdf-reader">Pdf Reader&lt;/h3>
+&lt;p>Use shortcode &lt;iframe
+class="iframepdf"
+frameborder="0"
+allowfullscreen
+src="https://subversive-eu.github.io/hugo-subversive/media/nameofyourpdf.pdf"
+>
+&lt;/iframe>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;code>\static\media\nameofyourpdf.pdf&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/iframepdf.html" >iframepdf&lt;/a>&lt;/p>
+&lt;h3 id="button">Button&lt;/h3>
+&lt;p>Use shortcode :&lt;/p>
+&lt;a href="Link.com" target="_blank" class="sample-btn">
+Display Content
+&lt;/a>
+&lt;ul>
+&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/button.html" >button&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;/blockquote>
 &lt;h3 id="youtube">Youtube&lt;/h3>
 &lt;p>Youtube video without cookie, and privacy (Only European).&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings" >hugo-privacy-settings&lt;/a>.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="image">Image&lt;/h3>
+&lt;h3 id="image-1">Image&lt;/h3>
 &lt;blockquote>
 &lt;p>/your-theme/layouts/_default/_markup/render-image.html&lt;/p>
 &lt;/blockquote>
@@ -209,8 +258,6 @@ DefaultContentLanguage: fr&lt;/p>
 &lt;ul>
 &lt;li>rawhtml.html&lt;/li>
 &lt;li>collapse.html&lt;/li>
-&lt;li>blockquote.html&lt;/li>
-&lt;li>iframepdf.html&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>{&amp;lt; iframepdf doc_name &amp;gt;}&lt;/p>
