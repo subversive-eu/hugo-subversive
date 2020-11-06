@@ -14,3 +14,5 @@
   translation: "Page Suivante"
 - id: draft
   translation: "brouillon"
+- id: expand
+  translation: "Développer"

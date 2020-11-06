@@ -30,7 +30,22 @@ body{
 .text-justify{
 	text-align: justify;
 }
-
+.no-list{
+	list-style-type: none;
+	list-style: none;
+}
+.flex{
+	display:flex;
+}
+.flex-even{
+	flex:1 1;
+}
+.flex-wrap{
+	flex-wrap:wrap;
+}
+.justify-between{
+	justify-content:space-between;
+}
 /* baseof.html
  * Sidebar
  */

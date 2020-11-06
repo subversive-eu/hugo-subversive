@@ -14,3 +14,5 @@
   translation: "Next page"
 - id: draft
   translation: "draft"
+- id: expand
+  translation: "Expand"
