@@ -193,31 +193,6 @@
     margin: auto;
     border-radius: 4px;
 }
-
-/* Add Code copy buttons css */
-.highlight {
-    position: relative;
-}
-.highlight-copy-btn {
-    position: absolute;
-    top: 3%;
-    right: 5%;
-    border: 0;
-    border-radius: 4px;
-    padding: 1px;
-    font-size: 0.7em;
-    line-height: 1.8;
-    color: #fff;
-    background-color: #777;
-    opacity: 0.6;
-    min-width: 55px;
-    text-align: center;
-    cursor:pointer;
-}
-.highlight-copy-btn:hover {
-    background-color: #666;
-}
-
 /* {{< tabs >}} */
 .book-tabs {
 	margin-top: 10px;
@@ -293,4 +268,27 @@
 }
 .book-expand input[type="checkbox"]:checked + .book-expand-content {
     display: block;
+}
+/* Add Code copy buttons css */
+.highlight {
+    position: relative;
+}
+.highlight-copy-btn {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    border: 0;
+    border-radius: 4px;
+    padding: 1px;
+    font-size: 0.7em;
+    line-height: 1.8;
+    color: #fff;
+    background-color: #777;
+    opacity: 0.6;
+    min-width: 55px;
+    text-align: center;
+    cursor:pointer;
+}
+.highlight-copy-btn:hover {
+    background-color: #666;
 }
