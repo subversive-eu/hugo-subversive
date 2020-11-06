@@ -83,7 +83,7 @@ privacy:
 
 # RSS feed
 
-rsslimit: 10
+rsslimit: 5
 
 outputs:
   home:

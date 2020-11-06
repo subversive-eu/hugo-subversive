@@ -11,28 +11,59 @@ date: 2020-10-07T17:44:04+02:00
 List of all features/Mod for this Subversive theme.
 <!--more-->​
 
-# Guide
+# Supported
 
-## Extras
+## Page-Varaibles
 
-### Page-Variables
-
-- showtoc: true / false  
-- tocopen: true / false  
-- hidemeta: true / false
-- disableShare: true / false  
-- draft: true / false  
-- comments: true / false  
+| Variables    |  Type   |        Value |
+| :----------- | :-----: | -----------: |
+| showtoc      | boolean | true | false |
+| tocopen      | boolean | true | false |
+| hidemeta     | boolean | true | false |
+| disableShare | boolean | true | false |
+| draft        | boolean | true | false |
+| comments     | boolean | true | false |
 
 [See more](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables "page-variable")
 
-### Social-Media
+---
 
-#### SVG icons
+## Site-Variables
 
-[List of svg icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
+Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
 
-#### Share Buttons :
+| Variables        |  Type   |        Value |
+| :--------------- | :-----: | -----------: |
+| ShowReadingTime  | boolean | true | false |
+| ShowShareButtons | boolean | true | false |
+| Comments         | boolean | true | false |
+
+---
+
+## Css-Tricks
+
+There is a lot of css options for class, use it like bootstrapp :
+
+* options class="" :  
+  * text-justify  
+  * text-center  
+  * no-deco ="text-decoration:none"  
+  * float-left  
+  * float-right  
+  * a ="cursor: pointer"  
+  * justify-between
+  * flex
+  * flex-even
+  * flex-wrap
+  * no-list
+
+Check the css page :
+
+```\assets\css\default.css```
+
+---
+
+## Share-Options
 
 List of :
 
@@ -47,22 +78,58 @@ Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_
 > You can add it if you want.
 
 If you don't want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.
+> Delete navbarshare in /_default/list.html
+
+---
+
+## Cover-Image
+
+You can add a cover image to your post like this [one](https://subversive-eu.github.io/hugo-subversive/posts/example/).
+
+About installating check [here](https://subversive-eu.github.io/hugo-subversive/posts/install/#more-options).
+
+---
+
+## SEO
+
+* OpenGraph Support
+* Twitter Card Support
+* RSS Feed with limit [see config](https://subversive-eu.github.io/hugo-subversive/posts/install/#all-params)
+
+---
+
+## Markdown
+
+* Blocquote
+* Syntax Highlighting
+* Render-image
+* Render-link
+* IframePdf
+* Collapse
+* Rawhtml
+* Button
+* Tab/Tabs
+* Details
+* Columns
+* Copy button
+* 
+### Social-Media
+
+#### SVG icons
+
+[List of svg icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
+
+#### Share Buttons :
+
+Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_default/single.html
+> You can add it if you want.
+
+If you don't want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.
 > Delete navbarshare in /_default/list.html 
 
 ---
 
 ## Css tricks
-
-There is a lot of css options for class, use it like bootstrapp :
-
-* options class="" :  
-  * text-justify  
-  * text-center  
-  * no-deco ="text-decoration:none"  
-  * float-left  
-  * float-right  
-  * a ="cursor: pointer"  
-
 
 * CSS Minify for perfomance
 * Sidebar responsive
@@ -72,13 +139,6 @@ There is a lot of css options for class, use it like bootstrapp :
 
 ---
 
-## Site-Variables
-
-Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml)
-
-- ShowReadingTime: true / false  
-- ShowShareButtons : true / false
-- Comments: true / false
 
 ---
 
