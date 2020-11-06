@@ -7,7 +7,7 @@ tocopen: true
 categories:
  - Example
 date: 2020-09-27T17:44:04+02:00
-cover: "/media/home-page.png"
+cover: "https://subversive-eu.github.io/hugo-subversive/media/home-page.png"
 ---
 
 I will show you some extras about Markdown, css, and shortcode.
