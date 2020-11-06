@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/categories/d%C3%A9mocratie/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>en</language><lastBuildDate>Wed, 30 Sep 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/d%C3%A9mocratie/index.xml" rel="self" type="application/rss+xml"/><item><title>Article1</title><link>https://subversive-eu.github.io/hugo-subversive/posts/article1/</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/article1/</guid><description>&lt;p>This is an example and a work base for trying new feature
 Cet article permet de tester des markups, des shortcodes, des variables et environnements&lt;/p>
 &lt;h2 id="image">Image&lt;/h2>
+&lt;h3 id="classic-markdown">Classic markdown&lt;/h3>
 &lt;p>&lt;p align="center">
 &lt;img class="image-css"
 src="https://subversive-eu.github.io/hugo-subversive/media/logo.png" alt="Drag Racing" title="coucou" />
@@ -11,6 +12,51 @@ src="https://subversive-eu.github.io/hugo-subversive/media/logo.png" alt="Drag R
 src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png" alt="" title="roman empire" />
 &lt;/p>
 &lt;/p>
+&lt;h3 id="figure-shortcode-with-css">figure shortcode with css&lt;/h3>
+&lt;figure class="no-class">
+&lt;img src="https://subversive-eu.github.io/hugo-subversive/media/logo.png"
+alt="image"/> &lt;figcaption>
+&lt;p>coucou&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure class="no-class">
+&lt;img src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png"
+alt="image"/> &lt;figcaption>
+&lt;p>roman empire&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>It&amp;rsquo;s better no ??&lt;br>
+Let&amp;rsquo;s check more !&lt;/p>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;p>&lt;figure class="right">
+&lt;img src="https://via.placeholder.com/400x280"
+alt="image"/> &lt;figcaption>
+&lt;p>figure-right&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;figure class="left">
+&lt;img src="https://via.placeholder.com/400x280"
+alt="image"/> &lt;figcaption>
+&lt;p>figure-left&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&lt;figure>
+&lt;img src="https://via.placeholder.com/1600x800"
+alt="image"/> &lt;figcaption>
+&lt;p>figure-normal (without any classes)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
+&lt;figure class="big">
+&lt;img src="https://via.placeholder.com/1600x800"
+alt="image"/> &lt;figcaption>
+&lt;p>figure-big&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
 &lt;h2 id="postmeta">PostMeta&lt;/h2>
 &lt;p>links :&lt;br>
 &lt;!-- raw HTML omitted -->télécharger le pdf&lt;!-- raw HTML omitted -->

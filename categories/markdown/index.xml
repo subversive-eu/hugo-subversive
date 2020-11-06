@@ -11,6 +11,88 @@
 &lt;h2 id="paragraph">Paragraph&lt;/h2>
 &lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
 &lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
+&lt;h2 id="tabs">Tabs&lt;/h2>
+&lt;div class="book-tabs">
+&lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
+&lt;label for="tabs-uniqueid-0">MacOS&lt;/label>
+&lt;div class="book-tabs-content markdown-inner">&lt;h1 id="macos-content">MacOS Content&lt;/h1>
+&lt;/div>
+&lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-1" />
+&lt;label for="tabs-uniqueid-1">Linux&lt;/label>
+&lt;div class="book-tabs-content markdown-inner">&lt;h1 id="linux-content">Linux Content&lt;/h1>
+&lt;/div>
+&lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-2" />
+&lt;label for="tabs-uniqueid-2">Windows&lt;/label>
+&lt;div class="book-tabs-content markdown-inner">&lt;h1 id="windows-content">Windows Content&lt;/h1>
+&lt;/div>&lt;/div>
+&lt;h2 id="buttons">Buttons&lt;/h2>
+&lt;a href="https://youtu.be/QRcrsHro6xI" target="_blank" class="sample-btn">
+Go Home
+&lt;/a>
+&lt;a href="https://github.com/subversive-eu/hugo-subversive" target="_blank" class="sample-btn">
+Contribute
+&lt;/a>
+&lt;h2 id="colunms">Colunms&lt;/h2>
+&lt;div class="book-columns flex flex-wrap">
+&lt;div class="flex-even markdown-inner">
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="left-content">Left Content&lt;/h3>
+&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="mid-content">Mid Content&lt;/h3>
+&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!
+&lt;/div>
+&lt;div class="flex-even markdown-inner">
+&lt;!-- raw HTML omitted -->
+&lt;h3 id="right-content">Right Content&lt;/h3>
+&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+&lt;/div>
+&lt;/div>
+&lt;h2 id="details">Details&lt;/h2>
+&lt;div class="book-expand">
+&lt;label>
+&lt;div class="book-expand-head flex justify-between">
+&lt;span>Expand
+&lt;/span>
+&lt;span>↕&lt;/span>
+&lt;/div>
+&lt;input type="checkbox" class="hidden" />
+&lt;div class="book-expand-content markdown-inner">
+&lt;h4 id="markdown-content">Markdown content&lt;/h4>
+&lt;p>Lorem markdownum insigne&amp;hellip;
+&lt;/div>
+&lt;/label>
+&lt;/div>
+&lt;div class="book-expand">
+&lt;label>
+&lt;div class="book-expand-head flex justify-between">
+&lt;span>Custom label
+&lt;/span>
+&lt;span>↕&lt;/span>
+&lt;/div>
+&lt;input type="checkbox" class="hidden" />
+&lt;div class="book-expand-content markdown-inner">
+&lt;h4 id="markdown-content">Markdown content&lt;/h4>
+&lt;p>Lorem markdownum insigne&amp;hellip;
+&lt;/div>
+&lt;/label>
+&lt;/div>
+&lt;div class="book-expand">
+&lt;label>
+&lt;div class="book-expand-head flex justify-between">
+&lt;span>Custom Label
+&lt;/span>
+&lt;span>...&lt;/span>
+&lt;/div>
+&lt;input type="checkbox" class="hidden" />
+&lt;div class="book-expand-content markdown-inner">
+&lt;h4 id="markdown-content">Markdown content&lt;/h4>
+&lt;p>Lorem markdownum insigne&amp;hellip;
+&lt;/div>
+&lt;/label>
+&lt;/div>
 &lt;h2 id="blockquotes">Blockquotes&lt;/h2>
 &lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
 &lt;h4 id="blockquote-without-attribution">Blockquote without attribution&lt;/h4>
@@ -24,6 +106,55 @@
 — &lt;!-- raw HTML omitted -->Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="tables">Tables&lt;/h2>
+&lt;p>Table:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Left-Aligned&lt;/th>
+&lt;th style="text-align:center">Center Aligned&lt;/th>
+&lt;th style="text-align:right">Right Aligned&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">col 3 is&lt;/td>
+&lt;td style="text-align:center">some wordy text&lt;/td>
+&lt;td style="text-align:right">$1600&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">col 2 is&lt;/td>
+&lt;td style="text-align:center">centered&lt;/td>
+&lt;td style="text-align:right">$12&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">zebra stripes&lt;/td>
+&lt;td style="text-align:center">are neat&lt;/td>
+&lt;td style="text-align:right">$1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Left-Aligned&lt;/th>
+&lt;th style="text-align:center">Center Aligned&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">col 3 is&lt;/td>
+&lt;td style="text-align:center">$1600&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">col 2 is&lt;/td>
+&lt;td style="text-align:center">$12&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">zebra stripes&lt;/td>
+&lt;td style="text-align:center">$1&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
 &lt;table>
 &lt;thead>
@@ -60,7 +191,7 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h3 id="highlight">Highlight&lt;/h3>
+&lt;h2 id="highlight">Highlight&lt;/h2>
 &lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-angular2" data-lang="angular2">highlight shortcode Here testing angular2&lt;/code>&lt;/pre>&lt;/div>
 &lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode" >check More here&lt;/a>&lt;/p>
 &lt;h2 id="code-blocks">Code Blocks&lt;/h2>
