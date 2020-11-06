@@ -5,16 +5,12 @@ paginate: 5
 languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: true
-theme: hugo-subversive
+theme: testing
 
 enableRobotsTXT: true
-buildFuture: false
-buildExpored: false
 
 # I use this because problems with my github pages.
-#uglyurls: true
 canonifyURLs: true
-#relativeURLs: true
 
 params:
   env: production # enable google analytics, opengraph, twitter-cards and schema.
@@ -84,3 +80,15 @@ privacy:
   youtube:
     disable: false
     privacyEnhanced: true
+
+# RSS feed
+
+outputs:
+  home:
+  - HTML
+  - RSS
+
+outputsFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed"
