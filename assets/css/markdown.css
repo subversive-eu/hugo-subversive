@@ -198,7 +198,6 @@
 .highlight {
     position: relative;
 }
-
 .highlight-copy-btn {
     position: absolute;
     top: 3%;
@@ -213,9 +212,8 @@
     opacity: 0.6;
     min-width: 55px;
     text-align: center;
-    cursor:pointer
+    cursor:pointer;
 }
-
 .highlight-copy-btn:hover {
     background-color: #666;
 }

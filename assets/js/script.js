@@ -18,11 +18,6 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
-// Input Masked !
-$(":input").inputmask();
-$("#hide").inputmask({"mask": "(999) 999-9999"});
-
-
 // copybutton Js
 /**
  * Utils
