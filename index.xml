@@ -156,22 +156,103 @@ The default.md is add to your new page.&lt;/p>
 -
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>You can use &lt;code>true or false&lt;/code>.&lt;/p></description></item><item><title>Features/Mod</title><link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link><pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid><description>&lt;p>List of all features/Mod for this Subversive theme.&lt;/p>
 &lt;p>​&lt;/p>
-&lt;h1 id="guide">Guide&lt;/h1>
-&lt;h2 id="extras">Extras&lt;/h2>
-&lt;h3 id="page-variables">Page-Variables&lt;/h3>
-&lt;ul>
-&lt;li>showtoc: true / false&lt;/li>
-&lt;li>tocopen: true / false&lt;/li>
-&lt;li>hidemeta: true / false&lt;/li>
-&lt;li>disableShare: true / false&lt;/li>
-&lt;li>draft: true / false&lt;/li>
-&lt;li>comments: true / false&lt;/li>
-&lt;/ul>
+&lt;h1 id="supported">Supported&lt;/h1>
+&lt;h2 id="page-varaibles">Page-Varaibles&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Variables&lt;/th>
+&lt;th style="text-align:center">Type&lt;/th>
+&lt;th style="text-align:right">Value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">showtoc&lt;/td>
+&lt;td style="text-align:center">boolean&lt;/td>
+&lt;td style="text-align:right">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">tocopen&lt;/td>
+&lt;td style="text-align:center">boolean&lt;/td>
+&lt;td style="text-align:right">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">hidemeta&lt;/td>
+&lt;td style="text-align:center">boolean&lt;/td>
+&lt;td style="text-align:right">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">disableShare&lt;/td>
+&lt;td style="text-align:center">boolean&lt;/td>
+&lt;td style="text-align:right">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">draft&lt;/td>
+&lt;td style="text-align:center">boolean&lt;/td>
+&lt;td style="text-align:right">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">comments&lt;/td>
+&lt;td style="text-align:center">boolean&lt;/td>
+&lt;td style="text-align:right">true&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables" title="page-variable" >See more&lt;/a>&lt;/p>
-&lt;h3 id="social-media">Social-Media&lt;/h3>
-&lt;h4 id="svg-icons">SVG icons&lt;/h4>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >List of svg icons&lt;/a>&lt;/p>
-&lt;h4 id="share-buttons-">Share Buttons :&lt;/h4>
+&lt;hr>
+&lt;h2 id="site-variables">Site-Variables&lt;/h2>
+&lt;p>Check here for &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml" >config&lt;/a>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:left">Variables&lt;/th>
+&lt;th style="text-align:center">Type&lt;/th>
+&lt;th style="text-align:right">Value&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:left">ShowReadingTime&lt;/td>
+&lt;td style="text-align:center">boolean&lt;/td>
+&lt;td style="text-align:right">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">ShowShareButtons&lt;/td>
+&lt;td style="text-align:center">boolean&lt;/td>
+&lt;td style="text-align:right">true&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:left">Comments&lt;/td>
+&lt;td style="text-align:center">boolean&lt;/td>
+&lt;td style="text-align:right">true&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="css-tricks">Css-Tricks&lt;/h2>
+&lt;p>There is a lot of css options for class, use it like bootstrapp :&lt;/p>
+&lt;ul>
+&lt;li>options class=&amp;quot;&amp;quot; :
+&lt;ul>
+&lt;li>text-justify&lt;/li>
+&lt;li>text-center&lt;/li>
+&lt;li>no-deco =&amp;ldquo;text-decoration:none&amp;rdquo;&lt;/li>
+&lt;li>float-left&lt;/li>
+&lt;li>float-right&lt;/li>
+&lt;li>a =&amp;ldquo;cursor: pointer&amp;rdquo;&lt;/li>
+&lt;li>justify-between&lt;/li>
+&lt;li>flex&lt;/li>
+&lt;li>flex-even&lt;/li>
+&lt;li>flex-wrap&lt;/li>
+&lt;li>no-list&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Check the css page :&lt;/p>
+&lt;p>&lt;code>\assets\css\default.css&lt;/code>&lt;/p>
+&lt;hr>
+&lt;h2 id="share-options">Share-Options&lt;/h2>
 &lt;p>List of :&lt;/p>
 &lt;ul>
 &lt;li>facebook&lt;/li>
@@ -190,44 +271,55 @@ The default.md is add to your new page.&lt;/p>
 &lt;p>Delete navbarshare in /_default/list.html&lt;/p>
 &lt;/blockquote>
 &lt;hr>
-&lt;h2 id="css-tricks">Css tricks&lt;/h2>
-&lt;p>There is a lot of css options for class, use it like bootstrapp :&lt;/p>
+&lt;h2 id="cover-image">Cover-Image&lt;/h2>
+&lt;p>You can add a cover image to your post like this &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/example/" >one&lt;/a>.&lt;/p>
+&lt;p>About installating check &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#more-options" >here&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2 id="seo">SEO&lt;/h2>
 &lt;ul>
-&lt;li>
-&lt;p>options class=&amp;quot;&amp;quot; :&lt;/p>
-&lt;ul>
-&lt;li>text-justify&lt;/li>
-&lt;li>text-center&lt;/li>
-&lt;li>no-deco =&amp;ldquo;text-decoration:none&amp;rdquo;&lt;/li>
-&lt;li>float-left&lt;/li>
-&lt;li>float-right&lt;/li>
-&lt;li>a =&amp;ldquo;cursor: pointer&amp;rdquo;&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>CSS Minify for perfomance&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Sidebar responsive&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Table of contents&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Footer responsive&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>404 available&lt;/p>
-&lt;/li>
+&lt;li>OpenGraph Support&lt;/li>
+&lt;li>Twitter Card Support&lt;/li>
+&lt;li>RSS Feed with limit &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#all-params" >see config&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;h2 id="site-variables">Site-Variables&lt;/h2>
-&lt;p>Check here for &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml" >config&lt;/a>&lt;/p>
+&lt;h2 id="markdown">Markdown&lt;/h2>
 &lt;ul>
-&lt;li>ShowReadingTime: true / false&lt;/li>
-&lt;li>ShowShareButtons : true / false&lt;/li>
-&lt;li>Comments: true / false&lt;/li>
+&lt;li>Blocquote&lt;/li>
+&lt;li>Syntax Highlighting&lt;/li>
+&lt;li>Render-image&lt;/li>
+&lt;li>Render-link&lt;/li>
+&lt;li>IframePdf&lt;/li>
+&lt;li>Collapse&lt;/li>
+&lt;li>Rawhtml&lt;/li>
+&lt;li>Button&lt;/li>
+&lt;li>Tab/Tabs&lt;/li>
+&lt;li>Details&lt;/li>
+&lt;li>Columns&lt;/li>
+&lt;li>Copy button&lt;/li>
+&lt;li>&lt;/li>
 &lt;/ul>
+&lt;h3 id="social-media">Social-Media&lt;/h3>
+&lt;h4 id="svg-icons">SVG icons&lt;/h4>
+&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >List of svg icons&lt;/a>&lt;/p>
+&lt;h4 id="share-buttons-">Share Buttons :&lt;/h4>
+&lt;p>Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_default/single.html&lt;/p>
+&lt;blockquote>
+&lt;p>You can add it if you want.&lt;/p>
+&lt;/blockquote>
+&lt;p>If you don&amp;rsquo;t want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.&lt;/p>
+&lt;blockquote>
+&lt;p>Delete navbarshare in /_default/list.html&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="css-tricks-1">Css tricks&lt;/h2>
+&lt;ul>
+&lt;li>CSS Minify for perfomance&lt;/li>
+&lt;li>Sidebar responsive&lt;/li>
+&lt;li>Table of contents&lt;/li>
+&lt;li>Footer responsive&lt;/li>
+&lt;li>404 available&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;hr>
 &lt;h2 id="shortcodes--markup">Shortcodes + Markup&lt;/h2>
 &lt;ul>
@@ -813,246 +905,4 @@ Contribute
 &lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=PAAkCSZUG1c" >talk&lt;/a> during Gopherfest, November 18, 2015. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Perfomance with Lighthouse</title><link>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</link><pubDate>Sat, 03 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</guid><description>&lt;p>Stats about lighthouse of this theme.&lt;/p>
-&lt;h2 id="desktop">Desktop&lt;/h2>
-&lt;h3 id="home-page">Home page&lt;/h3>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/home-page-desktop.png" alt="" title="home page lighthouse" />
-&lt;/p>
-&lt;/p>
-&lt;iframe
-class="iframepdf"
-frameborder="0"
-allowfullscreen
-src="https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf"
->
-&lt;/iframe>
-&lt;h2 id="mobile">Mobile&lt;/h2>
-&lt;h3 id="home-page-1">Home page&lt;/h3>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/home-page-mobile.png" alt="" title="home page lighthouse" />
-&lt;/p>
-&lt;/p></description></item><item><title>Archive</title><link>https://subversive-eu.github.io/hugo-subversive/archives/</link><pubDate>Thu, 01 Oct 2020 09:41:48 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/archives/</guid><description/></item><item><title>About</title><link>https://subversive-eu.github.io/hugo-subversive/about/</link><pubDate>Thu, 01 Oct 2020 08:37:55 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/about/</guid><description>&lt;h2 id="about">/about/&lt;/h2>
-&lt;p>Example of using yousite.com/about/ with :&lt;/p>
-&lt;p>ShowToc: true&lt;br>
-hidemeta: true&lt;br>
-tocopen: true&lt;br>
-disableShare: true&lt;/p>
-&lt;p>The html of this page.md comes from /layouts/_default/single.html&lt;/p>
-&lt;p>For this page, you can use in post data :&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">type&lt;/span>: &lt;span style="color:#ae81ff">myabouttype&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;/about/&amp;#34;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Same than archive.md&lt;/p>
-&lt;p>Html will come from &lt;code>/layouts/myabouttype/single.html&lt;/code> You have to make it and personnalize.&lt;/p>
-&lt;h2 id="archives">/archives/&lt;/h2>
-&lt;p>/archives/ come from &lt;code>/layouts/myarchivetype/single.html&lt;/code>.&lt;br>
-So, it&amp;rsquo;s become easier to css and personnalize.&lt;/p>
-&lt;h2 id="command">command&lt;/h2>
-&lt;p>&lt;code>hugo new about.md&lt;/code>&lt;br>
-&lt;code>hugo new photos/africa.md&lt;/code>&lt;/p></description></item><item><title>Article1</title><link>https://subversive-eu.github.io/hugo-subversive/posts/article1/</link><pubDate>Wed, 30 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/article1/</guid><description>&lt;p>This is an example and a work base for trying new feature
-Cet article permet de tester des markups, des shortcodes, des variables et environnements&lt;/p>
-&lt;h2 id="image">Image&lt;/h2>
-&lt;h3 id="classic-markdown">Classic markdown&lt;/h3>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/logo.png" alt="Drag Racing" title="coucou" />
-&lt;/p>
-&lt;/p>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png" alt="" title="roman empire" />
-&lt;/p>
-&lt;/p>
-&lt;h3 id="figure-shortcode-with-css">figure shortcode with css&lt;/h3>
-&lt;figure class="no-class">
-&lt;img src="https://subversive-eu.github.io/hugo-subversive/media/logo.png"
-alt="image"/> &lt;figcaption>
-&lt;p>coucou&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure class="no-class">
-&lt;img src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png"
-alt="image"/> &lt;figcaption>
-&lt;p>roman empire&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>It&amp;rsquo;s better no ??&lt;br>
-Let&amp;rsquo;s check more !&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;p>&lt;figure class="right">
-&lt;img src="https://via.placeholder.com/400x280"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-right&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;figure class="left">
-&lt;img src="https://via.placeholder.com/400x280"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-left&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;figure>
-&lt;img src="https://via.placeholder.com/1600x800"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-normal (without any classes)&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;figure class="big">
-&lt;img src="https://via.placeholder.com/1600x800"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-big&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;h2 id="postmeta">PostMeta&lt;/h2>
-&lt;p>links :&lt;br>
-&lt;!-- raw HTML omitted -->télécharger le pdf&lt;!-- raw HTML omitted -->
- · 
-&lt;!-- raw HTML omitted -->imprimer&lt;!-- raw HTML omitted -->
- · 
-&lt;!-- raw HTML omitted -->télécharger format epub&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;h2 id="cover-for-a-post">Cover for a post&lt;/h2>
-&lt;p>cover = &amp;ldquo;&lt;!-- raw HTML omitted -->&amp;rdquo;
-can also paste direct link from external site
-ex. &lt;a href="https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png">https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png&lt;/a>&lt;/p>
-&lt;p>/ Permet d&amp;rsquo;ajouter une image au post.&lt;/p>
-&lt;h2 id="youtube">youtube&lt;/h2>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube-nocookie.com/embed/DWcJFNfaw9c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;h2 id="tweeter">tweeter&lt;/h2>
-&lt;blockquote class="twitter-tweet" data-dnt="true">&lt;p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + &lt;a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify&lt;/a> _redirects etc. file support&lt;a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ&lt;/a> &lt;a href="https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gohugo&lt;/a> &lt;a href="https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw">#golang&lt;/a> &lt;a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13&lt;/a> &lt;a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays&lt;/a>&lt;/p>&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;h2 id="vimeo">vimeo&lt;/h2>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://player.vimeo.com/video/146022717?dnt=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
-&lt;/div>
-&lt;h2 id="footer-hugo-theme">Footer hugo theme&lt;/h2>
-&lt;p>&lt;!-- raw HTML omitted -->Powered by &lt;!-- raw HTML omitted -->Hugo️️&lt;!-- raw HTML omitted -->️&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->·&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->Theme️ &lt;!-- raw HTML omitted -->PaperMod&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p></description></item><item><title>Example</title><link>https://subversive-eu.github.io/hugo-subversive/posts/example/</link><pubDate>Sun, 27 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/example/</guid><description>&lt;p>I will show you some extras about Markdown, css, and shortcodes.
-There is savegame of simple tricks too.&lt;/p>
-&lt;h1 id="image">Image&lt;/h1>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/logo.png" alt="Drag Racing" title="coucou" />
-&lt;/p>
-&lt;/p>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png" alt="" title="roman empire" />
-&lt;/p>
-&lt;/p>
-&lt;h2 id="postmeta">PostMeta&lt;/h2>
-&lt;p>I added this to my personnal website&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> &lt;span style="color:#75715e">&amp;lt;!--- This is the end of meta. not for me. I add some download options + printer option --&amp;gt;&lt;/span>
-&amp;amp;nbsp;·&amp;amp;nbsp;
-&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Télécharger&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/pdf/{{ .Title }}.pdf&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">target&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;noopener noreferrer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">download&lt;/span>&amp;gt;{{ i18n &amp;#34;pdf&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name &lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Imprimer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;javascript:if(window.print)window.print()&amp;#34;&lt;/span>&amp;gt;{{ i18n &amp;#34;print&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Télécharger&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/epub/{{ .Title }}.epub&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">target&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;noopener noreferrer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">download&lt;/span>&amp;gt;{{ i18n &amp;#34;ebook&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;
-&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>Do not forget to add i18n translation for all languages&lt;/li>
-&lt;/ul>
-&lt;h2 id="youtube">youtube&lt;/h2>
-&lt;p>/ cf layouts/shortcodes/youtube.html&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube-nocookie.com/embed/8IZ9Cqi2rGM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;h2 id="tweeter">tweeter&lt;/h2>
-&lt;blockquote class="twitter-tweet" data-dnt="true">&lt;p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + &lt;a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify&lt;/a> _redirects etc. file support&lt;a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ&lt;/a> &lt;a href="https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gohugo&lt;/a> &lt;a href="https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw">#golang&lt;/a> &lt;a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13&lt;/a> &lt;a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays&lt;/a>&lt;/p>&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;h2 id="vimeo">vimeo&lt;/h2>
-&lt;ul>
-&lt;li>Not worked&lt;/li>
-&lt;/ul>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://player.vimeo.com/video/146022717?dnt=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
-&lt;/div>
-&lt;h2 id="instagram">Instagram&lt;/h2>
-&lt;ul>
-&lt;li>there is no way with facebook &amp;hellip;&lt;/li>
-&lt;/ul>
-&lt;h2 id="blockquote">Blockquote&lt;/h2>
-&lt;p>Normal quote:
-&lt;blockquote>
-&lt;p>This is a simple quote.&lt;/p>
-&lt;footer>
-&lt;strong>&lt;/strong>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author
-&lt;blockquote>
-&lt;p>This is a quote with only an Author named Author2.&lt;/p>
-&lt;footer>
-&lt;strong>Author2&lt;/strong>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and source
-&lt;blockquote>
-&lt;p>This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p>
-&lt;footer>
-&lt;strong>Author3&lt;/strong>
-&lt;cite>Source&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and link
-&lt;blockquote>
-&lt;p>This is a quote from Author4 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a>.&lt;/p>
-&lt;footer>
-&lt;strong>Author4&lt;/strong>
-&lt;cite>
-&lt;a href="https://www.google.com" title="https://www.google.com">google.com&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author, link and title
-&lt;blockquote>
-&lt;p>This is a quote from Author5 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a> with title &amp;ldquo;Google.&amp;rdquo;&lt;/p>
-&lt;footer>
-&lt;strong>Author5&lt;/strong>
-&lt;cite>
-&lt;a href="https://www.google.com" title="https://www.google.com">Google&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
-&lt;blockquote>
-&lt;p>This is a quote from Author5 and links to &lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737">https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a> which is longer than 32 characters.
-&lt;!-- raw HTML omitted -->And this is a new line in the quote with the HTML br tag.&lt;/p>
-&lt;footer>
-&lt;strong>Author6&lt;/strong>
-&lt;cite>
-&lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737" title="https://twitter.com/CryptoGangsta/status/716427930126196737">twitter.com/CryptoGangsta/...&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;hr>
-&lt;h2 id="iframe-for-pdf">iframe for pdf&lt;/h2>
-&lt;ul>
-&lt;li>just put the name of you pdf file, and paste it in /static/media/&lt;/li>
-&lt;/ul>
-&lt;iframe
-class="iframepdf"
-frameborder="0"
-allowfullscreen
-src="https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf"
->
-&lt;/iframe>
-&lt;h1 id="conclusion">Conclusion&lt;/h1>
-&lt;p>Do not use Instagram ? or Vimeo ? I hope will work on soon.&lt;/p></description></item></channel></rss>
+&lt;/section></description></item></channel></rss>
