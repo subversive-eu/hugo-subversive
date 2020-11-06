@@ -12,13 +12,14 @@ date: 2020-10-04T17:44:04+02:00
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 <!--more-->
 
+# H1
+
 [Link](https://www.markdownguide.org/basic-syntax/) to the best Markdown Syntax Guide Ever !
 
 ## Headings
 
 The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
-# H1
 ## H2
 ### H3
 #### H4
@@ -43,7 +44,6 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 {{< button href="https://youtu.be/QRcrsHro6xI" class="" >}}Go Home{{< /button >}}
 
-
 {{< button href="https://github.com/subversive-eu/hugo-subversive" class="" >}}Contribute{{< /button >}}
 
 ## Colunms
@@ -63,7 +63,6 @@ Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat str
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
 {{< /columns >}}
 
-
 ## Details
 
 {{< details >}}
@@ -81,8 +80,9 @@ Lorem markdownum insigne...
 Lorem markdownum insigne...
 {{< /details >}}
 
+## Blockquote
 
-## Blockquotes
+### Blockquote sample
 
 The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
 
@@ -98,10 +98,64 @@ The blockquote element represents content that is quoted from another source, op
 
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
 
+### Blockquote Hard
+
+Normal quote:
+{{< blockquote >}}
+  This is a simple quote.
+{{< /blockquote >}}
+
+Quote with author
+{{< blockquote author="Author2" >}}
+  This is a quote with only an Author named Author2.
+{{< /blockquote >}}
+
+Quote with author and source
+{{< blockquote author="Author3" source="Source" >}}
+  This is a quote from Author3 and source "source."
+{{< /blockquote >}}
+
+Quote with author and link
+{{< blockquote author="Author4" link="https://www.google.com" >}}
+  This is a quote from Author4 and links to https://www.google.com.
+{{< /blockquote >}}
+
+Quote with author, link and title
+{{< blockquote author="Author5" link="https://www.google.com" title="Google" >}}
+  This is a quote from Author5 and links to https://www.google.com with title "Google."
+{{< /blockquote >}}
+
+Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+{{< blockquote author="Author6" link="https://twitter.com/CryptoGangsta/status/716427930126196737" >}}
+  This is a quote from Author5 and links to https://twitter.com/CryptoGangsta/status/716427930126196737 which is longer than 32 characters.
+  <br>And this is a new line in the quote with the HTML br tag.
+{{< /blockquote >}}
+
+## figure
+
+Figure (image insertion) playing with text !
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+{{< figure src="https://via.placeholder.com/400x280" alt="image" caption="figure-right" class="right" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+{{< figure src="https://via.placeholder.com/400x280" alt="image" caption="figure-left" class="left" >}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-normal (without any classes)" >}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+{{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-big" class="big" >}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
 ## Tables
 
 Table:
-
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ | :-------------: | ------------: |
@@ -115,7 +169,6 @@ Table:
 | col 2 is      |            $12 |
 | zebra stripes |             $1 |
 
-
 Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
 
    Name | Age
@@ -128,7 +181,6 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 | Italics   | Bold     | Code   |
 | --------  | -------- | ------ |
 | *italics* | **bold** | `code` |
-
 
 ## Highlight
 
