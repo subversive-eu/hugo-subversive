@@ -11,10 +11,13 @@ date: 2020-10-03T17:44:04+02:00
 Stats about lighthouse of this theme.
 <!--more-->
 
+There is a simple gtmetrix report  too.
+
+Soon, example.md SEO.
+
 ## Desktop
 
 ### Home page
-
 
 ![](/media/home-page-desktop.png "home page lighthouse")
 

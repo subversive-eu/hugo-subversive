@@ -3,35 +3,71 @@ title: "Example"
 author: subversive.eu
 ShowToc: true
 draft: true
+tocopen: true
 categories:
  - Example
 date: 2020-09-27T17:44:04+02:00
+cover: "/media/home-page.png"
 ---
 
-I will show you some extras about Markdown, css, and shortcodes.
-There is savegame of simple tricks too.
-
+I will show you some extras about Markdown, css, and shortcode.
+There is backup of simple tricks too.
 <!--more-->
 
-# Image
+Example post for demonstration.
+The TOC is open.
+
+See [raw article](https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/example.md)
+
+## Image
+
+### Classic markdown
 
 ![Drag Racing](/media/logo.png "coucou")
 
 ![](/media/roman300AD.png "roman empire")
 
+### figure shortcode with css
+
+{{< figure src="/media/logo.png" alt="image" caption="coucou" class="no-class" >}}
+
+{{< figure src="/media/roman300AD.png" alt="image" caption="roman empire" class="no-class" >}}
+
+It's better no ??
+
+Let's check more !
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+{{< figure src="https://via.placeholder.com/400x280" alt="image" caption="figure-right" class="right" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+{{< figure src="https://via.placeholder.com/400x280" alt="image" caption="figure-left" class="left" >}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-normal (without any classes)" >}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+{{< figure src="https://via.placeholder.com/1600x800" alt="image" caption="figure-big" class="big" >}}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 ## PostMeta
 
-I added this to my personnal website
+I added this to my personnal website :
+
+> I was thinking about not using sample-btn css.
 
 ```html
-      <!--- This is the end of meta. not for me. I add some download options + printer option -->
+      <!--- I add some download options + printer option -->
       &nbsp;·&nbsp;
       <button class="sample-btn">
       <a name="Télécharger" href="/pdf/{{ .Title }}.pdf" target="_blank" rel="noopener noreferrer" download>{{ i18n "pdf" }}</a>
       </button>&nbsp;·&nbsp;<button class="sample-btn">
       <a name ="Imprimer" href="javascript:if(window.print)window.print()">{{ i18n "print" }}</a>
-      </button>&nbsp;·&nbsp;<button class="sample-btn">
-        <a name="Télécharger" href="/epub/{{ .Title }}.epub" target="_blank" rel="noopener noreferrer" download>{{ i18n "ebook" }}</a>
       </button>&nbsp;·&nbsp;
 ```
 
@@ -39,17 +75,15 @@ I added this to my personnal website
 
 ## youtube
 
-/ cf layouts/shortcodes/youtube.html
-
 {{< youtube "8IZ9Cqi2rGM" >}}
 
 ## tweeter
 
+* With mobile, Tweeter appear simple blockquote.
+
 {{< tweet 877500564405444608 >}}
 
 ## vimeo
-
-* Not worked 
 
 {{< vimeo 146022717 >}}
 
@@ -57,7 +91,7 @@ I added this to my personnal website
 
 * there is no way with facebook ...
 
-## Blockquote
+## Blockquote hard
 
 Normal quote:
 {{< blockquote >}}
@@ -100,4 +134,4 @@ Quote with author and a link longer than 32 characters, string is first cut at 3
 
 # Conclusion
 
-Do not use Instagram ? or Vimeo ? I hope will work on soon.
+Do not use Instagram ? I hope will work on soon.

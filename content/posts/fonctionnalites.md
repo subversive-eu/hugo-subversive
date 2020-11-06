@@ -1,5 +1,5 @@
 ---
-title: "Features/Mod"
+title: "Features / Mod"
 author: subversive.eu
 ShowToc: true
 draft: false
@@ -147,7 +147,8 @@ Indicator : ```[Draft]```
 * Responsive Sidebar
 * Css + js + html minify for performance
 * Scroll to top button
-* 
+
+
 ---
 
 

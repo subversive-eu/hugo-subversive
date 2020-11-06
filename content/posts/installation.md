@@ -121,59 +121,83 @@ Use shortcode :
 * [Example]()
 
 [button](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/button.html)
-> 
-### Youtube
 
-Youtube video without cookie, and privacy (Only European).
+### Tab/Tabs
 
-> [hugo-privacy-settings](https://gohugo.io/about/hugo-and-gdpr/#all-privacy-settings).
+Use shortcode. Check markdownsyntax.md
 
-### Image 
+* [Example]()
 
-> /your-theme/layouts/_default/_markup/render-image.html
+[Tab](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tab.html)
+[Tabs](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tabs.html)
 
-### links
+### Details
 
-> /your-theme/layouts/_default/_markup/render-link.html
+Use shortcode. Check markdownsyntax.md
+
+* [Example]()
+
+[Details](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/details.html)
+
+### Columns
+
+Use shortcode. Check markdownsyntax.md
+
+* [Example]()
+
+[Columns](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/columns.html)
+
+### Copy button
+
+There is a copy button for code text class="highlight".
+
+[Check script.js](https://github.com/subversive-eu/hugo-subversive/blob/main/assets/js/script.js)
+
 
 ### other shortcodes
 
 - rawhtml.html
 - collapse.html 
 
-
-> {< iframepdf doc_name >}
-
 ---
 
-## Menu with svg icons
+## Cover Image
+
+Used to add a post header image.
+
+```cover: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"```
+
+With a direct link too.
+Or a file from your \static\
+
+## SVG icons tricks
 
 You can add, what you want.
 
 Check the [list of icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/) or add some in /your-theme/layouts/partials/svg.html
 
-### Right-menu | Social-icons
+### Social-icons
 
-This params will appear in the right of the menu.
+This params will appear in the middle of the sidebar.
 
 > In config -> name: nameofsvg.  
 
 {{< highlight yml >}}
-* params:  
- * socialIcons:  
-    - name: rss  
-      url: 'posts/index.xml'  
-    - name: github  
-      url: 'https://github.com/subversive-eu/hugo-theme-subversive'  
+ params:  
+  socialIcons:  
+   - name: rss  
+    url: 'posts/index.xml'  
+   - name: github  
+     url: 'https://github.com/subversive-eu/hugo-theme-subversive'  
 {{< / highlight >}}
 
-### Left-menu | Page-icons
+### Page-icons
 
-Main menu, in the left.  
+Main menu : 
 
 {{< highlight yml >}}
-* params:
- * menu:
+  params:
+   menu:
     - name: home
       url: '/'
       weight: 5
