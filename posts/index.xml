@@ -661,15 +661,15 @@ Or a file from your \static\&lt;/p>
 &lt;div class="book-tabs">
 &lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
 &lt;label for="tabs-uniqueid-0">MacOS&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;h1 id="macos-content">MacOS Content&lt;/h1>
-&lt;/div>
+&lt;div class="book-tabs-content markdown-inner">&lt;h3 id="macos-content">MacOS Content&lt;/h3>
+&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.&lt;/div>
 &lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-1" />
 &lt;label for="tabs-uniqueid-1">Linux&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;h1 id="linux-content">Linux Content&lt;/h1>
+&lt;div class="book-tabs-content markdown-inner">&lt;h3 id="linux-content">Linux Content&lt;/h3>
 &lt;/div>
 &lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-2" />
 &lt;label for="tabs-uniqueid-2">Windows&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;h1 id="windows-content">Windows Content&lt;/h1>
+&lt;div class="book-tabs-content markdown-inner">&lt;h3 id="windows-content">Windows Content&lt;/h3>
 &lt;/div>&lt;/div>
 &lt;h2 id="buttons">Buttons&lt;/h2>
 &lt;a href="https://youtu.be/QRcrsHro6xI" target="_blank" class="sample-btn">

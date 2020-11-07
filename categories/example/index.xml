@@ -154,16 +154,5 @@ alt="image"/> &lt;figcaption>
 &lt;/blockquote>
 &lt;/p>
 &lt;hr>
-&lt;h2 id="iframe-for-pdf">iframe for pdf&lt;/h2>
-&lt;ul>
-&lt;li>just put the name of you pdf file, and paste it in /static/media/&lt;/li>
-&lt;/ul>
-&lt;iframe
-class="iframepdf"
-frameborder="0"
-allowfullscreen
-src="https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf"
->
-&lt;/iframe>
 &lt;h2 id="conclusion">Conclusion&lt;/h2>
 &lt;p>Do not use Instagram ? I hope will work on soon.&lt;/p></description></item></channel></rss>
