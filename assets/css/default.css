@@ -209,7 +209,7 @@ body{
 	transition-duration: 0.4s;
 	color: #f8f9fa;
 	background-color: #343a40;
-	   border: 2px solid #282D32;
+	border: 2px solid #282D32;
 	border-radius: 2px;
 }
 .toc details summary {
@@ -225,14 +225,60 @@ body{
 }
 .toc blockquote{
 	border-left: 2px solid;
-	margin: 20px;
 }
-.toc li ul{
-	margin-left: 10px;
-}
-.toc blockquote ul{
-	margin-left: 10px;
-}
+
 .toc a:hover{
 	font-weight: bold;
 }
+
+/* Table Of Contents
+-------------------------------------------------------------------------- */
+/* working for anchor problems Table Of Contents vertical align.
+:target {
+	margin-top: -25px;
+	border-top: 60px solid transparent;
+	background-clip: padding-box;
+  }
+  
+  .toc {
+	margin-bottom: 40px;
+	margin: 5px;
+	padding: 8px 16px;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	color: #f8f9fa;
+	background-color: #343a40;
+	   border: 2px solid #282D32;
+	border-radius: 2px;
+  }
+  .toc:hover{
+	background-color: #f8f9fa;
+	color:#343a40;
+  }
+  .toc details summary {
+	  cursor: zoom-in;
+	  margin-left: 20px;
+  }
+  
+  .toc details[open] summary {
+	  cursor: zoom-out;
+  }
+  
+  .toc .details {
+	  display: inline;
+	  font-weight: 500;
+  }
+  
+  .toc blockquote {
+	border-left: 2px solid;
+	margin: 20px;
+	padding: 10px 40px;
+  }
+  
+  .toc li ul {
+	  margin-left: 20px;
+  }
+  .toc a:hover{
+	font-weight: bold;
+  }
