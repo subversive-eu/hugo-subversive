@@ -225,6 +225,7 @@ body{
 }
 .toc blockquote{
 	border-left: 2px solid;
+	margin-left: 5px;
 }
 
 .toc a:hover{
