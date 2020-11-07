@@ -107,7 +107,13 @@ css : sources-link
 
 ### Pdf Reader
 
-Use shortcode ```{{< iframepdf nameofyourpdf >}}```
+Use shortcode 
+
+{{< highlight go >}}
+
+{{< iframepdf nameofyourpdf >}}```
+
+{{< / highlight >}}
 
 > ```\static\media\nameofyourpdf.pdf```
 
