@@ -214,7 +214,7 @@ body{
 }
 .toc details summary {
 	  cursor: zoom-in;
-	  margin-left: 20px;
+	  margin-left: 10px;
 }
 .toc details[open] summary {
 	  cursor: zoom-out;
@@ -225,14 +225,14 @@ body{
 }
 .toc blockquote {
 	border-left: 2px solid;
-	padding: 10px;
+	margin: 20px;
+	padding: 10px 40px;
 }
-.toc blockquote ul{
-	margin-left: 5px;
-}
-.toc blockquote ul ul{
+  
+.toc li ul {
 	margin-left: 10px;
 }
+
 .toc a:hover{
 	font-weight: bold;
 }

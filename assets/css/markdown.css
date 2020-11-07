@@ -156,11 +156,6 @@
     border-left: 2px solid grey;
 }
 .post-content hr {
-/*
-    margin: 15px;
-    height: 2px;
-    background: gray;
-*/
     margin: 2rem;
     height: 3px;
     background: rgba(0, 0, 0, 0.16);
