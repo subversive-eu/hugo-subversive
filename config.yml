@@ -12,6 +12,12 @@ enableRobotsTXT: true
 # I use this because problems with my github pages.
 canonifyURLs: true
 
+# rise perfomance
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
 params:
   env: production # enable google analytics, opengraph, twitter-cards and schema.
   description: 'Theme Subversive- https://github.com/subversive-eu/hugo-subversive'
@@ -21,6 +27,7 @@ params:
   contentTypeName: posts
   ShowShareButtons: true
   comments: false
+  disableShare: false
 
   homeInfoParams:
     Title: "Rhello \U0001F44B"

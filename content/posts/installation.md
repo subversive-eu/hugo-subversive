@@ -79,9 +79,9 @@ The full markdownsyntax.md [here](https://raw.githubusercontent.com/subversive-e
 
 ### Blockquote
 
-* [Example hard level](#)
-* [Sample example](#)
-(link error ? // Enrichir le markdown syntax...)
+* [Example hard level](https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#blockquote-hard)
+* [Sample example](https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#blockquote-sample)
+
 
 > [blockquote.html](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/blockquote.html)
 
@@ -89,69 +89,74 @@ The full markdownsyntax.md [here](https://raw.githubusercontent.com/subversive-e
 
 #### Image
 
-[render-image.html](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-image.html)
-> css : image-css
+css : image-css
+
+> [render-image.html](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-image.html)
 
 #### Figure
 
-I recommand you to use this because it's responsive and beautifull !!
+**I recommand you to use this because it's responsive and beautifull !!**
 
-* [Example]()
+* [Example](https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#figure)
 
 ### Render-Link
 
-[render-link.html](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-link.html)
+css : sources-link
 
-> css : sources-link
+> [render-link.html](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-link.html)
 
 ### Pdf Reader
 
-Use shortcode ```{{ iframepdf nameofyourpdf }}```
+Use shortcode ```{{< iframepdf nameofyourpdf >}}```
 
 > ```\static\media\nameofyourpdf.pdf```
 
-[iframepdf](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/iframepdf.html)
+> [iframepdf](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/iframepdf.html)
 
 ### Button
 
 Use shortcode :
 
+```go
+
 {{< button href="Link.com" class="" >}}Display Content{{< /button >}}
 
-* [Example]()
+```
 
-[button](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/button.html)
+* [Example](https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#buttons)
+
+> [button](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/button.html)
 
 ### Tab/Tabs
 
 Use shortcode. Check markdownsyntax.md
 
-* [Example]()
+* [Example](https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#tabs)
 
-[Tab](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tab.html)
-[Tabs](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tabs.html)
+> [Tab](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tab.html)
+> [Tabs](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tabs.html)
 
 ### Details
 
 Use shortcode. Check markdownsyntax.md
 
-* [Example]()
+* [Example](https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#details)
 
-[Details](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/details.html)
+> [Details](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/details.html)
 
 ### Columns
 
 Use shortcode. Check markdownsyntax.md
 
-* [Example]()
+* [Example](https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#colunms)
 
-[Columns](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/columns.html)
+> [Columns](https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/columns.html)
 
 ### Copy button
 
-There is a copy button for code text class="highlight".
+There is a copy button for code text ```class="highlight"```.
 
-[Check script.js](https://github.com/subversive-eu/hugo-subversive/blob/main/assets/js/script.js)
+> [Check script.js](https://github.com/subversive-eu/hugo-subversive/blob/main/assets/js/script.js)
 
 
 ### other shortcodes
@@ -167,14 +172,14 @@ Used to add a post header image.
 
 ```cover: "https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png"```
 
-With a direct link too.
-Or a file from your \static\
+With a direct link like this |^ .
+Or a file from your ```\static\media\nameofyourfile.pdf```
 
 ## SVG icons tricks
 
 You can add, what you want.
 
-Check the [list of icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/) or add some in /your-theme/layouts/partials/svg.html
+Check the [list of icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/) or add some in ```/your-theme/layouts/partials/svg.html```
 
 ### Social-icons
 

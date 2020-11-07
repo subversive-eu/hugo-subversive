@@ -46,7 +46,7 @@ git pull
 
 ```html
 
-  git submodule add https://github.com/subversive-eu/hugo-subversive.git hugo-subversive
+git submodule add https://github.com/subversive-eu/hugo-subversive.git hugo-subversive
 
 ```
 
@@ -121,6 +121,7 @@ params:
   comments: false
   disableSpecial1stPost : false
   contentTypeName: posts
+  disableShare: false
   keyword: 'hugo, hugo-theme, subversive'
 
   homeInfoParams:
@@ -188,6 +189,9 @@ privacy:
   youtube:
     disabled: false
     privacyEnhanced: true
+
+# RSS feed
+rsslimit: 10
 
 ```
 

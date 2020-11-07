@@ -17,12 +17,12 @@ List of all features/Mod for this Subversive theme.
 
 | Variables    |  Type   |        Value |
 | :----------- | :-----: | -----------: |
-| showtoc      | boolean | true | false |
-| tocopen      | boolean | true | false |
-| hidemeta     | boolean | true | false |
-| disableShare | boolean | true | false |
-| draft        | boolean | true | false |
-| comments     | boolean | true | false |
+| showtoc      | boolean | true / false |
+| tocopen      | boolean | true / false |
+| hidemeta     | boolean | true / false |
+| disableShare | boolean | true / false |
+| draft        | boolean | true / false |
+| comments     | boolean | true / false |
 
 [See more](https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables "page-variable")
 
@@ -34,9 +34,10 @@ Check here for [config](https://subversive-eu.github.io/hugo-subversive/posts/in
 
 | Variables        |  Type   |        Value |
 | :--------------- | :-----: | -----------: |
-| ShowReadingTime  | boolean | true | false |
-| ShowShareButtons | boolean | true | false |
-| Comments         | boolean | true | false |
+| ShowReadingTime  | boolean | true / false |
+| ShowShareButtons | boolean | true / false |
+| Comments         | boolean | true / false |
+| DisableShare     | boolean | true / false |
 
 ---
 
@@ -50,14 +51,13 @@ There is a lot of css options for class, use it like bootstrapp :
   * no-deco ="text-decoration:none"  
   * float-left  
   * float-right  
-  * a ="cursor: pointer"  
   * justify-between
   * flex
   * flex-even
   * flex-wrap
   * no-list
 
-Check the css page :
+Check the css file :
 
 ```\assets\css\default.css```
 
@@ -74,11 +74,11 @@ List of :
 * twitter
 * whatsapp
 
-Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_default/single.html
-> You can add it if you want.
+Be carefull, the Share-bar is not in hidemeta.  
+It in ```\_defaul\baseof.html```.
 
 If you don't want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.
-> Delete navbarshare in /_default/list.html
+> Add disableShare: true in config.yml
 
 ---
 
@@ -130,6 +130,8 @@ See [Markdown Syntax](https://subversive-eu.github.io/hugo-subversive/posts/mark
 
 Indicator : ```[Draft]```
 
+---
+
 ## Add Pages
 
 [Want more page](https://subversive-eu.github.io/hugo-subversive/about/)
@@ -147,5 +149,11 @@ Indicator : ```[Draft]```
 * Responsive Sidebar
 * Css + js + html minify for performance
 * Scroll to top button
+
+---
+
+# Soon
+
+* Link Anchor easier to copy
 
 ---
