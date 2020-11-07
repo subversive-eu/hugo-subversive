@@ -25,15 +25,18 @@
 
 <!--- Table of contents -->
 {{- if .Params.ShowToc }}
-<div class="toc">
-<details {{if .Params.TocOpen }} open{{ end }} class="">
-<summary class="">
-<div class="details">{{- i18n "toc" }}</div>
-</summary>
-<blockquote>
-{{- partial "toc.html" . }}
-</blockquote>
-</details>
+<div class="toc-expand">
+  <label>
+      <div class="toc-expand-head flex justify-between">
+        <span>{{- i18n "toc" }}
+        </span>
+        <span> ↕ </span>
+      </div>
+      <input type="checkbox" class="hidden" />
+      <div class="toc-expand-content markdown-inner">
+      {{- partial "toc.html" . }}
+      </div>
+  </label>
 </div>
 {{- end }}
 

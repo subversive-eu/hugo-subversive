@@ -192,6 +192,7 @@ body{
 .terms-tags a:hover {
 	transform: scale(0.96);
 }
+
 /* Table Of Contents
 -------------------------------------------------------------------------- */
 /* working for anchor problems Table Of Contents vertical align.*/
@@ -200,86 +201,29 @@ body{
 	border-top: 60px solid transparent;
 	background-clip: padding-box;
 }
-.toc {
-	margin-bottom: 40px;
-	margin: 5px;
-	padding: 8px 16px;
-	font-size: 16px;
-	margin: 4px 2px;
-	transition-duration: 0.4s;
-	color: #f8f9fa;
-	background-color: #343a40;
-	border: 2px solid #282D32;
-	border-radius: 2px;
+.toc-expand {
+	margin-top: 16px;
+	margin-bottom: 16px;
+	border: 1px solid grey;
+	border-radius: 4px;
+	overflow: hidden;
 }
-.toc details summary {
-	  cursor: zoom-in;
-	  margin-left: 10px;
+.toc-expand .toc-expand-head {
+    background: grey;
+    padding: 8px 16px;
+    cursor: pointer;
 }
-.toc details[open] summary {
-	  cursor: zoom-out;
-}
-.toc .details{
-	  display: inline;
-	  font-weight: 500;
-}
-.toc blockquote{
+.toc-expand .toc-expand-content {
+    display: none;
+	margin: 3%;
 	border-left: 2px solid;
-	margin-left: 5px;
 }
-
-.toc a:hover{
+.toc-expand input[type="checkbox"]{
+	display: none;
+}
+.toc-expand input[type="checkbox"]:checked + .toc-expand-content {
+    display: block;
+}
+.toc-expand a:hover{
 	font-weight: bold;
 }
-
-/* Table Of Contents
--------------------------------------------------------------------------- */
-/* working for anchor problems Table Of Contents vertical align.
-:target {
-	margin-top: -25px;
-	border-top: 60px solid transparent;
-	background-clip: padding-box;
-  }
-  
-  .toc {
-	margin-bottom: 40px;
-	margin: 5px;
-	padding: 8px 16px;
-	font-size: 16px;
-	margin: 4px 2px;
-	transition-duration: 0.4s;
-	color: #f8f9fa;
-	background-color: #343a40;
-	   border: 2px solid #282D32;
-	border-radius: 2px;
-  }
-  .toc:hover{
-	background-color: #f8f9fa;
-	color:#343a40;
-  }
-  .toc details summary {
-	  cursor: zoom-in;
-	  margin-left: 20px;
-  }
-  
-  .toc details[open] summary {
-	  cursor: zoom-out;
-  }
-  
-  .toc .details {
-	  display: inline;
-	  font-weight: 500;
-  }
-  
-  .toc blockquote {
-	border-left: 2px solid;
-	margin: 20px;
-	padding: 10px 40px;
-  }
-  
-  .toc li ul {
-	  margin-left: 20px;
-  }
-  .toc a:hover{
-	font-weight: bold;
-  }
