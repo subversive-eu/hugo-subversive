@@ -1,1198 +1,1764 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/posts/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>en</language><lastBuildDate>Thu, 08 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://subversive-eu.github.io/hugo-subversive/posts/install/</link><pubDate>Thu, 08 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/install/</guid><description>&lt;p>A sample guide tools about installing hugo theme and Configuration.&lt;/p>
-&lt;h1 id="prerequisite">Prerequisite&lt;/h1>
-&lt;ul>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/getting-started/installing/" >Install hugo&lt;/a>&lt;/li>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/getting-started/quick-start/" >Make your site&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>Minimum version of hugo 0.74.0 .&lt;/p>
-&lt;h1 id="install-theme">Install theme&lt;/h1>
-&lt;p>When your website is on. You will install the theme.&lt;/p>
-&lt;p>Go in the folder /themes/ and run the command :&lt;/p>
-&lt;h2 id="by-clone">by clone&lt;/h2>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subversive Theme</title>
+    <image>
+      <url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url>
+      <title>subversive-eu</title>
+      <link>https://git.io/JUxpD</link>
+    </image>
+    <link>https://subversive-eu.github.io/hugo-subversive/posts/</link>
+
+    <description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description>
+    <language>en</language>
+    
+    
+    
+
+    
+    <lastBuildDate>Thu, 08 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/install/</link>
+      <pubDate>Thu, 08 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/install/</guid>
+      <description>&lt;p&gt;A sample guide tools about installing hugo theme and Configuration.&lt;/p&gt;
+&lt;h1 id=&#34;prerequisite&#34;&gt;Prerequisite&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io/getting-started/installing/&#34; &gt;Install hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34; &gt;Make your site&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Minimum version of hugo 0.74.0 .&lt;/p&gt;
+&lt;h1 id=&#34;install-theme&#34;&gt;Install theme&lt;/h1&gt;
+&lt;p&gt;When your website is on. You will install the theme.&lt;/p&gt;
+&lt;p&gt;Go in the folder /themes/ and run the command :&lt;/p&gt;
+&lt;h2 id=&#34;by-clone&#34;&gt;by clone&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;
 git clone https://github.com/subversive-eu/hugo-subversive.git
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>To update the theme use this :&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To update the theme use this :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;
 cd themes/hugo-PaperMod
 git pull
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="by-submodule">by submodule&lt;/h2>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;by-submodule&#34;&gt;by submodule&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;
 git submodule add https://github.com/subversive-eu/hugo-subversive.git hugo-subversive
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>To update the theme use this :&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To update the theme use this :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;
 git submodule update --remote --merge
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="by-download">by download&lt;/h2>
-&lt;blockquote>
-&lt;p>On github repository, clic on -code (green button) then download zip.&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>Copy and paste the folder in your sitefolder/themes/ rename it by hugo-subversive.&lt;/p>
-&lt;/blockquote>
-&lt;p>To understand the file configuration checkout, and take attention of &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/tree/exampleSite" >exampleSite&lt;/a>&lt;/p>
-&lt;h1 id="configyml">config.yml&lt;/h1>
-&lt;h2 id="theme">theme&lt;/h2>
-&lt;p>In your config file write the name of your folder like this :&lt;/p>
-&lt;p>config.yml :&lt;/p>
-&lt;p>&lt;code>theme: hugo-subversive&lt;/code>&lt;/p>
-&lt;p>config.toml :&lt;/p>
-&lt;p>&lt;code>theme = &amp;quot;hugo-subversive&amp;quot;&lt;/code>&lt;/p>
-&lt;h2 id="all-params">all params&lt;/h2>
-&lt;p>I show you an example config.yml :&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">
-&lt;span style="color:#f92672">baseURL&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://mywebsite.com/&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">mywebsite&lt;/span>
-&lt;span style="color:#f92672">paginate&lt;/span>: &lt;span style="color:#ae81ff">5&lt;/span>
-&lt;span style="color:#f92672">theme&lt;/span>: &lt;span style="color:#ae81ff">hugo-subversive&lt;/span>
-&lt;span style="color:#f92672">author&lt;/span>: &lt;span style="color:#ae81ff">John Mac Artur&lt;/span>
-&lt;span style="color:#f92672">languageCode&lt;/span>: &lt;span style="color:#ae81ff">en&lt;/span>
-&lt;span style="color:#f92672">DefaultContentLanguage&lt;/span>: &lt;span style="color:#ae81ff">en&lt;/span>
-&lt;span style="color:#f92672">enableInlineShortcodes&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">enableRobotsTXT&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">buildDrafts&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">buildFuture&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">buildExpored&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">googleAnalytics&lt;/span>: &lt;span style="color:#ae81ff">UA-423-45&lt;/span>
-&lt;span style="color:#75715e"># rise perfomance&lt;/span>
-&lt;span style="color:#f92672">minify&lt;/span>:
-&lt;span style="color:#f92672">disableXML&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">minifyOutput&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">params&lt;/span>:
-&lt;span style="color:#f92672">env&lt;/span>: &lt;span style="color:#ae81ff">production&lt;/span> &lt;span style="color:#75715e"># enable google analytics, opengraph, twitter-cards and schema.&lt;/span>
-&lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#ae81ff">mywebsite&lt;/span>
-&lt;span style="color:#f92672">description&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;mywebsite&amp;#39;&lt;/span>&lt;span style="color:#ae81ff">s description&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">author&lt;/span>: &lt;span style="color:#ae81ff">John Mac Artur&lt;/span>
-&lt;span style="color:#f92672">images&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;&amp;lt;link or path of image for opengraph, twitter-cards&amp;gt;&amp;#34;&lt;/span>
-&lt;span style="color:#f92672">ShowReadingTime&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">ShowShareButtons&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">comments&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">disableSpecial1stPost &lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">contentTypeName&lt;/span>: &lt;span style="color:#ae81ff">posts&lt;/span>
-&lt;span style="color:#f92672">keyword&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;hugo, hugo-theme, subversive&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">homeInfoParams&lt;/span>:
-&lt;span style="color:#f92672">Title&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Hey \U0001F44B&amp;#34;&lt;/span>
-&lt;span style="color:#f92672">Content&lt;/span>: &lt;span style="color:#ae81ff">Welcome to my super website !! &lt;/span>
-&lt;span style="color:#f92672">socialIcons&lt;/span>:
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">twitter&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://twitter.com/&amp;#39;&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">stackoverflow&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://stackoverflow.com&amp;#39;&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">github&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://github.com/&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">menu&lt;/span>:
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">home&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;/&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">5&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">info&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/about/&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">10&lt;/span>
-&lt;span style="color:#75715e"># - name: tag&lt;/span>
-&lt;span style="color:#75715e"># url: /tags/&lt;/span>
-&lt;span style="color:#75715e"># weight: 15&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">categorie&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/categories/&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">20&lt;/span>
-&lt;span style="color:#75715e"># - name: serie&lt;/span>
-&lt;span style="color:#75715e"># url: /series/&lt;/span>
-&lt;span style="color:#75715e"># weight: 25&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">archive &lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/archives/&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">30&lt;/span>
-&lt;span style="color:#f92672">sitemap&lt;/span>:
-&lt;span style="color:#f92672">changefreq&lt;/span>: &lt;span style="color:#ae81ff">dayly&lt;/span>
-&lt;span style="color:#f92672">filename&lt;/span>: &lt;span style="color:#ae81ff">sitemap.xml&lt;/span>
-&lt;span style="color:#f92672">priority&lt;/span>: &lt;span style="color:#ae81ff">0.5&lt;/span>
-&lt;span style="color:#f92672">markup&lt;/span>:
-&lt;span style="color:#f92672">tableOfContents&lt;/span>:
-&lt;span style="color:#f92672">endLevel&lt;/span>: &lt;span style="color:#ae81ff">3&lt;/span>
-&lt;span style="color:#f92672">ordered&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">startLevel&lt;/span>: &lt;span style="color:#ae81ff">1&lt;/span>
-&lt;span style="color:#f92672">taxonomies&lt;/span>:
-&lt;span style="color:#f92672">category&lt;/span>: &lt;span style="color:#ae81ff">categories&lt;/span>
-&lt;span style="color:#f92672">tag&lt;/span>: &lt;span style="color:#ae81ff">tags&lt;/span>
-&lt;span style="color:#f92672">series&lt;/span>: &lt;span style="color:#ae81ff">series&lt;/span>
-&lt;span style="color:#f92672">privacy&lt;/span>:
-&lt;span style="color:#f92672">vimeo&lt;/span>:
-&lt;span style="color:#f92672">disabled&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">simple&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">twitter&lt;/span>:
-&lt;span style="color:#f92672">disabled&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">enableDNT&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">simple&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">instagram&lt;/span>:
-&lt;span style="color:#f92672">disabled&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">simple&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">youtube&lt;/span>:
-&lt;span style="color:#f92672">disabled&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">privacyEnhanced&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="page-variables">Page Variables&lt;/h1>
-&lt;p>In the root directory of your site, go to /archetypes/default.md&lt;/p>
-&lt;p>This is the schema when you use the command &lt;code>hugo new posts/mypost.md&lt;/code> or &lt;code>hugo new photos.md&lt;/code>.&lt;br>
-The default.md is add to your new page.&lt;/p>
-&lt;p>This is an example :&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">---
-&lt;span style="color:#f92672">title&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;{{ replace .Name &amp;#34;&lt;/span>-&lt;span style="color:#e6db74">&amp;#34; &amp;#34;&lt;/span> &lt;span style="color:#e6db74">&amp;#34; | title }}&amp;#34;&lt;/span>
-&lt;span style="color:#f92672">author&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;{{ .Site.Params.author }}&amp;#34;&lt;/span>
-&lt;span style="color:#f92672">ShowToc&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
-&lt;span style="color:#f92672">draft&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">hidemeta&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">tocopen&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">disableShare&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">categories&lt;/span>:
--
-&lt;span style="color:#f92672">date&lt;/span>: {{ &lt;span style="color:#ae81ff">.Date }}&lt;/span>
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;by-download&#34;&gt;by download&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;On github repository, clic on -code (green button) then download zip.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Copy and paste the folder in your sitefolder/themes/ rename it by hugo-subversive.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;To understand the file configuration checkout, and take attention of &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/tree/exampleSite&#34; &gt;exampleSite&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;configyml&#34;&gt;config.yml&lt;/h1&gt;
+&lt;h2 id=&#34;theme&#34;&gt;theme&lt;/h2&gt;
+&lt;p&gt;In your config file write the name of your folder like this :&lt;/p&gt;
+&lt;p&gt;config.yml :&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;theme: hugo-subversive&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;config.toml :&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;theme = &amp;quot;hugo-subversive&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;all-params&#34;&gt;all params&lt;/h2&gt;
+&lt;p&gt;I show you an example config.yml :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;baseURL&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://mywebsite.com/&amp;#39;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;mywebsite&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;paginate&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;theme&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;hugo-subversive&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;author&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;John Mac Artur&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;languageCode&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;en&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;DefaultContentLanguage&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;en&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;enableInlineShortcodes&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;enableRobotsTXT&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;buildDrafts&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;buildFuture&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;buildExpored&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;googleAnalytics&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;UA-423-45&lt;/span&gt;
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# rise perfomance&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;minify&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;disableXML&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;minifyOutput&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;env&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;production&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;# enable google analytics, opengraph, twitter-cards and schema.&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;mywebsite&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mywebsite&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;s description&amp;#39;&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;author&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;John Mac Artur&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;images&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;lt;link or path of image for opengraph, twitter-cards&amp;gt;&amp;#34;&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;ShowReadingTime&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;ShowShareButtons&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;comments&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;disableSpecial1stPost &lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;contentTypeName&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;posts&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;disableShare&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;keyword&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;hugo, hugo-theme, subversive&amp;#39;&lt;/span&gt;
+
+  &lt;span style=&#34;color:#f92672&#34;&gt;homeInfoParams&lt;/span&gt;:
+    &lt;span style=&#34;color:#f92672&#34;&gt;Title&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hey \U0001F44B&amp;#34;&lt;/span&gt;
+    &lt;span style=&#34;color:#f92672&#34;&gt;Content&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Welcome to my super website !! &lt;/span&gt;
+
+  &lt;span style=&#34;color:#f92672&#34;&gt;socialIcons&lt;/span&gt;:
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;twitter&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://twitter.com/&amp;#39;&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;stackoverflow&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://stackoverflow.com&amp;#39;&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;github&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://github.com/&amp;#39;&lt;/span&gt;
+
+  &lt;span style=&#34;color:#f92672&#34;&gt;menu&lt;/span&gt;:
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;home&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;info&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/about/&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#    - name: tag&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#      url: /tags/&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#      weight: 15&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;categorie&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/categories/&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#    - name: serie&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#      url: /series/&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;#      weight: 25&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;archive   &lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/archives/&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;sitemap&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;changefreq&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;dayly&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;filename&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;sitemap.xml&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;priority&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;0.5&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;markup&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;tableOfContents&lt;/span&gt;:
+    &lt;span style=&#34;color:#f92672&#34;&gt;endLevel&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
+    &lt;span style=&#34;color:#f92672&#34;&gt;ordered&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+    &lt;span style=&#34;color:#f92672&#34;&gt;startLevel&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;taxonomies&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;category&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;categories&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;tag&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;tags&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;series&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;series&lt;/span&gt;
+
+&lt;span style=&#34;color:#f92672&#34;&gt;privacy&lt;/span&gt;:
+  &lt;span style=&#34;color:#f92672&#34;&gt;vimeo&lt;/span&gt;:
+    &lt;span style=&#34;color:#f92672&#34;&gt;disabled&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+    &lt;span style=&#34;color:#f92672&#34;&gt;simple&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+
+  &lt;span style=&#34;color:#f92672&#34;&gt;twitter&lt;/span&gt;:
+    &lt;span style=&#34;color:#f92672&#34;&gt;disabled&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+    &lt;span style=&#34;color:#f92672&#34;&gt;enableDNT&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+    &lt;span style=&#34;color:#f92672&#34;&gt;simple&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+
+  &lt;span style=&#34;color:#f92672&#34;&gt;instagram&lt;/span&gt;:
+    &lt;span style=&#34;color:#f92672&#34;&gt;disabled&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+    &lt;span style=&#34;color:#f92672&#34;&gt;simple&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+
+  &lt;span style=&#34;color:#f92672&#34;&gt;youtube&lt;/span&gt;:
+    &lt;span style=&#34;color:#f92672&#34;&gt;disabled&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+    &lt;span style=&#34;color:#f92672&#34;&gt;privacyEnhanced&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+
+&lt;span style=&#34;color:#75715e&#34;&gt;# RSS feed&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;rsslimit&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;page-variables&#34;&gt;Page Variables&lt;/h1&gt;
+&lt;p&gt;In the root directory of your site, go to /archetypes/default.md&lt;/p&gt;
+&lt;p&gt;This is the schema when you use the command &lt;code&gt;hugo new posts/mypost.md&lt;/code&gt; or &lt;code&gt;hugo new photos.md&lt;/code&gt;.&lt;br&gt;
+The default.md is add to your new page.&lt;/p&gt;
+&lt;p&gt;This is an example :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;---
+&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ replace .Name &amp;#34;&lt;/span&gt;-&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; | title }}&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;author&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;{{ .Site.Params.author }}&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;ShowToc&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;draft&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;hidemeta&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;tocopen&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;disableShare&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;categories&lt;/span&gt;:
+ - 
+&lt;span style=&#34;color:#f92672&#34;&gt;date&lt;/span&gt;: {{ &lt;span style=&#34;color:#ae81ff&#34;&gt;.Date }}&lt;/span&gt;
 ---
-&lt;span style="color:#ae81ff">&amp;lt;!--more--&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="more-options">more options&lt;/h2>
-&lt;p>If you want to personnalize a page you can add this at the top of the page:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#f92672">cover&lt;/span>:
-&lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;&amp;lt;image path/url&amp;gt;&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">alt&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;&amp;lt;alt text&amp;gt;&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">caption&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;&amp;lt;text&amp;gt;&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">comments&lt;/span>: &lt;span style="color:#66d9ef">false&lt;/span>
-&lt;span style="color:#f92672">description&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;description of your page or article&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">tags&lt;/span>:
--
-&lt;span style="color:#f92672">series&lt;/span>:
--
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can use &lt;code>true or false&lt;/code>.&lt;/p></description></item><item><title>Features / Mod</title><link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link><pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid><description>&lt;p>List of all features/Mod for this Subversive theme.&lt;/p>
-&lt;p>​&lt;/p>
-&lt;h1 id="supported">Supported&lt;/h1>
-&lt;h2 id="page-varaibles">Page-Varaibles&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Variables&lt;/th>
-&lt;th style="text-align:center">Type&lt;/th>
-&lt;th style="text-align:right">Value&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">showtoc&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">tocopen&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">hidemeta&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">disableShare&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">draft&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">comments&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables" title="page-variable" >See more&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="site-variables">Site-Variables&lt;/h2>
-&lt;p>Check here for &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml" >config&lt;/a>&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Variables&lt;/th>
-&lt;th style="text-align:center">Type&lt;/th>
-&lt;th style="text-align:right">Value&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">ShowReadingTime&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">ShowShareButtons&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Comments&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;h2 id="css-tricks">Css-Tricks&lt;/h2>
-&lt;p>There is a lot of css options for class, use it like bootstrapp :&lt;/p>
-&lt;ul>
-&lt;li>options class=&amp;quot;&amp;quot; :
-&lt;ul>
-&lt;li>text-justify&lt;/li>
-&lt;li>text-center&lt;/li>
-&lt;li>no-deco =&amp;ldquo;text-decoration:none&amp;rdquo;&lt;/li>
-&lt;li>float-left&lt;/li>
-&lt;li>float-right&lt;/li>
-&lt;li>a =&amp;ldquo;cursor: pointer&amp;rdquo;&lt;/li>
-&lt;li>justify-between&lt;/li>
-&lt;li>flex&lt;/li>
-&lt;li>flex-even&lt;/li>
-&lt;li>flex-wrap&lt;/li>
-&lt;li>no-list&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Check the css page :&lt;/p>
-&lt;p>&lt;code>\assets\css\default.css&lt;/code>&lt;/p>
-&lt;hr>
-&lt;h2 id="share-options">Share-Options&lt;/h2>
-&lt;p>List of :&lt;/p>
-&lt;ul>
-&lt;li>facebook&lt;/li>
-&lt;li>linkedin&lt;/li>
-&lt;li>reddit&lt;/li>
-&lt;li>telegram&lt;/li>
-&lt;li>twitter&lt;/li>
-&lt;li>whatsapp&lt;/li>
-&lt;/ul>
-&lt;p>Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_default/single.html&lt;/p>
-&lt;blockquote>
-&lt;p>You can add it if you want.&lt;/p>
-&lt;/blockquote>
-&lt;p>If you don&amp;rsquo;t want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.&lt;/p>
-&lt;blockquote>
-&lt;p>Delete navbarshare in /_default/list.html&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="cover-image">Cover-Image&lt;/h2>
-&lt;p>You can add a cover image to your post like this &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/example/" >one&lt;/a>.&lt;/p>
-&lt;p>About installating check &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#more-options" >here&lt;/a>.&lt;/p>
-&lt;hr>
-&lt;h2 id="seo">SEO&lt;/h2>
-&lt;ul>
-&lt;li>OpenGraph Support&lt;/li>
-&lt;li>Twitter Card Support&lt;/li>
-&lt;li>RSS Feed with limit &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#all-params" >see config&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="markdown">Markdown&lt;/h2>
-&lt;ul>
-&lt;li>Blocquote&lt;/li>
-&lt;li>Syntax Highlighting&lt;/li>
-&lt;li>Render-image&lt;/li>
-&lt;li>Render-link&lt;/li>
-&lt;li>IframePdf&lt;/li>
-&lt;li>Collapse&lt;/li>
-&lt;li>Rawhtml&lt;/li>
-&lt;li>Button&lt;/li>
-&lt;li>Tab/Tabs&lt;/li>
-&lt;li>Details&lt;/li>
-&lt;li>Columns&lt;/li>
-&lt;li>Copy button&lt;/li>
-&lt;li>Figure&lt;/li>
-&lt;/ul>
-&lt;p>See &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/" >Markdown Syntax&lt;/a>.&lt;/p>
-&lt;blockquote>
-&lt;p>And look for &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/installation/#markdown" >Installation and using&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="svg-icons">SVG Icons&lt;/h2>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >List of svg icons&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="draft-page-indication">Draft Page Indication&lt;/h2>
-&lt;p>Indicator : &lt;code>[Draft]&lt;/code>&lt;/p>
-&lt;h2 id="add-pages">Add Pages&lt;/h2>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/about/" >Want more page&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="more">More&lt;/h2>
-&lt;ul>
-&lt;li>Dark Thème&lt;/li>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language" >I18n three language : fr + en + es&lt;/a>&lt;/li>
-&lt;li>Table Of Contents&lt;/li>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/archives/" >Post Archive&lt;/a>&lt;/li>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/404/" >404 Available&lt;/a>&lt;/li>
-&lt;li>Responsive Footer&lt;/li>
-&lt;li>Responsive Sidebar&lt;/li>
-&lt;li>Css + js + html minify for performance&lt;/li>
-&lt;li>Scroll to top button&lt;/li>
-&lt;/ul>
-&lt;hr></description></item><item><title>Installation tricks</title><link>https://subversive-eu.github.io/hugo-subversive/posts/installation/</link><pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/installation/</guid><description>&lt;p>Hey, I will give you some tricks to make your website.&lt;/p>
-&lt;h2 id="favicons">Favicons&lt;/h2>
-&lt;p>I used this &lt;a href="https://favicon.io/favicon-generator/">https://favicon.io/favicon-generator/&lt;/a>&lt;/p>
-&lt;p>First, download files listed below :&lt;/p>
-&lt;p>Paste the files in themes/your-theme/static/&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> android-chrome-192x192.png
-android-chrome-512x512.png
-apple-touch-icon.png
-favicon-16x16.png
-favicon-32x32.png
-favicon.ico
-site.webmanifest&lt;/code>&lt;/pre>&lt;/div>
-&lt;p>That&amp;rsquo;s all !&lt;/p>
-&lt;hr>
-&lt;h2 id="i18-language">i18 Language&lt;/h2>
-&lt;p>To use it add this :&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">
-&lt;span style="color:#f92672">languageCode&lt;/span>: &lt;span style="color:#ae81ff">fr &lt;/span>
-&lt;span style="color:#f92672">DefaultContentLanguage&lt;/span>: &lt;span style="color:#ae81ff">fr&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>to your &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/exampleSite/config.yml" >config.yml&lt;/a> :&lt;/p>
-&lt;p>There is three languages : French(fr), English(en), Spanish(es).&lt;/p>
-&lt;p>I don&amp;rsquo;t know if there is default language. Be carefull.&lt;/p>
-&lt;p>Check in themes/your-theme/i18n/ - &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/tree/main/i18n" >here&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="home-page">Home Page&lt;/h2>
-&lt;p>If you want to introduce your website :&lt;/p>
-&lt;ul>
-&lt;li>Do not touch in params :&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml"> &lt;span style="color:#f92672">homeInfoParams&lt;/span>:
-&lt;span style="color:#f92672">Title&lt;/span>: &lt;span style="color:#ae81ff">Hi there wave &lt;/span>
-&lt;span style="color:#f92672">Content&lt;/span>: &lt;span style="color:#ae81ff">Can be Info, links, about... &lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;/blockquote>
-&lt;p>If you just want a list of post + Title, delete it in config.yml&lt;br>
-Or do not copy it.&lt;/p>
-&lt;hr>
-&lt;h2 id="markdown">Markdown&lt;/h2>
-&lt;p>The full markdownsyntax.md &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/markdownsyntax.md" >here&lt;/a>. Use it to fund how to deploy your content.&lt;/p>
-&lt;h3 id="blockquote">Blockquote&lt;/h3>
-&lt;ul>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="#">Example hard level&lt;/a>&lt;/li>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="#">Sample example&lt;/a>
-(link error ? // Enrichir le markdown syntax&amp;hellip;)&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/blockquote.html" >blockquote.html&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="image-and-figure">Image and Figure&lt;/h3>
-&lt;h4 id="image">Image&lt;/h4>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-image.html" >render-image.html&lt;/a>&lt;/p>
-&lt;blockquote>
-&lt;p>css : image-css&lt;/p>
-&lt;/blockquote>
-&lt;h4 id="figure">Figure&lt;/h4>
-&lt;p>I recommand you to use this because it&amp;rsquo;s responsive and beautifull !!&lt;/p>
-&lt;ul>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h3 id="render-link">Render-Link&lt;/h3>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-link.html" >render-link.html&lt;/a>&lt;/p>
-&lt;blockquote>
-&lt;p>css : sources-link&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="pdf-reader">Pdf Reader&lt;/h3>
-&lt;p>Use shortcode &lt;code>{{ iframepdf nameofyourpdf }}&lt;/code>&lt;/p>
-&lt;blockquote>
-&lt;p>&lt;code>\static\media\nameofyourpdf.pdf&lt;/code>&lt;/p>
-&lt;/blockquote>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/iframepdf.html" >iframepdf&lt;/a>&lt;/p>
-&lt;h3 id="button">Button&lt;/h3>
-&lt;p>Use shortcode :&lt;/p>
-&lt;a href="Link.com" target="_blank" class="sample-btn">
-Display Content
-&lt;/a>
-&lt;ul>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/button.html" >button&lt;/a>&lt;/p>
-&lt;h3 id="tabtabs">Tab/Tabs&lt;/h3>
-&lt;p>Use shortcode. Check markdownsyntax.md&lt;/p>
-&lt;ul>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tab.html" >Tab&lt;/a>
-&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tabs.html" >Tabs&lt;/a>&lt;/p>
-&lt;h3 id="details">Details&lt;/h3>
-&lt;p>Use shortcode. Check markdownsyntax.md&lt;/p>
-&lt;ul>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/details.html" >Details&lt;/a>&lt;/p>
-&lt;h3 id="columns">Columns&lt;/h3>
-&lt;p>Use shortcode. Check markdownsyntax.md&lt;/p>
-&lt;ul>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="">Example&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/columns.html" >Columns&lt;/a>&lt;/p>
-&lt;h3 id="copy-button">Copy button&lt;/h3>
-&lt;p>There is a copy button for code text class=&amp;ldquo;highlight&amp;rdquo;.&lt;/p>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://github.com/subversive-eu/hugo-subversive/blob/main/assets/js/script.js" >Check script.js&lt;/a>&lt;/p>
-&lt;h3 id="other-shortcodes">other shortcodes&lt;/h3>
-&lt;ul>
-&lt;li>rawhtml.html&lt;/li>
-&lt;li>collapse.html&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="cover-image">Cover Image&lt;/h2>
-&lt;p>Used to add a post header image.&lt;/p>
-&lt;p>&lt;code>cover: &amp;quot;https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png&amp;quot;&lt;/code>&lt;/p>
-&lt;p>With a direct link too.
-Or a file from your \static\&lt;/p>
-&lt;h2 id="svg-icons-tricks">SVG icons tricks&lt;/h2>
-&lt;p>You can add, what you want.&lt;/p>
-&lt;p>Check the &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >list of icons&lt;/a> or add some in /your-theme/layouts/partials/svg.html&lt;/p>
-&lt;h3 id="social-icons">Social-icons&lt;/h3>
-&lt;p>This params will appear in the middle of the sidebar.&lt;/p>
-&lt;blockquote>
-&lt;p>In config -&amp;gt; name: nameofsvg.&lt;/p>
-&lt;/blockquote>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml"> &lt;span style="color:#f92672">params&lt;/span>:
-&lt;span style="color:#f92672">socialIcons&lt;/span>:
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">rss &lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;posts/index.xml&amp;#39;&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">github &lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;https://github.com/subversive-eu/hugo-theme-subversive&amp;#39;&lt;/span> &lt;/code>&lt;/pre>&lt;/div>
-&lt;h3 id="page-icons">Page-icons&lt;/h3>
-&lt;p>Main menu :&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml"> &lt;span style="color:#f92672">params&lt;/span>:
-&lt;span style="color:#f92672">menu&lt;/span>:
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">home&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;/&amp;#39;&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">5&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">info&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/about/&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">10&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">tag&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/tags/&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">15&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">categorie&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/categories/&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">20&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">serie&lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/series/&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">25&lt;/span>
-- &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">archive &lt;/span>
-&lt;span style="color:#f92672">url&lt;/span>: &lt;span style="color:#ae81ff">/archives/&lt;/span>
-&lt;span style="color:#f92672">weight&lt;/span>: &lt;span style="color:#ae81ff">30&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;hr></description></item><item><title>Social-Media</title><link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link><pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid><description>&lt;p>List of all social icons by svg + all menu icons&lt;/p>
-&lt;blockquote>
-&lt;p>/layouts/partials/svg.html&lt;/p>
-&lt;/blockquote>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>name&lt;/th>
-&lt;th>platform link&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>123rf&lt;/td>
-&lt;td>123rf.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>adobestock&lt;/td>
-&lt;td>stock.adobe.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>behance&lt;/td>
-&lt;td>behance.net&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>codepen&lt;/td>
-&lt;td>codepen.io&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>cryptohack&lt;/td>
-&lt;td>cryptohack.org&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>dev&lt;/td>
-&lt;td>dev.to&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>discogs&lt;/td>
-&lt;td>discogs.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>dreamstime&lt;/td>
-&lt;td>dreamstime.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>dribbble&lt;/td>
-&lt;td>dribbble.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>email&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>facebook&lt;/td>
-&lt;td>facebook.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>freepik&lt;/td>
-&lt;td>freepik.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>github&lt;/td>
-&lt;td>github.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>gitlab&lt;/td>
-&lt;td>gitlab.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>hackerrank&lt;/td>
-&lt;td>hackerrank.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>hackthebox&lt;/td>
-&lt;td>hackthebox.eu&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>instagram&lt;/td>
-&lt;td>instagram.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>lastfm&lt;/td>
-&lt;td>last.fm&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>linkedin&lt;/td>
-&lt;td>linkedin.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>mixcloud&lt;/td>
-&lt;td>mixcloud.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>paypal&lt;/td>
-&lt;td>paypal.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>qq&lt;/td>
-&lt;td>qq.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>soundcloud&lt;/td>
-&lt;td>soundcloud.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>shutterstock&lt;/td>
-&lt;td>shutterstock.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>slack&lt;/td>
-&lt;td>slack.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>sourcerer&lt;/td>
-&lt;td>sourcerer.io&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>stackoverflow&lt;/td>
-&lt;td>stackoverflow.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>steam&lt;/td>
-&lt;td>steampowered.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>telegram&lt;/td>
-&lt;td>telegram.org&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>twitch&lt;/td>
-&lt;td>twitch.tv&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>twitter&lt;/td>
-&lt;td>twitter.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>youtube&lt;/td>
-&lt;td>youtube.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>rss&lt;/td>
-&lt;td>yoursite.com/posts/index.xml&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>home&lt;/td>
-&lt;td>yoursite.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>info&lt;/td>
-&lt;td>yoursite.com/about/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>tag&lt;/td>
-&lt;td>yoursite.com/tags/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>archive&lt;/td>
-&lt;td>yoursite.com/archives/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>categorie&lt;/td>
-&lt;td>yoursite.com/categorie/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>serie&lt;/td>
-&lt;td>yoursite.com/series/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>default_link&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Markdown Syntax</title><link>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</link><pubDate>Sun, 04 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</guid><description>&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
-&lt;h1 id="h1">H1&lt;/h1>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://www.markdownguide.org/basic-syntax/" >Link&lt;/a> to the best Markdown Syntax Guide Ever !&lt;/p>
-&lt;h2 id="headings">Headings&lt;/h2>
-&lt;p>The following HTML &lt;code>&amp;lt;h1&amp;gt;&lt;/code>—&lt;code>&amp;lt;h6&amp;gt;&lt;/code> elements represent six levels of section headings. &lt;code>&amp;lt;h1&amp;gt;&lt;/code> is the highest section level while &lt;code>&amp;lt;h6&amp;gt;&lt;/code> is the lowest.&lt;/p>
-&lt;h2 id="h2">H2&lt;/h2>
-&lt;h3 id="h3">H3&lt;/h3>
-&lt;h4 id="h4">H4&lt;/h4>
-&lt;h5 id="h5">H5&lt;/h5>
-&lt;h6 id="h6">H6&lt;/h6>
-&lt;h2 id="paragraph">Paragraph&lt;/h2>
-&lt;p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p>
-&lt;p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p>
-&lt;h2 id="tabs">Tabs&lt;/h2>
-&lt;div class="book-tabs">
-&lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
-&lt;label for="tabs-uniqueid-0">MacOS&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;h3 id="macos-content">MacOS Content&lt;/h3>
-&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.&lt;/div>
-&lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-1" />
-&lt;label for="tabs-uniqueid-1">Linux&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;h3 id="linux-content">Linux Content&lt;/h3>
-&lt;/div>
-&lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-2" />
-&lt;label for="tabs-uniqueid-2">Windows&lt;/label>
-&lt;div class="book-tabs-content markdown-inner">&lt;h3 id="windows-content">Windows Content&lt;/h3>
-&lt;/div>&lt;/div>
-&lt;h2 id="buttons">Buttons&lt;/h2>
-&lt;a href="https://youtu.be/QRcrsHro6xI" target="_blank" class="sample-btn">
-Go Home
-&lt;/a>
-&lt;a href="https://github.com/subversive-eu/hugo-subversive" target="_blank" class="sample-btn">
-Contribute
-&lt;/a>
-&lt;h2 id="colunms">Colunms&lt;/h2>
-&lt;div class="book-columns flex flex-wrap">
-&lt;div class="flex-even markdown-inner">
-&lt;!-- raw HTML omitted -->
-&lt;h3 id="left-content">Left Content&lt;/h3>
-&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
-&lt;!-- raw HTML omitted -->
-&lt;h3 id="mid-content">Mid Content&lt;/h3>
-&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!
-&lt;/div>
-&lt;div class="flex-even markdown-inner">
-&lt;!-- raw HTML omitted -->
-&lt;h3 id="right-content">Right Content&lt;/h3>
-&lt;p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
-&lt;/div>
-&lt;/div>
-&lt;h2 id="details">Details&lt;/h2>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Expand
-&lt;/span>
-&lt;span>↕&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="hidden" />
-&lt;div class="book-expand-content markdown-inner">
-&lt;h4 id="markdown-content">Markdown content&lt;/h4>
-&lt;p>Lorem markdownum insigne&amp;hellip;
-&lt;/div>
-&lt;/label>
-&lt;/div>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Custom label
-&lt;/span>
-&lt;span>↕&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="hidden" />
-&lt;div class="book-expand-content markdown-inner">
-&lt;h4 id="markdown-content">Markdown content&lt;/h4>
-&lt;p>Lorem markdownum insigne&amp;hellip;
-&lt;/div>
-&lt;/label>
-&lt;/div>
-&lt;div class="book-expand">
-&lt;label>
-&lt;div class="book-expand-head flex justify-between">
-&lt;span>Custom Label
-&lt;/span>
-&lt;span>...&lt;/span>
-&lt;/div>
-&lt;input type="checkbox" class="hidden" />
-&lt;div class="book-expand-content markdown-inner">
-&lt;h4 id="markdown-content">Markdown content&lt;/h4>
-&lt;p>Lorem markdownum insigne&amp;hellip;
-&lt;/div>
-&lt;/label>
-&lt;/div>
-&lt;h2 id="blockquote">Blockquote&lt;/h2>
-&lt;h3 id="blockquote-sample">Blockquote sample&lt;/h3>
-&lt;p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code>footer&lt;/code> or &lt;code>cite&lt;/code> element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p>
-&lt;h4 id="blockquote-without-attribution">Blockquote without attribution&lt;/h4>
-&lt;blockquote>
-&lt;p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-&lt;strong>Note&lt;/strong> that you can use &lt;em>Markdown syntax&lt;/em> within a blockquote.&lt;/p>
-&lt;/blockquote>
-&lt;h4 id="blockquote-with-attribution">Blockquote with attribution&lt;/h4>
-&lt;blockquote>
-&lt;p>Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted -->
-— &lt;!-- raw HTML omitted -->Rob Pike&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;/blockquote>
-&lt;h3 id="blockquote-hard">Blockquote Hard&lt;/h3>
-&lt;p>Normal quote:
-&lt;blockquote>
-&lt;p>This is a simple quote.&lt;/p>
-&lt;footer>
-&lt;strong>&lt;/strong>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author
-&lt;blockquote>
-&lt;p>This is a quote with only an Author named Author2.&lt;/p>
-&lt;footer>
-&lt;strong>Author2&lt;/strong>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and source
-&lt;blockquote>
-&lt;p>This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p>
-&lt;footer>
-&lt;strong>Author3&lt;/strong>
-&lt;cite>Source&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and link
-&lt;blockquote>
-&lt;p>This is a quote from Author4 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a>.&lt;/p>
-&lt;footer>
-&lt;strong>Author4&lt;/strong>
-&lt;cite>
-&lt;a href="https://www.google.com" title="https://www.google.com">google.com&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author, link and title
-&lt;blockquote>
-&lt;p>This is a quote from Author5 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a> with title &amp;ldquo;Google.&amp;rdquo;&lt;/p>
-&lt;footer>
-&lt;strong>Author5&lt;/strong>
-&lt;cite>
-&lt;a href="https://www.google.com" title="https://www.google.com">Google&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
-&lt;blockquote>
-&lt;p>This is a quote from Author5 and links to &lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737">https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a> which is longer than 32 characters.
-&lt;!-- raw HTML omitted -->And this is a new line in the quote with the HTML br tag.&lt;/p>
-&lt;footer>
-&lt;strong>Author6&lt;/strong>
-&lt;cite>
-&lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737" title="https://twitter.com/CryptoGangsta/status/716427930126196737">twitter.com/CryptoGangsta/...&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;h2 id="figure">figure&lt;/h2>
-&lt;p>Figure (image insertion) playing with text !&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;p>&lt;figure class="right">
-&lt;img src="https://via.placeholder.com/400x280"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-right&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;figure class="left">
-&lt;img src="https://via.placeholder.com/400x280"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-left&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;figure>
-&lt;img src="https://via.placeholder.com/1600x800"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-normal (without any classes)&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;figure class="big">
-&lt;img src="https://via.placeholder.com/1600x800"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-big&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;h2 id="tables">Tables&lt;/h2>
-&lt;p>Table:&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Left-Aligned&lt;/th>
-&lt;th style="text-align:center">Center Aligned&lt;/th>
-&lt;th style="text-align:right">Right Aligned&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">col 3 is&lt;/td>
-&lt;td style="text-align:center">some wordy text&lt;/td>
-&lt;td style="text-align:right">$1600&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">col 2 is&lt;/td>
-&lt;td style="text-align:center">centered&lt;/td>
-&lt;td style="text-align:right">$12&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">zebra stripes&lt;/td>
-&lt;td style="text-align:center">are neat&lt;/td>
-&lt;td style="text-align:right">$1&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Left-Aligned&lt;/th>
-&lt;th style="text-align:center">Center Aligned&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">col 3 is&lt;/td>
-&lt;td style="text-align:center">$1600&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">col 2 is&lt;/td>
-&lt;td style="text-align:center">$12&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">zebra stripes&lt;/td>
-&lt;td style="text-align:center">$1&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Age&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Bob&lt;/td>
-&lt;td>27&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Alice&lt;/td>
-&lt;td>23&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h4 id="inline-markdown-within-tables">Inline Markdown within tables&lt;/h4>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Italics&lt;/th>
-&lt;th>Bold&lt;/th>
-&lt;th>Code&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>&lt;em>italics&lt;/em>&lt;/td>
-&lt;td>&lt;strong>bold&lt;/strong>&lt;/td>
-&lt;td>&lt;code>code&lt;/code>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h2 id="highlight">Highlight&lt;/h2>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-angular2" data-lang="angular2">highlight shortcode Here testing angular2&lt;/code>&lt;/pre>&lt;/div>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode" >check More here&lt;/a>&lt;/p>
-&lt;h2 id="code-blocks">Code Blocks&lt;/h2>
-&lt;h4 id="code-block-with-backticks">Code block with backticks&lt;/h4>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&lt;span style="color:#75715e">&amp;lt;!doctype html&amp;gt;&lt;/span>
-&amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;en&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;utf-8&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Test&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;
-&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces&lt;/h4>
-&lt;pre>&lt;code>&amp;lt;!doctype html&amp;gt;
+
+&lt;span style=&#34;color:#ae81ff&#34;&gt;&amp;lt;!--more--&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;more-options&#34;&gt;more options&lt;/h2&gt;
+&lt;p&gt;If you want to personnalize a page you can add this at the top of the page:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;cover&lt;/span&gt;:
+ &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;lt;image path/url&amp;gt;&amp;#39;&lt;/span&gt;
+ &lt;span style=&#34;color:#f92672&#34;&gt;alt&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;lt;alt text&amp;gt;&amp;#39;&lt;/span&gt;
+ &lt;span style=&#34;color:#f92672&#34;&gt;caption&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;lt;text&amp;gt;&amp;#39;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;comments&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;description of your page or article&amp;#39;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;tags&lt;/span&gt;:
+ -
+&lt;span style=&#34;color:#f92672&#34;&gt;series&lt;/span&gt;:
+ - 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can use &lt;code&gt;true or false&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Features / Mod</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link>
+      <pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid>
+      <description>&lt;p&gt;List of all features/Mod for this Subversive theme.&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h1 id=&#34;supported&#34;&gt;Supported&lt;/h1&gt;
+&lt;h2 id=&#34;page-varaibles&#34;&gt;Page-Varaibles&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Variables&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Type&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;showtoc&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;tocopen&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;hidemeta&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;disableShare&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;draft&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;comments&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables&#34; title=&#34;page-variable&#34; &gt;See more&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;site-variables&#34;&gt;Site-Variables&lt;/h2&gt;
+&lt;p&gt;Check here for &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml&#34; &gt;config&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Variables&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Type&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;ShowReadingTime&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;ShowShareButtons&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Comments&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;DisableShare&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;css-tricks&#34;&gt;Css-Tricks&lt;/h2&gt;
+&lt;p&gt;There is a lot of css options for class, use it like bootstrapp :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;options class=&amp;quot;&amp;quot; :
+&lt;ul&gt;
+&lt;li&gt;text-justify&lt;/li&gt;
+&lt;li&gt;text-center&lt;/li&gt;
+&lt;li&gt;no-deco =&amp;ldquo;text-decoration:none&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;float-left&lt;/li&gt;
+&lt;li&gt;float-right&lt;/li&gt;
+&lt;li&gt;justify-between&lt;/li&gt;
+&lt;li&gt;flex&lt;/li&gt;
+&lt;li&gt;flex-even&lt;/li&gt;
+&lt;li&gt;flex-wrap&lt;/li&gt;
+&lt;li&gt;no-list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check the css file :&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\assets\css\default.css&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;share-options&#34;&gt;Share-Options&lt;/h2&gt;
+&lt;p&gt;List of :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;facebook&lt;/li&gt;
+&lt;li&gt;linkedin&lt;/li&gt;
+&lt;li&gt;reddit&lt;/li&gt;
+&lt;li&gt;telegram&lt;/li&gt;
+&lt;li&gt;twitter&lt;/li&gt;
+&lt;li&gt;whatsapp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Be carefull, the Share-bar is not in hidemeta.&lt;br&gt;
+It in &lt;code&gt;\_defaul\baseof.html&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Add disableShare: true in config.yml&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cover-image&#34;&gt;Cover-Image&lt;/h2&gt;
+&lt;p&gt;You can add a cover image to your post like this &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/example/&#34; &gt;one&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;About installating check &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/install/#more-options&#34; &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;seo&#34;&gt;SEO&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenGraph Support&lt;/li&gt;
+&lt;li&gt;Twitter Card Support&lt;/li&gt;
+&lt;li&gt;RSS Feed with limit &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/install/#all-params&#34; &gt;see config&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Blocquote&lt;/li&gt;
+&lt;li&gt;Syntax Highlighting&lt;/li&gt;
+&lt;li&gt;Render-image&lt;/li&gt;
+&lt;li&gt;Render-link&lt;/li&gt;
+&lt;li&gt;IframePdf&lt;/li&gt;
+&lt;li&gt;Collapse&lt;/li&gt;
+&lt;li&gt;Rawhtml&lt;/li&gt;
+&lt;li&gt;Button&lt;/li&gt;
+&lt;li&gt;Tab/Tabs&lt;/li&gt;
+&lt;li&gt;Details&lt;/li&gt;
+&lt;li&gt;Columns&lt;/li&gt;
+&lt;li&gt;Copy button&lt;/li&gt;
+&lt;li&gt;Figure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/&#34; &gt;Markdown Syntax&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And look for &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/installation/#markdown&#34; &gt;Installation and using&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;svg-icons&#34;&gt;SVG Icons&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/utilisation/&#34; &gt;List of svg icons&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;draft-page-indication&#34;&gt;Draft Page Indication&lt;/h2&gt;
+&lt;p&gt;Indicator : &lt;code&gt;[Draft]&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;add-pages&#34;&gt;Add Pages&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/about/&#34; &gt;Want more page&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dark Thème&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language&#34; &gt;I18n three language : fr + en + es&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Table Of Contents&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/archives/&#34; &gt;Post Archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/404/&#34; &gt;404 Available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Responsive Footer&lt;/li&gt;
+&lt;li&gt;Responsive Sidebar&lt;/li&gt;
+&lt;li&gt;Css + js + html minify for performance&lt;/li&gt;
+&lt;li&gt;Scroll to top button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;soon&#34;&gt;Soon&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Link Anchor easier to copy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+    <item>
+      <title>Installation tricks</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/installation/</link>
+      <pubDate>Tue, 06 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/installation/</guid>
+      <description>&lt;p&gt;Hey, I will give you some tricks to make your website.&lt;/p&gt;
+&lt;h2 id=&#34;favicons&#34;&gt;Favicons&lt;/h2&gt;
+&lt;p&gt;I used this &lt;a href=&#34;https://favicon.io/favicon-generator/&#34;&gt;https://favicon.io/favicon-generator/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;First, download files listed below :&lt;/p&gt;
+&lt;p&gt;Paste the files in themes/your-theme/static/&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;    android-chrome-192x192.png
+    android-chrome-512x512.png
+    apple-touch-icon.png
+    favicon-16x16.png
+    favicon-32x32.png
+    favicon.ico
+    site.webmanifest&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;That&amp;rsquo;s all !&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;i18-language&#34;&gt;i18 Language&lt;/h2&gt;
+&lt;p&gt;To use it add this :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;languageCode&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;fr  &lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;DefaultContentLanguage&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;fr&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to your &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/exampleSite/config.yml&#34; &gt;config.yml&lt;/a&gt; :&lt;/p&gt;
+&lt;p&gt;There is three languages : French(fr), English(en), Spanish(es).&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t know if there is default language. Be carefull.&lt;/p&gt;
+&lt;p&gt;Check in themes/your-theme/i18n/ - &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/tree/main/i18n&#34; &gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;home-page&#34;&gt;Home Page&lt;/h2&gt;
+&lt;p&gt;If you want to introduce your website :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Do not touch in params :&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;homeInfoParams&lt;/span&gt;:  
+      &lt;span style=&#34;color:#f92672&#34;&gt;Title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Hi there wave  &lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;Content&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Can be Info, links, about...  &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you just want a list of post + Title, delete it in config.yml&lt;br&gt;
+Or do not copy it.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
+&lt;p&gt;The full markdownsyntax.md &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/markdownsyntax.md&#34; &gt;here&lt;/a&gt;. Use it to fund how to deploy your content.&lt;/p&gt;
+&lt;h3 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#blockquote-hard&#34; &gt;Example hard level&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#blockquote-sample&#34; &gt;Sample example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/blockquote.html&#34; &gt;blockquote.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;image-and-figure&#34;&gt;Image and Figure&lt;/h3&gt;
+&lt;h4 id=&#34;image&#34;&gt;Image&lt;/h4&gt;
+&lt;p&gt;css : image-css&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-image.html&#34; &gt;render-image.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;figure&#34;&gt;Figure&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;I recommand you to use this because it&amp;rsquo;s responsive and beautifull !!&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#figure&#34; &gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;render-link&#34;&gt;Render-Link&lt;/h3&gt;
+&lt;p&gt;css : sources-link&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-link.html&#34; &gt;render-link.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;pdf-reader&#34;&gt;Pdf Reader&lt;/h3&gt;
+&lt;p&gt;Use shortcode &lt;code&gt;&lt;iframe
+class=&#34;iframepdf&#34;
+frameborder=&#34;0&#34;
+allowfullscreen
+src=&#34;https://subversive-eu.github.io/hugo-subversive/media/nameofyourpdf.pdf&#34;
+&gt;
+&lt;/iframe&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;\static\media\nameofyourpdf.pdf&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/iframepdf.html&#34; &gt;iframepdf&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;button&#34;&gt;Button&lt;/h3&gt;
+&lt;p&gt;Use shortcode :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;
+&lt;span style=&#34;color:#a6e22e&#34;&gt;&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#buttons&#34; &gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/button.html&#34; &gt;button&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;tabtabs&#34;&gt;Tab/Tabs&lt;/h3&gt;
+&lt;p&gt;Use shortcode. Check markdownsyntax.md&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#tabs&#34; &gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tab.html&#34; &gt;Tab&lt;/a&gt;
+&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/tabs.html&#34; &gt;Tabs&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;details&#34;&gt;Details&lt;/h3&gt;
+&lt;p&gt;Use shortcode. Check markdownsyntax.md&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#details&#34; &gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/details.html&#34; &gt;Details&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;columns&#34;&gt;Columns&lt;/h3&gt;
+&lt;p&gt;Use shortcode. Check markdownsyntax.md&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/#colunms&#34; &gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/shortcodes/columns.html&#34; &gt;Columns&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;copy-button&#34;&gt;Copy button&lt;/h3&gt;
+&lt;p&gt;There is a copy button for code text &lt;code&gt;class=&amp;quot;highlight&amp;quot;&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/assets/js/script.js&#34; &gt;Check script.js&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;other-shortcodes&#34;&gt;other shortcodes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;rawhtml.html&lt;/li&gt;
+&lt;li&gt;collapse.html&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cover-image&#34;&gt;Cover Image&lt;/h2&gt;
+&lt;p&gt;Used to add a post header image.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cover: &amp;quot;https://i.ibb.co/K0HVPBd/paper-mod-profilemode.png&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;With a direct link like this |^ .
+Or a file from your &lt;code&gt;\static\media\nameofyourfile.pdf&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;svg-icons-tricks&#34;&gt;SVG icons tricks&lt;/h2&gt;
+&lt;p&gt;You can add, what you want.&lt;/p&gt;
+&lt;p&gt;Check the &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/utilisation/&#34; &gt;list of icons&lt;/a&gt; or add some in &lt;code&gt;/your-theme/layouts/partials/svg.html&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;social-icons&#34;&gt;Social-icons&lt;/h3&gt;
+&lt;p&gt;This params will appear in the middle of the sidebar.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In config -&amp;gt; name: nameofsvg.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt; &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:  
+  &lt;span style=&#34;color:#f92672&#34;&gt;socialIcons&lt;/span&gt;:  
+   - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;rss  &lt;/span&gt;
+    &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;posts/index.xml&amp;#39;&lt;/span&gt;  
+   - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;github  &lt;/span&gt;
+     &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;https://github.com/subversive-eu/hugo-theme-subversive&amp;#39;&lt;/span&gt;  &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&#34;page-icons&#34;&gt;Page-icons&lt;/h3&gt;
+&lt;p&gt;Main menu :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yml&#34; data-lang=&#34;yml&#34;&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+   &lt;span style=&#34;color:#f92672&#34;&gt;menu&lt;/span&gt;:
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;home&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/&amp;#39;&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;info&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/about/&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;tag&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/tags/&lt;/span&gt;
+     &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;15&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;categorie&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/categories/&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;20&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;serie&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/series/&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;25&lt;/span&gt;
+    - &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;archive   &lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;/archives/&lt;/span&gt;
+      &lt;span style=&#34;color:#f92672&#34;&gt;weight&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;30&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+    <item>
+      <title>Social-Media</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link>
+      <pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid>
+      <description>&lt;p&gt;List of all social icons by svg + all menu icons&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;/layouts/partials/svg.html&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;name&lt;/th&gt;
+&lt;th&gt;platform link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;123rf&lt;/td&gt;
+&lt;td&gt;123rf.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;adobestock&lt;/td&gt;
+&lt;td&gt;stock.adobe.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;behance&lt;/td&gt;
+&lt;td&gt;behance.net&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;codepen&lt;/td&gt;
+&lt;td&gt;codepen.io&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cryptohack&lt;/td&gt;
+&lt;td&gt;cryptohack.org&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;dev&lt;/td&gt;
+&lt;td&gt;dev.to&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;discogs&lt;/td&gt;
+&lt;td&gt;discogs.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;dreamstime&lt;/td&gt;
+&lt;td&gt;dreamstime.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;dribbble&lt;/td&gt;
+&lt;td&gt;dribbble.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;email&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;facebook&lt;/td&gt;
+&lt;td&gt;facebook.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;freepik&lt;/td&gt;
+&lt;td&gt;freepik.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;github&lt;/td&gt;
+&lt;td&gt;github.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gitlab&lt;/td&gt;
+&lt;td&gt;gitlab.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hackerrank&lt;/td&gt;
+&lt;td&gt;hackerrank.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hackthebox&lt;/td&gt;
+&lt;td&gt;hackthebox.eu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;instagram&lt;/td&gt;
+&lt;td&gt;instagram.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;lastfm&lt;/td&gt;
+&lt;td&gt;last.fm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;linkedin&lt;/td&gt;
+&lt;td&gt;linkedin.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mixcloud&lt;/td&gt;
+&lt;td&gt;mixcloud.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;paypal&lt;/td&gt;
+&lt;td&gt;paypal.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;qq&lt;/td&gt;
+&lt;td&gt;qq.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;soundcloud&lt;/td&gt;
+&lt;td&gt;soundcloud.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shutterstock&lt;/td&gt;
+&lt;td&gt;shutterstock.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;slack&lt;/td&gt;
+&lt;td&gt;slack.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;sourcerer&lt;/td&gt;
+&lt;td&gt;sourcerer.io&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;stackoverflow&lt;/td&gt;
+&lt;td&gt;stackoverflow.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;steam&lt;/td&gt;
+&lt;td&gt;steampowered.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;telegram&lt;/td&gt;
+&lt;td&gt;telegram.org&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;twitch&lt;/td&gt;
+&lt;td&gt;twitch.tv&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;twitter&lt;/td&gt;
+&lt;td&gt;twitter.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;youtube&lt;/td&gt;
+&lt;td&gt;youtube.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;rss&lt;/td&gt;
+&lt;td&gt;yoursite.com/posts/index.xml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;home&lt;/td&gt;
+&lt;td&gt;yoursite.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;info&lt;/td&gt;
+&lt;td&gt;yoursite.com/about/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tag&lt;/td&gt;
+&lt;td&gt;yoursite.com/tags/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;archive&lt;/td&gt;
+&lt;td&gt;yoursite.com/archives/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;categorie&lt;/td&gt;
+&lt;td&gt;yoursite.com/categorie/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;serie&lt;/td&gt;
+&lt;td&gt;yoursite.com/series/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;default_link&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</link>
+      <pubDate>Sun, 04 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;
+&lt;h1 id=&#34;h1&#34;&gt;H1&lt;/h1&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.markdownguide.org/basic-syntax/&#34; &gt;Link&lt;/a&gt; to the best Markdown Syntax Guide Ever !&lt;/p&gt;
+&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
+&lt;p&gt;The following HTML &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt;—&lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; elements represent six levels of section headings. &lt;code&gt;&amp;lt;h1&amp;gt;&lt;/code&gt; is the highest section level while &lt;code&gt;&amp;lt;h6&amp;gt;&lt;/code&gt; is the lowest.&lt;/p&gt;
+&lt;h2 id=&#34;h2&#34;&gt;H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;H3&lt;/h3&gt;
+&lt;h4 id=&#34;h4&#34;&gt;H4&lt;/h4&gt;
+&lt;h5 id=&#34;h5&#34;&gt;H5&lt;/h5&gt;
+&lt;h6 id=&#34;h6&#34;&gt;H6&lt;/h6&gt;
+&lt;h2 id=&#34;paragraph&#34;&gt;Paragraph&lt;/h2&gt;
+&lt;p&gt;Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.&lt;/p&gt;
+&lt;p&gt;Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.&lt;/p&gt;
+&lt;h2 id=&#34;tabs&#34;&gt;Tabs&lt;/h2&gt;
+
+
+
+
+
+&lt;div class=&#34;book-tabs&#34;&gt; 
+
+  &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;tabs-uniqueid&#34; id=&#34;tabs-uniqueid-0&#34; checked=&#34;checked&#34; /&gt;
+  &lt;label for=&#34;tabs-uniqueid-0&#34;&gt;MacOS&lt;/label&gt;
+  &lt;div class=&#34;book-tabs-content markdown-inner&#34;&gt;&lt;h3 id=&#34;macos-content&#34;&gt;MacOS Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.&lt;/div&gt; 
+
+  &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;tabs-uniqueid&#34; id=&#34;tabs-uniqueid-1&#34;  /&gt;
+  &lt;label for=&#34;tabs-uniqueid-1&#34;&gt;Linux&lt;/label&gt;
+  &lt;div class=&#34;book-tabs-content markdown-inner&#34;&gt;&lt;h3 id=&#34;linux-content&#34;&gt;Linux Content&lt;/h3&gt;
+&lt;/div&gt; 
+
+  &lt;input type=&#34;radio&#34; class=&#34;toggle&#34; name=&#34;tabs-uniqueid&#34; id=&#34;tabs-uniqueid-2&#34;  /&gt;
+  &lt;label for=&#34;tabs-uniqueid-2&#34;&gt;Windows&lt;/label&gt;
+  &lt;div class=&#34;book-tabs-content markdown-inner&#34;&gt;&lt;h3 id=&#34;windows-content&#34;&gt;Windows Content&lt;/h3&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&#34;buttons&#34;&gt;Buttons&lt;/h2&gt;
+
+
+
+  
+  
+
+
+&lt;a  href=&#34;https://youtu.be/QRcrsHro6xI&#34;   target=&#34;_blank&#34;  class=&#34;sample-btn&#34;&gt;
+  Go Home
+&lt;/a&gt;
+
+
+
+  
+  
+
+
+&lt;a  href=&#34;https://github.com/subversive-eu/hugo-subversive&#34;   target=&#34;_blank&#34;  class=&#34;sample-btn&#34;&gt;
+  Contribute
+&lt;/a&gt;
+&lt;h2 id=&#34;colunms&#34;&gt;Colunms&lt;/h2&gt;
+&lt;div class=&#34;book-columns flex flex-wrap&#34;&gt;
+    
+    &lt;div class=&#34;flex-even markdown-inner&#34;&gt;
+      &lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;left-content&#34;&gt;Left Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;flex-even markdown-inner&#34;&gt;
+      &lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;mid-content&#34;&gt;Mid Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter!
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;flex-even markdown-inner&#34;&gt;
+      &lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;right-content&#34;&gt;Right Content&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+    &lt;/div&gt;
+    
+  &lt;/div&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+  &lt;div class=&#34;book-expand&#34;&gt;
+    &lt;label&gt;
+      &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;
+        &lt;span&gt;Expand
+            
+          &lt;/span&gt;
+        &lt;span&gt;↕&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;hidden&#34; /&gt;
+      &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;
+        &lt;h4 id=&#34;markdown-content&#34;&gt;Markdown content&lt;/h4&gt;
+&lt;p&gt;Lorem markdownum insigne&amp;hellip;
+      &lt;/div&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;book-expand&#34;&gt;
+    &lt;label&gt;
+      &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;
+        &lt;span&gt;Custom label
+            
+          &lt;/span&gt;
+        &lt;span&gt;↕&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;hidden&#34; /&gt;
+      &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;
+        &lt;h4 id=&#34;markdown-content&#34;&gt;Markdown content&lt;/h4&gt;
+&lt;p&gt;Lorem markdownum insigne&amp;hellip;
+      &lt;/div&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;book-expand&#34;&gt;
+    &lt;label&gt;
+      &lt;div class=&#34;book-expand-head flex justify-between&#34;&gt;
+        &lt;span&gt;Custom Label
+            
+          &lt;/span&gt;
+        &lt;span&gt;...&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;input type=&#34;checkbox&#34; class=&#34;hidden&#34; /&gt;
+      &lt;div class=&#34;book-expand-content markdown-inner&#34;&gt;
+        &lt;h4 id=&#34;markdown-content&#34;&gt;Markdown content&lt;/h4&gt;
+&lt;p&gt;Lorem markdownum insigne&amp;hellip;
+      &lt;/div&gt;
+    &lt;/label&gt;
+  &lt;/div&gt;
+&lt;h2 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h2&gt;
+&lt;h3 id=&#34;blockquote-sample&#34;&gt;Blockquote sample&lt;/h3&gt;
+&lt;p&gt;The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a &lt;code&gt;footer&lt;/code&gt; or &lt;code&gt;cite&lt;/code&gt; element, and optionally with in-line changes such as annotations and abbreviations.&lt;/p&gt;
+&lt;h4 id=&#34;blockquote-without-attribution&#34;&gt;Blockquote without attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+&lt;strong&gt;Note&lt;/strong&gt; that you can use &lt;em&gt;Markdown syntax&lt;/em&gt; within a blockquote.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;blockquote-with-attribution&#34;&gt;Blockquote with attribution&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Don&amp;rsquo;t communicate by sharing memory, share memory by communicating.&lt;!-- raw HTML omitted --&gt;
+— &lt;!-- raw HTML omitted --&gt;Rob Pike&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;blockquote-hard&#34;&gt;Blockquote Hard&lt;/h3&gt;
+&lt;p&gt;Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a simple quote.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author2&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and source
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author3&lt;/strong&gt;
+    
+      &lt;cite&gt;Source&lt;/cite&gt;
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and link
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author4&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author, link and title
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author5&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
+&lt;!-- raw HTML omitted --&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author6&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;figure&#34;&gt;figure&lt;/h2&gt;
+&lt;p&gt;Figure (image insertion) playing with text !&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;right&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/400x280&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-right&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure class=&#34;left&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/400x280&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-left&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&lt;figure&gt;
+    &lt;img src=&#34;https://via.placeholder.com/1600x800&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-normal (without any classes)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure class=&#34;big&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/1600x800&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-big&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+&lt;p&gt;Table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Left-Aligned&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Center Aligned&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Right Aligned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;col 3 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;some wordy text&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;col 2 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;centered&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;zebra stripes&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;are neat&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Left-Aligned&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Center Aligned&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;col 3 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;col 2 is&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;zebra stripes&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Tables aren&amp;rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bob&lt;/td&gt;
+&lt;td&gt;27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alice&lt;/td&gt;
+&lt;td&gt;23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;inline-markdown-within-tables&#34;&gt;Inline Markdown within tables&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Italics&lt;/th&gt;
+&lt;th&gt;Bold&lt;/th&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;em&gt;italics&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;bold&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;highlight&#34;&gt;Highlight&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-angular2&#34; data-lang=&#34;angular2&#34;&gt;highlight shortcode Here testing angular2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode&#34; &gt;check More here&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;
+&lt;h4 id=&#34;code-block-with-backticks&#34;&gt;Code block with backticks&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;code-block-indented-with-four-spaces&#34;&gt;Code block indented with four spaces&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;!doctype html&amp;gt;
 &amp;lt;html lang=&amp;quot;en&amp;quot;&amp;gt;
 &amp;lt;head&amp;gt;
-&amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
-&amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
+  &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Example HTML5 Document&amp;lt;/title&amp;gt;
 &amp;lt;/head&amp;gt;
 &amp;lt;body&amp;gt;
-&amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
+  &amp;lt;p&amp;gt;Test&amp;lt;/p&amp;gt;
 &amp;lt;/body&amp;gt;
 &amp;lt;/html&amp;gt;
-&lt;/code>&lt;/pre>
-&lt;h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&lt;span style="color:#75715e">&amp;lt;!doctype html&amp;gt;&lt;/span>
-&amp;lt;&lt;span style="color:#f92672">html&lt;/span> &lt;span style="color:#a6e22e">lang&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;en&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;utf-8&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">title&lt;/span>&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style="color:#f92672">title&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">head&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Test&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">html&lt;/span>&amp;gt;&lt;/code>&lt;/pre>&lt;/div>
-&lt;h2 id="list-types">List Types&lt;/h2>
-&lt;h4 id="ordered-list">Ordered List&lt;/h4>
-&lt;ol>
-&lt;li>First item&lt;/li>
-&lt;li>Second item&lt;/li>
-&lt;li>Third item&lt;/li>
-&lt;/ol>
-&lt;h4 id="unordered-list">Unordered List&lt;/h4>
-&lt;ul>
-&lt;li>List item&lt;/li>
-&lt;li>Another item&lt;/li>
-&lt;li>And another item&lt;/li>
-&lt;/ul>
-&lt;h4 id="nested-list">Nested list&lt;/h4>
-&lt;ul>
-&lt;li>Fruit
-&lt;ul>
-&lt;li>Apple&lt;/li>
-&lt;li>Orange&lt;/li>
-&lt;li>Banana&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Dairy
-&lt;ul>
-&lt;li>Milk&lt;/li>
-&lt;li>Cheese&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="other-elements">Other Elements&lt;/h2>
-&lt;h3 id="hr">hr&lt;/h3>
-&lt;hr>
-&lt;hr>
-&lt;hr>
-&lt;h3 id="abbr-sub-sup-kbd-mark">abbr, sub, sup, kbd, mark&lt;/h3>
-&lt;p>&lt;!-- raw HTML omitted -->GIF&lt;!-- raw HTML omitted --> is a bitmap image format.&lt;/p>
-&lt;p>H&lt;!-- raw HTML omitted -->2&lt;!-- raw HTML omitted -->O&lt;/p>
-&lt;p>X&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted --> + Y&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted --> = Z&lt;!-- raw HTML omitted -->n&lt;!-- raw HTML omitted -->&lt;/p>
-&lt;p>Press &lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->CTRL&lt;!-- raw HTML omitted -->+&lt;!-- raw HTML omitted -->ALT&lt;!-- raw HTML omitted -->+&lt;!-- raw HTML omitted -->Delete&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted --> to end the session.&lt;/p>
-&lt;p>Most &lt;!-- raw HTML omitted -->salamanders&lt;!-- raw HTML omitted --> are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
-&lt;hr>
-&lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
-&lt;p>The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/watch?v=PAAkCSZUG1c" >talk&lt;/a> during Gopherfest, November 18, 2015. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;/section></description></item><item><title>Perfomance with Lighthouse</title><link>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</link><pubDate>Sat, 03 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</guid><description>&lt;p>Stats about lighthouse of this theme.&lt;/p>
-&lt;p>There is a simple gtmetrix report too.&lt;/p>
-&lt;p>Soon, example.md SEO.&lt;/p>
-&lt;h2 id="desktop">Desktop&lt;/h2>
-&lt;h3 id="home-page">Home page&lt;/h3>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/home-page-desktop.png" alt="" title="home page lighthouse" />
-&lt;/p>
-&lt;/p>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;code-block-with-hugos-internal-highlight-shortcode&#34;&gt;Code block with Hugo&amp;rsquo;s internal highlight shortcode&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;lang&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;meta&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;charset&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;utf-8&amp;#34;&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;Example HTML5 Document&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;head&lt;/span&gt;&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+  &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;Test&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;p&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;html&lt;/span&gt;&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&#34;list-types&#34;&gt;List Types&lt;/h2&gt;
+&lt;h4 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;List item&lt;/li&gt;
+&lt;li&gt;Another item&lt;/li&gt;
+&lt;li&gt;And another item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;nested-list&#34;&gt;Nested list&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Fruit
+&lt;ul&gt;
+&lt;li&gt;Apple&lt;/li&gt;
+&lt;li&gt;Orange&lt;/li&gt;
+&lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Dairy
+&lt;ul&gt;
+&lt;li&gt;Milk&lt;/li&gt;
+&lt;li&gt;Cheese&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-elements&#34;&gt;Other Elements&lt;/h2&gt;
+&lt;h3 id=&#34;hr&#34;&gt;hr&lt;/h3&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;abbr-sub-sup-kbd-mark&#34;&gt;abbr, sub, sup, kbd, mark&lt;/h3&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;GIF&lt;!-- raw HTML omitted --&gt; is a bitmap image format.&lt;/p&gt;
+&lt;p&gt;H&lt;!-- raw HTML omitted --&gt;2&lt;!-- raw HTML omitted --&gt;O&lt;/p&gt;
+&lt;p&gt;X&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; + Y&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt; = Z&lt;!-- raw HTML omitted --&gt;n&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Press &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;CTRL&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;ALT&lt;!-- raw HTML omitted --&gt;+&lt;!-- raw HTML omitted --&gt;Delete&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; to end the session.&lt;/p&gt;
+&lt;p&gt;Most &lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt; are nocturnal, and hunt for insects, worms, and other small creatures.&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;The above quote is excerpted from Rob Pike&amp;rsquo;s &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34; &gt;talk&lt;/a&gt; during Gopherfest, November 18, 2015. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</description>
+    </item>
+    
+    <item>
+      <title>Perfomance with Lighthouse</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</link>
+      <pubDate>Sat, 03 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</guid>
+      <description>&lt;p&gt;Stats about lighthouse of this theme.&lt;/p&gt;
+&lt;p&gt;There is a simple gtmetrix report  too.&lt;/p&gt;
+&lt;p&gt;Soon, example.md SEO.&lt;/p&gt;
+&lt;h2 id=&#34;desktop&#34;&gt;Desktop&lt;/h2&gt;
+&lt;h3 id=&#34;home-page&#34;&gt;Home page&lt;/h3&gt;
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img class=&#34;image-css&#34;
+ src=&#34;https://subversive-eu.github.io/hugo-subversive/media/home-page-desktop.png&#34; alt=&#34;&#34;  title=&#34;home page lighthouse&#34; /&gt;
+&lt;/p&gt;
+
+&lt;/p&gt;
 &lt;iframe
-class="iframepdf"
-frameborder="0"
+class=&#34;iframepdf&#34;
+frameborder=&#34;0&#34;
 allowfullscreen
-src="https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf"
->
-&lt;/iframe>
-&lt;h2 id="mobile">Mobile&lt;/h2>
-&lt;h3 id="home-page-1">Home page&lt;/h3>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/home-page-mobile.png" alt="" title="home page lighthouse" />
-&lt;/p>
-&lt;/p></description></item><item><title>Example</title><link>https://subversive-eu.github.io/hugo-subversive/posts/example/</link><pubDate>Sun, 27 Sep 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/example/</guid><description>&lt;p>I will show you some extras about Markdown, css, and shortcode.
-There is backup of simple tricks too.&lt;/p>
-&lt;p>Example post for demonstration.
-The TOC is open.&lt;/p>
-&lt;p>See &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/example.md" >raw article&lt;/a>&lt;/p>
-&lt;h2 id="image">Image&lt;/h2>
-&lt;h3 id="classic-markdown">Classic markdown&lt;/h3>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/logo.png" alt="Drag Racing" title="coucou" />
-&lt;/p>
-&lt;/p>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png" alt="" title="roman empire" />
-&lt;/p>
-&lt;/p>
-&lt;h3 id="figure-shortcode-with-css">figure shortcode with css&lt;/h3>
-&lt;figure class="no-class">
-&lt;img src="https://subversive-eu.github.io/hugo-subversive/media/logo.png"
-alt="image"/> &lt;figcaption>
-&lt;p>coucou&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure class="no-class">
-&lt;img src="https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png"
-alt="image"/> &lt;figcaption>
-&lt;p>roman empire&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>It&amp;rsquo;s better no ??&lt;/p>
-&lt;p>Let&amp;rsquo;s check more !&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;p>&lt;figure class="right">
-&lt;img src="https://via.placeholder.com/400x280"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-right&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;figure class="left">
-&lt;img src="https://via.placeholder.com/400x280"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-left&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-&lt;figure>
-&lt;img src="https://via.placeholder.com/1600x800"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-normal (without any classes)&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;figure class="big">
-&lt;img src="https://via.placeholder.com/1600x800"
-alt="image"/> &lt;figcaption>
-&lt;p>figure-big&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p>
-&lt;h2 id="postmeta">PostMeta&lt;/h2>
-&lt;p>I added this to my personnal website :&lt;/p>
-&lt;blockquote>
-&lt;p>I was thinking about not using sample-btn css.&lt;/p>
-&lt;/blockquote>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> &lt;span style="color:#75715e">&amp;lt;!--- I add some download options + printer option --&amp;gt;&lt;/span>
-&amp;amp;nbsp;·&amp;amp;nbsp;
-&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Télécharger&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;/pdf/{{ .Title }}.pdf&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">target&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;_blank&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;noopener noreferrer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">download&lt;/span>&amp;gt;{{ i18n &amp;#34;pdf&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;&amp;lt;&lt;span style="color:#f92672">button&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;sample-btn&amp;#34;&lt;/span>&amp;gt;
-&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">name &lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Imprimer&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;javascript:if(window.print)window.print()&amp;#34;&lt;/span>&amp;gt;{{ i18n &amp;#34;print&amp;#34; }}&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
-&amp;lt;/&lt;span style="color:#f92672">button&lt;/span>&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;
-&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>Do not forget to add i18n translation for all languages&lt;/li>
-&lt;/ul>
-&lt;h2 id="youtube">youtube&lt;/h2>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube-nocookie.com/embed/8IZ9Cqi2rGM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;h2 id="tweeter">tweeter&lt;/h2>
-&lt;ul>
-&lt;li>With mobile, Tweeter appear simple blockquote.&lt;/li>
-&lt;/ul>
-&lt;blockquote class="twitter-tweet" data-dnt="true">&lt;p lang="en" dir="ltr">Hugo 0.24 Released: Big archetype update + &lt;a href="https://twitter.com/Netlify?ref_src=twsrc%5Etfw">@Netlify&lt;/a> _redirects etc. file support&lt;a href="https://t.co/X94FmYDEZJ">https://t.co/X94FmYDEZJ&lt;/a> &lt;a href="https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw">#gohugo&lt;/a> &lt;a href="https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw">#golang&lt;/a> &lt;a href="https://twitter.com/spf13?ref_src=twsrc%5Etfw">@spf13&lt;/a> &lt;a href="https://twitter.com/bepsays?ref_src=twsrc%5Etfw">@bepsays&lt;/a>&lt;/p>&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href="https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw">June 21, 2017&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-&lt;h2 id="vimeo">vimeo&lt;/h2>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://player.vimeo.com/video/146022717?dnt=1" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen>&lt;/iframe>
-&lt;/div>
-&lt;h2 id="instagram">Instagram&lt;/h2>
-&lt;ul>
-&lt;li>there is no way with facebook &amp;hellip;&lt;/li>
-&lt;/ul>
-&lt;h2 id="blockquote-hard">Blockquote hard&lt;/h2>
-&lt;p>Normal quote:
-&lt;blockquote>
-&lt;p>This is a simple quote.&lt;/p>
-&lt;footer>
-&lt;strong>&lt;/strong>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author
-&lt;blockquote>
-&lt;p>This is a quote with only an Author named Author2.&lt;/p>
-&lt;footer>
-&lt;strong>Author2&lt;/strong>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and source
-&lt;blockquote>
-&lt;p>This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p>
-&lt;footer>
-&lt;strong>Author3&lt;/strong>
-&lt;cite>Source&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and link
-&lt;blockquote>
-&lt;p>This is a quote from Author4 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a>.&lt;/p>
-&lt;footer>
-&lt;strong>Author4&lt;/strong>
-&lt;cite>
-&lt;a href="https://www.google.com" title="https://www.google.com">google.com&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author, link and title
-&lt;blockquote>
-&lt;p>This is a quote from Author5 and links to &lt;a href="https://www.google.com">https://www.google.com&lt;/a> with title &amp;ldquo;Google.&amp;rdquo;&lt;/p>
-&lt;footer>
-&lt;strong>Author5&lt;/strong>
-&lt;cite>
-&lt;a href="https://www.google.com" title="https://www.google.com">Google&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;p>Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
-&lt;blockquote>
-&lt;p>This is a quote from Author5 and links to &lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737">https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a> which is longer than 32 characters.
-&lt;!-- raw HTML omitted -->And this is a new line in the quote with the HTML br tag.&lt;/p>
-&lt;footer>
-&lt;strong>Author6&lt;/strong>
-&lt;cite>
-&lt;a href="https://twitter.com/CryptoGangsta/status/716427930126196737" title="https://twitter.com/CryptoGangsta/status/716427930126196737">twitter.com/CryptoGangsta/...&lt;/a>
-&lt;/cite>
-&lt;/footer>
-&lt;/blockquote>
-&lt;/p>
-&lt;hr>
-&lt;h2 id="conclusion">Conclusion&lt;/h2>
-&lt;p>Do not use Instagram ? I hope will work on soon.&lt;/p></description></item></channel></rss>
+src=&#34;https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf&#34;
+&gt;
+&lt;/iframe&gt;
+&lt;h2 id=&#34;mobile&#34;&gt;Mobile&lt;/h2&gt;
+&lt;h3 id=&#34;home-page-1&#34;&gt;Home page&lt;/h3&gt;
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img class=&#34;image-css&#34;
+ src=&#34;https://subversive-eu.github.io/hugo-subversive/media/home-page-mobile.png&#34; alt=&#34;&#34;  title=&#34;home page lighthouse&#34; /&gt;
+&lt;/p&gt;
+
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Example</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/example/</link>
+      <pubDate>Sun, 27 Sep 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/example/</guid>
+      <description>&lt;p&gt;I will show you some extras about Markdown, css, and shortcode.
+There is backup of simple tricks too.&lt;/p&gt;
+&lt;p&gt;Example post for demonstration.
+The TOC is open.&lt;/p&gt;
+&lt;p&gt;See &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/example.md&#34; &gt;raw article&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;image&#34;&gt;Image&lt;/h2&gt;
+&lt;h3 id=&#34;classic-markdown&#34;&gt;Classic markdown&lt;/h3&gt;
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img class=&#34;image-css&#34;
+ src=&#34;https://subversive-eu.github.io/hugo-subversive/media/logo.png&#34; alt=&#34;Drag Racing&#34;  title=&#34;coucou&#34; /&gt;
+&lt;/p&gt;
+
+&lt;/p&gt;
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img class=&#34;image-css&#34;
+ src=&#34;https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png&#34; alt=&#34;&#34;  title=&#34;roman empire&#34; /&gt;
+&lt;/p&gt;
+
+&lt;/p&gt;
+&lt;h3 id=&#34;figure-shortcode-with-css&#34;&gt;figure shortcode with css&lt;/h3&gt;
+&lt;figure class=&#34;no-class&#34;&gt;
+    &lt;img src=&#34;https://subversive-eu.github.io/hugo-subversive/media/logo.png&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;coucou&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&#34;no-class&#34;&gt;
+    &lt;img src=&#34;https://subversive-eu.github.io/hugo-subversive/media/roman300AD.png&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;roman empire&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It&amp;rsquo;s better no ??&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s check more !&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;p&gt;&lt;figure class=&#34;right&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/400x280&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-right&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure class=&#34;left&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/400x280&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-left&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+&lt;figure&gt;
+    &lt;img src=&#34;https://via.placeholder.com/1600x800&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-normal (without any classes)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;figure class=&#34;big&#34;&gt;
+    &lt;img src=&#34;https://via.placeholder.com/1600x800&#34;
+         alt=&#34;image&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;figure-big&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+&lt;h2 id=&#34;postmeta&#34;&gt;PostMeta&lt;/h2&gt;
+&lt;p&gt;I added this to my personnal website :&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I was thinking about not using sample-btn css.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;      &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!--- I add some download options + printer option --&amp;gt;&lt;/span&gt;
+      &amp;amp;nbsp;·&amp;amp;nbsp;
+      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sample-btn&amp;#34;&lt;/span&gt;&amp;gt;
+      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Télécharger&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/pdf/{{ .Title }}.pdf&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;target&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;_blank&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;noopener noreferrer&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;download&lt;/span&gt;&amp;gt;{{ i18n &amp;#34;pdf&amp;#34; }}&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt;&amp;gt;
+      &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;button&lt;/span&gt;&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;button&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;sample-btn&amp;#34;&lt;/span&gt;&amp;gt;
+      &amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;name &lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Imprimer&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;javascript:if(window.print)window.print()&amp;#34;&lt;/span&gt;&amp;gt;{{ i18n &amp;#34;print&amp;#34; }}&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;a&lt;/span&gt;&amp;gt;
+      &amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;button&lt;/span&gt;&amp;gt;&amp;amp;nbsp;·&amp;amp;nbsp;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Do not forget to add i18n translation for all languages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;youtube&#34;&gt;youtube&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube-nocookie.com/embed/8IZ9Cqi2rGM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;tweeter&#34;&gt;tweeter&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;With mobile, Tweeter appear simple blockquote.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-dnt=&#34;true&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Hugo 0.24 Released: Big archetype update + &lt;a href=&#34;https://twitter.com/Netlify?ref_src=twsrc%5Etfw&#34;&gt;@Netlify&lt;/a&gt; _redirects etc. file support&lt;a href=&#34;https://t.co/X94FmYDEZJ&#34;&gt;https://t.co/X94FmYDEZJ&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/gohugo?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#gohugo&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/golang?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#golang&lt;/a&gt; &lt;a href=&#34;https://twitter.com/spf13?ref_src=twsrc%5Etfw&#34;&gt;@spf13&lt;/a&gt; &lt;a href=&#34;https://twitter.com/bepsays?ref_src=twsrc%5Etfw&#34;&gt;@bepsays&lt;/a&gt;&lt;/p&gt;&amp;mdash; GoHugo.io (@GoHugoIO) &lt;a href=&#34;https://twitter.com/GoHugoIO/status/877500564405444608?ref_src=twsrc%5Etfw&#34;&gt;June 21, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;h2 id=&#34;vimeo&#34;&gt;vimeo&lt;/h2&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://player.vimeo.com/video/146022717?dnt=1&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;vimeo video&#34; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;instagram&#34;&gt;Instagram&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;there is no way with facebook &amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;blockquote-hard&#34;&gt;Blockquote hard&lt;/h2&gt;
+&lt;p&gt;Normal quote:
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a simple quote.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote with only an Author named Author2.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author2&lt;/strong&gt;
+    
+      
+        
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and source
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author3 and source &amp;ldquo;source.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author3&lt;/strong&gt;
+    
+      &lt;cite&gt;Source&lt;/cite&gt;
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and link
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author4 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt;.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author4&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;google.com&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author, link and title
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://www.google.com&#34;&gt;https://www.google.com&lt;/a&gt; with title &amp;ldquo;Google.&amp;rdquo;&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author5&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://www.google.com&#34; title=&#34;https://www.google.com&#34;&gt;Google&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;p&gt;Quote with author and a link longer than 32 characters, string is first cut at 32 characters then everything after the last forward slash is removed
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+      
+      
+      
+    
+     
+      
+    
+    
+
+    
+    
+         
+         
+         
+
+         
+        
+        
+        
+        
+      
+      
+    
+  
+
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is a quote from Author5 and links to &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;https://twitter.com/CryptoGangsta/status/716427930126196737&lt;/a&gt; which is longer than 32 characters.
+&lt;!-- raw HTML omitted --&gt;And this is a new line in the quote with the HTML br tag.&lt;/p&gt;
+  &lt;footer&gt;
+    &lt;strong&gt;Author6&lt;/strong&gt;
+    
+      
+        &lt;cite&gt;
+          &lt;a href=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34; title=&#34;https://twitter.com/CryptoGangsta/status/716427930126196737&#34;&gt;twitter.com/CryptoGangsta/...&lt;/a&gt; 
+        &lt;/cite&gt;
+      
+    
+  &lt;/footer&gt;
+&lt;/blockquote&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;Do not use Instagram ? I hope will work on soon.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

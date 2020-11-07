@@ -1,366 +1,423 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Subversive Theme</title><image><url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url><title>subversive-eu</title><link>https://git.io/JUxpD</link></image><link>https://subversive-eu.github.io/hugo-subversive/categories/features/</link><description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description><language>en</language><lastBuildDate>Wed, 07 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/features/index.xml" rel="self" type="application/rss+xml"/><item><title>Features / Mod</title><link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link><pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid><description>&lt;p>List of all features/Mod for this Subversive theme.&lt;/p>
-&lt;p>​&lt;/p>
-&lt;h1 id="supported">Supported&lt;/h1>
-&lt;h2 id="page-varaibles">Page-Varaibles&lt;/h2>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Variables&lt;/th>
-&lt;th style="text-align:center">Type&lt;/th>
-&lt;th style="text-align:right">Value&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">showtoc&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">tocopen&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">hidemeta&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">disableShare&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">draft&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">comments&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables" title="page-variable" >See more&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="site-variables">Site-Variables&lt;/h2>
-&lt;p>Check here for &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml" >config&lt;/a>&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:left">Variables&lt;/th>
-&lt;th style="text-align:center">Type&lt;/th>
-&lt;th style="text-align:right">Value&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:left">ShowReadingTime&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">ShowShareButtons&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:left">Comments&lt;/td>
-&lt;td style="text-align:center">boolean&lt;/td>
-&lt;td style="text-align:right">true&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;hr>
-&lt;h2 id="css-tricks">Css-Tricks&lt;/h2>
-&lt;p>There is a lot of css options for class, use it like bootstrapp :&lt;/p>
-&lt;ul>
-&lt;li>options class=&amp;quot;&amp;quot; :
-&lt;ul>
-&lt;li>text-justify&lt;/li>
-&lt;li>text-center&lt;/li>
-&lt;li>no-deco =&amp;ldquo;text-decoration:none&amp;rdquo;&lt;/li>
-&lt;li>float-left&lt;/li>
-&lt;li>float-right&lt;/li>
-&lt;li>a =&amp;ldquo;cursor: pointer&amp;rdquo;&lt;/li>
-&lt;li>justify-between&lt;/li>
-&lt;li>flex&lt;/li>
-&lt;li>flex-even&lt;/li>
-&lt;li>flex-wrap&lt;/li>
-&lt;li>no-list&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Check the css page :&lt;/p>
-&lt;p>&lt;code>\assets\css\default.css&lt;/code>&lt;/p>
-&lt;hr>
-&lt;h2 id="share-options">Share-Options&lt;/h2>
-&lt;p>List of :&lt;/p>
-&lt;ul>
-&lt;li>facebook&lt;/li>
-&lt;li>linkedin&lt;/li>
-&lt;li>reddit&lt;/li>
-&lt;li>telegram&lt;/li>
-&lt;li>twitter&lt;/li>
-&lt;li>whatsapp&lt;/li>
-&lt;/ul>
-&lt;p>Be carefull, the navbarShare is not in hidemeta for all posts or page who use /_default/single.html&lt;/p>
-&lt;blockquote>
-&lt;p>You can add it if you want.&lt;/p>
-&lt;/blockquote>
-&lt;p>If you don&amp;rsquo;t want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.&lt;/p>
-&lt;blockquote>
-&lt;p>Delete navbarshare in /_default/list.html&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="cover-image">Cover-Image&lt;/h2>
-&lt;p>You can add a cover image to your post like this &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/example/" >one&lt;/a>.&lt;/p>
-&lt;p>About installating check &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#more-options" >here&lt;/a>.&lt;/p>
-&lt;hr>
-&lt;h2 id="seo">SEO&lt;/h2>
-&lt;ul>
-&lt;li>OpenGraph Support&lt;/li>
-&lt;li>Twitter Card Support&lt;/li>
-&lt;li>RSS Feed with limit &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/install/#all-params" >see config&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2 id="markdown">Markdown&lt;/h2>
-&lt;ul>
-&lt;li>Blocquote&lt;/li>
-&lt;li>Syntax Highlighting&lt;/li>
-&lt;li>Render-image&lt;/li>
-&lt;li>Render-link&lt;/li>
-&lt;li>IframePdf&lt;/li>
-&lt;li>Collapse&lt;/li>
-&lt;li>Rawhtml&lt;/li>
-&lt;li>Button&lt;/li>
-&lt;li>Tab/Tabs&lt;/li>
-&lt;li>Details&lt;/li>
-&lt;li>Columns&lt;/li>
-&lt;li>Copy button&lt;/li>
-&lt;li>Figure&lt;/li>
-&lt;/ul>
-&lt;p>See &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/" >Markdown Syntax&lt;/a>.&lt;/p>
-&lt;blockquote>
-&lt;p>And look for &lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/installation/#markdown" >Installation and using&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;hr>
-&lt;h2 id="svg-icons">SVG Icons&lt;/h2>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/utilisation/" >List of svg icons&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="draft-page-indication">Draft Page Indication&lt;/h2>
-&lt;p>Indicator : &lt;code>[Draft]&lt;/code>&lt;/p>
-&lt;h2 id="add-pages">Add Pages&lt;/h2>
-&lt;p>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/about/" >Want more page&lt;/a>&lt;/p>
-&lt;hr>
-&lt;h2 id="more">More&lt;/h2>
-&lt;ul>
-&lt;li>Dark Thème&lt;/li>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language" >I18n three language : fr + en + es&lt;/a>&lt;/li>
-&lt;li>Table Of Contents&lt;/li>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/archives/" >Post Archive&lt;/a>&lt;/li>
-&lt;li>&lt;a class="sources-link" rel="noopener noreferrer" target="_blank" href="https://subversive-eu.github.io/hugo-subversive/404/" >404 Available&lt;/a>&lt;/li>
-&lt;li>Responsive Footer&lt;/li>
-&lt;li>Responsive Sidebar&lt;/li>
-&lt;li>Css + js + html minify for performance&lt;/li>
-&lt;li>Scroll to top button&lt;/li>
-&lt;/ul>
-&lt;hr></description></item><item><title>Social-Media</title><link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link><pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid><description>&lt;p>List of all social icons by svg + all menu icons&lt;/p>
-&lt;blockquote>
-&lt;p>/layouts/partials/svg.html&lt;/p>
-&lt;/blockquote>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>name&lt;/th>
-&lt;th>platform link&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>123rf&lt;/td>
-&lt;td>123rf.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>adobestock&lt;/td>
-&lt;td>stock.adobe.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>behance&lt;/td>
-&lt;td>behance.net&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>codepen&lt;/td>
-&lt;td>codepen.io&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>cryptohack&lt;/td>
-&lt;td>cryptohack.org&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>dev&lt;/td>
-&lt;td>dev.to&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>discogs&lt;/td>
-&lt;td>discogs.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>dreamstime&lt;/td>
-&lt;td>dreamstime.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>dribbble&lt;/td>
-&lt;td>dribbble.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>email&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>facebook&lt;/td>
-&lt;td>facebook.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>freepik&lt;/td>
-&lt;td>freepik.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>github&lt;/td>
-&lt;td>github.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>gitlab&lt;/td>
-&lt;td>gitlab.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>hackerrank&lt;/td>
-&lt;td>hackerrank.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>hackthebox&lt;/td>
-&lt;td>hackthebox.eu&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>instagram&lt;/td>
-&lt;td>instagram.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>lastfm&lt;/td>
-&lt;td>last.fm&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>linkedin&lt;/td>
-&lt;td>linkedin.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>mixcloud&lt;/td>
-&lt;td>mixcloud.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>paypal&lt;/td>
-&lt;td>paypal.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>qq&lt;/td>
-&lt;td>qq.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>soundcloud&lt;/td>
-&lt;td>soundcloud.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>shutterstock&lt;/td>
-&lt;td>shutterstock.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>slack&lt;/td>
-&lt;td>slack.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>sourcerer&lt;/td>
-&lt;td>sourcerer.io&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>stackoverflow&lt;/td>
-&lt;td>stackoverflow.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>steam&lt;/td>
-&lt;td>steampowered.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>telegram&lt;/td>
-&lt;td>telegram.org&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>twitch&lt;/td>
-&lt;td>twitch.tv&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>twitter&lt;/td>
-&lt;td>twitter.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>youtube&lt;/td>
-&lt;td>youtube.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>rss&lt;/td>
-&lt;td>yoursite.com/posts/index.xml&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>home&lt;/td>
-&lt;td>yoursite.com&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>info&lt;/td>
-&lt;td>yoursite.com/about/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>tag&lt;/td>
-&lt;td>yoursite.com/tags/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>archive&lt;/td>
-&lt;td>yoursite.com/archives/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>categorie&lt;/td>
-&lt;td>yoursite.com/categorie/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>serie&lt;/td>
-&lt;td>yoursite.com/series/&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>default_link&lt;/td>
-&lt;td>-&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Perfomance with Lighthouse</title><link>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</link><pubDate>Sat, 03 Oct 2020 17:44:04 +0200</pubDate><guid>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</guid><description>&lt;p>Stats about lighthouse of this theme.&lt;/p>
-&lt;p>There is a simple gtmetrix report too.&lt;/p>
-&lt;p>Soon, example.md SEO.&lt;/p>
-&lt;h2 id="desktop">Desktop&lt;/h2>
-&lt;h3 id="home-page">Home page&lt;/h3>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/home-page-desktop.png" alt="" title="home page lighthouse" />
-&lt;/p>
-&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subversive Theme</title>
+    <image>
+      <url>https://subversive-eu.github.io/hugo-subversive/apple-touch-icon.png</url>
+      <title>subversive-eu</title>
+      <link>https://git.io/JUxpD</link>
+    </image>
+    <link>https://subversive-eu.github.io/hugo-subversive/categories/features/</link>
+
+    <description>Theme Subversive- https://github.com/subversive-eu/hugo-subversive</description>
+    <language>en</language>
+    
+    
+    
+
+    
+    <lastBuildDate>Wed, 07 Oct 2020 17:44:04 +0200</lastBuildDate><atom:link href="https://subversive-eu.github.io/hugo-subversive/categories/features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Features / Mod</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</link>
+      <pubDate>Wed, 07 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/</guid>
+      <description>&lt;p&gt;List of all features/Mod for this Subversive theme.&lt;/p&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h1 id=&#34;supported&#34;&gt;Supported&lt;/h1&gt;
+&lt;h2 id=&#34;page-varaibles&#34;&gt;Page-Varaibles&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Variables&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Type&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;showtoc&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;tocopen&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;hidemeta&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;disableShare&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;draft&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;comments&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/install/#page-variables&#34; title=&#34;page-variable&#34; &gt;See more&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;site-variables&#34;&gt;Site-Variables&lt;/h2&gt;
+&lt;p&gt;Check here for &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/install/#configyml&#34; &gt;config&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;Variables&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Type&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;ShowReadingTime&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;ShowShareButtons&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Comments&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;DisableShare&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;boolean&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;true / false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;css-tricks&#34;&gt;Css-Tricks&lt;/h2&gt;
+&lt;p&gt;There is a lot of css options for class, use it like bootstrapp :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;options class=&amp;quot;&amp;quot; :
+&lt;ul&gt;
+&lt;li&gt;text-justify&lt;/li&gt;
+&lt;li&gt;text-center&lt;/li&gt;
+&lt;li&gt;no-deco =&amp;ldquo;text-decoration:none&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;float-left&lt;/li&gt;
+&lt;li&gt;float-right&lt;/li&gt;
+&lt;li&gt;justify-between&lt;/li&gt;
+&lt;li&gt;flex&lt;/li&gt;
+&lt;li&gt;flex-even&lt;/li&gt;
+&lt;li&gt;flex-wrap&lt;/li&gt;
+&lt;li&gt;no-list&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check the css file :&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;\assets\css\default.css&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;share-options&#34;&gt;Share-Options&lt;/h2&gt;
+&lt;p&gt;List of :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;facebook&lt;/li&gt;
+&lt;li&gt;linkedin&lt;/li&gt;
+&lt;li&gt;reddit&lt;/li&gt;
+&lt;li&gt;telegram&lt;/li&gt;
+&lt;li&gt;twitter&lt;/li&gt;
+&lt;li&gt;whatsapp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Be carefull, the Share-bar is not in hidemeta.&lt;br&gt;
+It in &lt;code&gt;\_defaul\baseof.html&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t want to see the sharebar in list, like homepage, yoursite.com/posts/, yoursite.com/tags(categories / series)/nameoftags/.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Add disableShare: true in config.yml&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;cover-image&#34;&gt;Cover-Image&lt;/h2&gt;
+&lt;p&gt;You can add a cover image to your post like this &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/example/&#34; &gt;one&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;About installating check &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/install/#more-options&#34; &gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;seo&#34;&gt;SEO&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenGraph Support&lt;/li&gt;
+&lt;li&gt;Twitter Card Support&lt;/li&gt;
+&lt;li&gt;RSS Feed with limit &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/install/#all-params&#34; &gt;see config&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Blocquote&lt;/li&gt;
+&lt;li&gt;Syntax Highlighting&lt;/li&gt;
+&lt;li&gt;Render-image&lt;/li&gt;
+&lt;li&gt;Render-link&lt;/li&gt;
+&lt;li&gt;IframePdf&lt;/li&gt;
+&lt;li&gt;Collapse&lt;/li&gt;
+&lt;li&gt;Rawhtml&lt;/li&gt;
+&lt;li&gt;Button&lt;/li&gt;
+&lt;li&gt;Tab/Tabs&lt;/li&gt;
+&lt;li&gt;Details&lt;/li&gt;
+&lt;li&gt;Columns&lt;/li&gt;
+&lt;li&gt;Copy button&lt;/li&gt;
+&lt;li&gt;Figure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;See &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/&#34; &gt;Markdown Syntax&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;And look for &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/installation/#markdown&#34; &gt;Installation and using&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;svg-icons&#34;&gt;SVG Icons&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/utilisation/&#34; &gt;List of svg icons&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;draft-page-indication&#34;&gt;Draft Page Indication&lt;/h2&gt;
+&lt;p&gt;Indicator : &lt;code&gt;[Draft]&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;add-pages&#34;&gt;Add Pages&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/about/&#34; &gt;Want more page&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;more&#34;&gt;More&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Dark Thème&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/posts/installation/#i18-language&#34; &gt;I18n three language : fr + en + es&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Table Of Contents&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/archives/&#34; &gt;Post Archive&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://subversive-eu.github.io/hugo-subversive/404/&#34; &gt;404 Available&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Responsive Footer&lt;/li&gt;
+&lt;li&gt;Responsive Sidebar&lt;/li&gt;
+&lt;li&gt;Css + js + html minify for performance&lt;/li&gt;
+&lt;li&gt;Scroll to top button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;soon&#34;&gt;Soon&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Link Anchor easier to copy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;</description>
+    </item>
+    
+    <item>
+      <title>Social-Media</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</link>
+      <pubDate>Mon, 05 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/utilisation/</guid>
+      <description>&lt;p&gt;List of all social icons by svg + all menu icons&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;/layouts/partials/svg.html&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;name&lt;/th&gt;
+&lt;th&gt;platform link&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;123rf&lt;/td&gt;
+&lt;td&gt;123rf.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;adobestock&lt;/td&gt;
+&lt;td&gt;stock.adobe.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;behance&lt;/td&gt;
+&lt;td&gt;behance.net&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;codepen&lt;/td&gt;
+&lt;td&gt;codepen.io&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;cryptohack&lt;/td&gt;
+&lt;td&gt;cryptohack.org&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;dev&lt;/td&gt;
+&lt;td&gt;dev.to&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;discogs&lt;/td&gt;
+&lt;td&gt;discogs.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;dreamstime&lt;/td&gt;
+&lt;td&gt;dreamstime.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;dribbble&lt;/td&gt;
+&lt;td&gt;dribbble.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;email&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;facebook&lt;/td&gt;
+&lt;td&gt;facebook.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;freepik&lt;/td&gt;
+&lt;td&gt;freepik.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;github&lt;/td&gt;
+&lt;td&gt;github.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;gitlab&lt;/td&gt;
+&lt;td&gt;gitlab.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hackerrank&lt;/td&gt;
+&lt;td&gt;hackerrank.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;hackthebox&lt;/td&gt;
+&lt;td&gt;hackthebox.eu&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;instagram&lt;/td&gt;
+&lt;td&gt;instagram.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;lastfm&lt;/td&gt;
+&lt;td&gt;last.fm&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;linkedin&lt;/td&gt;
+&lt;td&gt;linkedin.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;mixcloud&lt;/td&gt;
+&lt;td&gt;mixcloud.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;paypal&lt;/td&gt;
+&lt;td&gt;paypal.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;qq&lt;/td&gt;
+&lt;td&gt;qq.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;soundcloud&lt;/td&gt;
+&lt;td&gt;soundcloud.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;shutterstock&lt;/td&gt;
+&lt;td&gt;shutterstock.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;slack&lt;/td&gt;
+&lt;td&gt;slack.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;sourcerer&lt;/td&gt;
+&lt;td&gt;sourcerer.io&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;stackoverflow&lt;/td&gt;
+&lt;td&gt;stackoverflow.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;steam&lt;/td&gt;
+&lt;td&gt;steampowered.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;telegram&lt;/td&gt;
+&lt;td&gt;telegram.org&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;twitch&lt;/td&gt;
+&lt;td&gt;twitch.tv&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;twitter&lt;/td&gt;
+&lt;td&gt;twitter.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;youtube&lt;/td&gt;
+&lt;td&gt;youtube.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;rss&lt;/td&gt;
+&lt;td&gt;yoursite.com/posts/index.xml&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;home&lt;/td&gt;
+&lt;td&gt;yoursite.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;info&lt;/td&gt;
+&lt;td&gt;yoursite.com/about/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tag&lt;/td&gt;
+&lt;td&gt;yoursite.com/tags/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;archive&lt;/td&gt;
+&lt;td&gt;yoursite.com/archives/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;categorie&lt;/td&gt;
+&lt;td&gt;yoursite.com/categorie/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;serie&lt;/td&gt;
+&lt;td&gt;yoursite.com/series/&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;default_link&lt;/td&gt;
+&lt;td&gt;-&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>Perfomance with Lighthouse</title>
+      <link>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</link>
+      <pubDate>Sat, 03 Oct 2020 17:44:04 +0200</pubDate>
+      
+      <guid>https://subversive-eu.github.io/hugo-subversive/posts/perfomance/</guid>
+      <description>&lt;p&gt;Stats about lighthouse of this theme.&lt;/p&gt;
+&lt;p&gt;There is a simple gtmetrix report  too.&lt;/p&gt;
+&lt;p&gt;Soon, example.md SEO.&lt;/p&gt;
+&lt;h2 id=&#34;desktop&#34;&gt;Desktop&lt;/h2&gt;
+&lt;h3 id=&#34;home-page&#34;&gt;Home page&lt;/h3&gt;
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img class=&#34;image-css&#34;
+ src=&#34;https://subversive-eu.github.io/hugo-subversive/media/home-page-desktop.png&#34; alt=&#34;&#34;  title=&#34;home page lighthouse&#34; /&gt;
+&lt;/p&gt;
+
+&lt;/p&gt;
 &lt;iframe
-class="iframepdf"
-frameborder="0"
+class=&#34;iframepdf&#34;
+frameborder=&#34;0&#34;
 allowfullscreen
-src="https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf"
->
-&lt;/iframe>
-&lt;h2 id="mobile">Mobile&lt;/h2>
-&lt;h3 id="home-page-1">Home page&lt;/h3>
-&lt;p>&lt;p align="center">
-&lt;img class="image-css"
-src="https://subversive-eu.github.io/hugo-subversive/media/home-page-mobile.png" alt="" title="home page lighthouse" />
-&lt;/p>
-&lt;/p></description></item></channel></rss>
+src=&#34;https://subversive-eu.github.io/hugo-subversive/media/gt-metrix-report.pdf&#34;
+&gt;
+&lt;/iframe&gt;
+&lt;h2 id=&#34;mobile&#34;&gt;Mobile&lt;/h2&gt;
+&lt;h3 id=&#34;home-page-1&#34;&gt;Home page&lt;/h3&gt;
+&lt;p&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img class=&#34;image-css&#34;
+ src=&#34;https://subversive-eu.github.io/hugo-subversive/media/home-page-mobile.png&#34; alt=&#34;&#34;  title=&#34;home page lighthouse&#34; /&gt;
+&lt;/p&gt;
+
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
