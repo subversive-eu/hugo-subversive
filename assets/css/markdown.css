@@ -191,8 +191,8 @@
 }
 .post-content figure.big{
     max-width: 100vw;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 .post-content img{
     display: block;
