@@ -8,12 +8,10 @@ categories:
 date: 2020-10-03T17:44:04+02:00
 ---
 
-Stats about lighthouse of this theme.
-<!--more-->
-
-There is a simple gtmetrix report  too.
-
+Stats about lighthouse of this theme.  
+There is a simple gtmetrix report  too.  
 Soon, example.md SEO.
+<!--more-->
 
 ## Desktop
 

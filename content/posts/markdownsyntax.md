@@ -1,6 +1,6 @@
 ---
 title: "Markdown Syntax"
-author: Hugo Authors
+author: Subversive Theme Authors
 description: 'Sample article showcasing basic Markdown syntax and formatting for HTML elements.'
 ShowToc: true
 draft: false
@@ -35,9 +35,15 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 ## Tabs
 
 {{< tabs "uniqueid" >}}
-{{< tab "MacOS" >}} # MacOS Content {{< /tab >}}
-{{< tab "Linux" >}} # Linux Content {{< /tab >}}
-{{< tab "Windows" >}} # Windows Content {{< /tab >}}
+{{< tab "MacOS" >}}
+
+### MacOS Content
+
+Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+
+{{< /tab >}}
+{{< tab "Linux" >}} ### Linux Content {{< /tab >}}
+{{< tab "Windows" >}} ### Windows Content {{< /tab >}}
 {{< /tabs >}}
 
 ## Buttons

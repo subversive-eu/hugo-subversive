@@ -126,12 +126,6 @@ Quote with author and a link longer than 32 characters, string is first cut at 3
 
 ---
 
-## iframe for pdf
-
-- just put the name of you pdf file, and paste it in /static/media/
-
-{{< iframepdf gt-metrix-report >}}
-
 ## Conclusion
 
 Do not use Instagram ? I hope will work on soon.

@@ -15,10 +15,13 @@ url: "/about/"
 
 Example of using yousite.com/about/ with :  
 
-ShowToc: true  
-hidemeta: true  
-tocopen: true  
-disableShare: true  
+```yml
+ShowToc: true
+draft: false
+hidemeta: true
+tocopen: true
+disableShare: true
+```
 
 The html of this page.md comes from /layouts/_default/single.html  
 
