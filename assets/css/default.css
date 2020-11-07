@@ -225,11 +225,13 @@ body{
 }
 .toc blockquote {
 	border-left: 2px solid;
-	margin: 10px;
-	padding: 10px 40px;
+	padding: 10px;
 }
-.toc li ul {
-	  margin-left: 10px;
+.toc blockquote ul{
+	margin-left: 5px;
+}
+.toc blockquote ul ul{
+	margin-left: 10px;
 }
 .toc a:hover{
 	font-weight: bold;

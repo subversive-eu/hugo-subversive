@@ -62,6 +62,7 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 
 [See More](https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/)
 
+[MarkdownSyntax](https://subversive-eu.github.io/hugo-subversive/posts/markdownsyntax/)
 ---
 
 ## Install
