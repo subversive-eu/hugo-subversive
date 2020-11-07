@@ -8,10 +8,10 @@
 - [Presentation](https://github.com/subversive-eu/hugo-subversive#hello-and-presentation)
 - [Photos](https://github.com/subversive-eu/hugo-subversive#photos)
 - [Bugs](https://github.com/subversive-eu/hugo-subversive#bugs)
-- [Features/Mods](https://github.com/subversive-eu/hugo-subversive#featuresmods)
+- [Features / Mods](https://github.com/subversive-eu/hugo-subversive#featuresmods)
 - [Installation](https://github.com/subversive-eu/hugo-subversive#install)
 - [Social](https://github.com/subversive-eu/hugo-subversive#social-media)
-- [Perfomance](https://github.com/subversive-eu/hugo-subversive#lighthouse-perfomance)
+- [Perfomance](https://github.com/subversive-eu/hugo-subversive#lighthouse-perf)
 - [Rights](https://github.com/subversive-eu/hugo-subversive#rights)
 
 ## Hello and presentation
@@ -55,9 +55,10 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 * Table of contents
 * ShareOptions
 * Post Archive
-* Minify css + js
+* Minify css + js + html
 * Cover image
 * SEO
+* Markdown tricks
 
 [See More](https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/)
 
@@ -72,7 +73,7 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 ## Social-Media
 
 [Page-example](https://subversive-eu.github.io/hugo-subversive/posts/example/)  
-[ShareBar](#)  
+[Share-buttons](https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/#share-options)  
 [All-svg-icons](https://subversive-eu.github.io/hugo-subversive/posts/utilisation/)
 
 ---
