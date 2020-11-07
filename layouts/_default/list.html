@@ -2,66 +2,45 @@
 
 <!-- List page -->
 
-
-
-
 {{- if not .IsHome | and .Title }}
 <header class="list-header">
-  <h1>{{ .Title }}</h1>
+    <h1>{{ .Title }}</h1>
 </header>
-{{- end }}
-{{- $pages := .RegularPages }}
-{{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- end}}
-{{ $paginator := .Paginate $pages }}
-{{- range $index, $page := $paginator.Pages }}
-{{- $class := "post-entry" }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0)) }}
-{{- if .Site.Params.homeInfoParams | or .Site.Params.disableSpecial1stPost}}
-
-{{- else}}
-{{- $class = "first-entry" }}
-{{- end }}
-{{- else if .Data.Term }}
-{{- $class = "post-entry tag-entry" }}
-{{- end }}
+{{- end }} {{- $pages := .RegularPages }} {{- if .IsHome }} {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }} {{- end}} {{ $paginator := .Paginate $pages }} {{- range $index, $page := $paginator.Pages }} {{- $class := "post-entry"
+}} {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0)) }} {{- if .Site.Params.homeInfoParams | or .Site.Params.disableSpecial1stPost}} {{- else}} {{- $class = "first-entry" }} {{- end }} {{- else if .Data.Term }} {{- $class = "post-entry
+tag-entry" }} {{- end }}
 
 <a class="link-post-card" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}">
 
 
-<div class="post-card">
-  
-  {{- if .Params.cover }}
-  <figure class="entry-cover">
-    <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title }}">
-  </figure>
-  {{- end }}
+    <div class="post-card">
 
-  <div class="entry-header">
-    <h2>
-        {{ .Title }}
-        {{- if .Draft }}
-        <div class="entry-isdraft"><sup>&nbsp;&nbsp;[{{ i18n "draft" }}]</sup></div>{{- end }}
+        {{- if .Params.cover }}
+        <figure class="entry-cover">
+            <img src="{{ .Params.cover | absURL }}" alt="cover image for {{ .Title }}">
+        </figure>
+        {{- end }}
 
-    </h2>
-  </div>
-  
-  {{- if (ne .Site.Params.hideSummary true)}}
-  <div class="entry-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}</p>
-  </div>
-  {{- end }}
+        <div class="entry-header">
+            <h2>
+                {{ .Title }} {{- if .Draft }}
+                <div class="entry-isdraft"><sup>&nbsp;&nbsp;[{{ i18n "draft" }}]</sup></div>{{- end }}
 
-  <div class="entry-footer">
-    <time>{{ .Date.Format "January 2, 2006" }}</time>
-    {{- if $.Site.Params.ShowReadingTime }}&nbsp;·&nbsp;
-    {{- $default_txt := print .ReadingTime " " "min" }}
-    {{- i18n "read_time" .ReadingTime | default  $default_txt  }}{{ end }}
-    {{- if or .Params.author .Site.Params.author }}&nbsp;·&nbsp;{{- .Params.author | default .Site.Params.author }}{{ end }}
-  </div>
+            </h2>
+        </div>
 
-</div>
+        {{- if (ne .Site.Params.hideSummary true)}}
+        <div class="entry-content">
+            <p>{{ .Summary | plainify | htmlUnescape }}</p>
+        </div>
+        {{- end }}
+
+        <div class="entry-footer">
+            <time>{{ .Date.Format "January 2, 2006" }}</time> {{- if $.Site.Params.ShowReadingTime }}&nbsp;·&nbsp; {{- $default_txt := print .ReadingTime " " "min" }} {{- i18n "read_time" .ReadingTime | default $default_txt }}{{ end }} {{- if or .Params.author
+            .Site.Params.author }}&nbsp;·&nbsp;{{- .Params.author | default .Site.Params.author }}{{ end }}
+        </div>
+
+    </div>
 </a>
 {{- end }}
 
@@ -72,17 +51,9 @@
     {{- if $paginator.HasPrev }}
     <button class="sample-btn float-left">
     <a class="pagination-link " href="{{ $paginator.Prev.URL }}">« {{ i18n "prev_page" }}</a>
-    </button>
-    {{- end }}
-    {{- if $paginator.HasNext }}
+    </button> {{- end }} {{- if $paginator.HasNext }}
     <button class="sample-btn float-right">
       <a class="pagination-link" href="{{ $paginator.Next.URL }}">{{ i18n "next_page" }} »</a>
-    </button>
-    {{- end }}
+</button> {{- end }}
 </div>
-{{- end }}
-
-
-
-
-{{- end  }}{{- /* end main */ -}}
+{{- end }} {{- end }}{{- /* end main */ -}}

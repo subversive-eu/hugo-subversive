@@ -1,47 +1,45 @@
-
-/* Archive html myarchivetype/single.html 
---------------------------------------- */
+ 
+/* Archive html myarchivetype/single.html --------------------------------------- */
 .archive-posts {
 	width: 100%;
 	font-size: 16px;
-  }
-  .archive-year {
+}
+.archive-year {
 	margin-top: 40px;
-  }
-  .archive-year:not(:last-of-type) {
+}
+.archive-year:not(:last-of-type) {
 	border-bottom: 2px solid var(--border);
-  }
-  .archive-month {
+}
+.archive-month {
 	display: flex;
 	align-items: flex-start;
 	padding: 10px 0;
-  }
-  .archive-month-header {
+}
+.archive-month-header {
 	margin: 25px 0;
 	width: 200px;
-  }
-  .archive-month:not(:last-of-type) {
+}
+.archive-month:not(:last-of-type) {
 	border-bottom: 1px solid var(--border);
-  }
-  .archive-entry {
+}
+.archive-entry {
 	position: relative;
 	padding: 5px;
 	margin: 10px 0;
-  }
-  .archive-entry-title {
+}
+.archive-entry-title {
 	margin: 5px 0;
 	font-weight: 400;
-  }
-  .archive-meta {
+}
+.archive-meta {
 	color: #f8f9fa;
 	font-size: 14px;
-  }
-  .archive-count {
+}
+.archive-count {
 	color:#f8f9fa;
 	font-size: 14px;
-  }
-/*  official button
----------------------------------- */
+}
+/* official button ---------------------------------- */
 .sample-btn{
 	margin:4px;
 	padding: 8px 16px;
@@ -70,15 +68,13 @@
 	border: 2px solid #e7e7e7;
 	border-radius: 6px;
 }
-
-
 /* buttons.html */
 .btn-right{
 	float: right;
 }
 /* share_icons.html */
 .share-buttons{
-	transition:  0.4s;
+	transition: 0.4s;
 	background-color: #282D32;
 	border:1px solid rgba(0,0,0,.125);
 	border-radius:.25rem;
@@ -91,8 +87,7 @@
 .share-button-single:hover svg {
 	opacity: 0.9;
 }
-/* scrooltotopbutton.html
--------------------------------------------------------------------- */
+/* scrooltotopbutton.html -------------------------------------------------------------------- */
 #myBtn {
 	position: fixed;
 	right: 1rem;
@@ -109,5 +104,6 @@
 	z-index: 11;
 }
 #myBtn:hover {
-  background-color:#343a40; /* Add a dark-grey background on hover */
+	background-color:#343a40;
+   /* Add a dark-grey background on hover */
 }
