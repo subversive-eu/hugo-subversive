@@ -464,13 +464,15 @@ Or do not copy it.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://github.com/subversive-eu/hugo-subversive/blob/main/layouts/_default/_markup/render-link.html&#34; &gt;render-link.html&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;pdf-reader&#34;&gt;Pdf Reader&lt;/h3&gt;
-&lt;p&gt;Use shortcode &lt;code&gt;&lt;iframe
-class=&#34;iframepdf&#34;
-frameborder=&#34;0&#34;
-allowfullscreen
-src=&#34;https://subversive-eu.github.io/hugo-subversive/media/nameofyourpdf.pdf&#34;
-&gt;
-&lt;/iframe&gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Use shortcode&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&amp;lt;&lt;span style=&#34;color:#a6e22e&#34;&gt;iframe&lt;/span&gt;
+&lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;=&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;iframepdf&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#a6e22e&#34;&gt;frameborder&lt;/span&gt;=&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;0&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#a6e22e&#34;&gt;allowfullscreen&lt;/span&gt;
+&lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt;=&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/media/nameofyourpdf.pdf&amp;#34;&lt;/span&gt;
+&amp;gt;
+&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;iframe&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#e6db74&#34;&gt;``&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;`&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;\static\media\nameofyourpdf.pdf&lt;/code&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
