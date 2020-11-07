@@ -21,14 +21,6 @@ See [raw article](https://raw.githubusercontent.com/subversive-eu/hugo-subversiv
 
 ## Image
 
-### Classic markdown
-
-![Drag Racing](/media/logo.png "coucou")
-
-![](/media/roman300AD.png "roman empire")
-
-### figure shortcode with css
-
 {{< figure src="/media/logo.png" alt="image" caption="coucou" class="no-class" >}}
 
 {{< figure src="/media/roman300AD.png" alt="image" caption="roman empire" class="no-class" >}}
