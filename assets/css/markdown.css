@@ -156,9 +156,16 @@
     border-left: 2px solid grey;
 }
 .post-content hr {
+/*
     margin: 15px;
     height: 2px;
     background: gray;
+*/
+    margin: 2rem;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.16);
+    border: 0;
+    border-radius: 4px;
 } 
 /* END MARKDOWN */
 /* Add figure css tricks */
@@ -167,11 +174,12 @@
     height: auto;
     margin: 0;
     text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 .post-content figure p{
       font-size: .8em;
       font-style: italic;
-
 }
 .post-content figure.left{
     float: left;
