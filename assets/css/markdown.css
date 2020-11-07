@@ -174,8 +174,6 @@
     height: auto;
     margin: 0;
     text-align: center;
-    margin-top: 4px;
-    margin-bottom: 4px;
 }
 .post-content figure p{
       font-size: .8em;
@@ -193,6 +191,8 @@
 }
 .post-content figure.big{
     max-width: 100vw;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 .post-content img{
     display: block;
