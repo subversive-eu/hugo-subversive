@@ -223,14 +223,16 @@ body{
 	  display: inline;
 	  font-weight: 500;
 }
-.toc blockquote {
+.toc blockquote{
 	border-left: 2px solid;
 	margin: 20px;
 }
-.toc li ul {
+.toc li ul{
 	margin-left: 10px;
 }
-
+.toc blockquote ul{
+	margin-left: 10px;
+}
 .toc a:hover{
 	font-weight: bold;
 }
