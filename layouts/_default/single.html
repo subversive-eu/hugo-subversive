@@ -52,16 +52,6 @@
 
     {{- if .Params.hideMeta }}{{ else }} <!-- hidemeta -->
 
-    <!-- comments sector -->
-    {{- if $.Site.Params.comments }}
-    <div class="post-comments">
-      {{- partial "comments.html" . }}
-    </div>
-    {{- end }}
-
-    {{- end }} <!-- end hidemeta-->
-
-
     <!-- post-footer =  Terms + Comments checkout by hidemeta -->
     <!-- Terms = tags + series + categories 
          If you want to put navbarshare in hidemeta, copy/paste in "if .params.hiteMeta else"-->
@@ -99,6 +89,16 @@
            {{- end }}
          </div>
          {{- end }}<!-- end of hidemeta secondsector -->
+
+    <!-- comments sector -->
+    {{- if $.Site.Params.comments }}
+    <div class="post-comments">
+      {{- partial "comments.html" . }}
+    </div>
+    {{- end }}
+
+    {{- end }} <!-- end hidemeta-->
+
 
 
 {{- end  }}{{/* end main */}}
