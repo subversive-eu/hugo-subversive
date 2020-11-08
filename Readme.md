@@ -12,6 +12,7 @@
 - [Installation](https://github.com/subversive-eu/hugo-subversive#install)
 - [Social](https://github.com/subversive-eu/hugo-subversive#social-media)
 - [Perfomance](https://github.com/subversive-eu/hugo-subversive#lighthouse-perf)
+- [soon](https://github.com/subversive-eu/hugo-subversive#soon)
 - [Rights](https://github.com/subversive-eu/hugo-subversive#rights)
 
 ## Hello and presentation
@@ -57,7 +58,6 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 * Post Archive
 * Minify css + js + html
 * Cover image
-* SEO
 * Markdown tricks
 
 [See More](https://subversive-eu.github.io/hugo-subversive/posts/fonctionnalites/)
@@ -86,8 +86,14 @@ Please report it [here](https://github.com/subversive-eu/hugo-subversive/issues)
 <img width=400px src="https://subversive-eu.github.io/hugo-subversive/media/home-page-desktop.png" alt="LightHouse"/>
 </kbd>
 
+[See More](https://subversive-eu.github.io/hugo-subversive/posts/perfomance/)
 
 ---
+
+## Soon
+    
+- Share by SMS for mobile ?
+- Work on SEO
 
 ## Rights
 
