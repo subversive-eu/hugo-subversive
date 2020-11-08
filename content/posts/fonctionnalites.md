@@ -18,7 +18,6 @@ List of all features/Mod for this Subversive theme.
 | Variables    |  Type   |        Value |
 | :----------- | :-----: | -----------: |
 | showtoc      | boolean | true / false |
-| tocopen      | boolean | true / false |
 | hidemeta     | boolean | true / false |
 | disableShare | boolean | true / false |
 | draft        | boolean | true / false |

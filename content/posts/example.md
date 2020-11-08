@@ -3,7 +3,7 @@ title: "Example"
 author: subversive.eu
 ShowToc: true
 draft: true
-tocopen: true
+
 categories:
  - Example
 date: 2020-09-27T17:44:04+02:00
@@ -15,7 +15,6 @@ There is backup of simple tricks too.
 <!--more-->
 
 Example post for demonstration.
-The TOC is open.
 
 See [raw article](https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/example.md)
 

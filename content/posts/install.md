@@ -211,7 +211,6 @@ author: "{{ .Site.Params.author }}"
 ShowToc: true
 draft: false
 hidemeta: false
-tocopen: false
 disableShare: false
 categories:
  - 
