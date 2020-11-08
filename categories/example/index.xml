@@ -25,8 +25,7 @@
       <guid>https://subversive-eu.github.io/hugo-subversive/posts/example/</guid>
       <description>&lt;p&gt;I will show you some extras about Markdown, css, and shortcode.
 There is backup of simple tricks too.&lt;/p&gt;
-&lt;p&gt;Example post for demonstration.
-The TOC is open.&lt;/p&gt;
+&lt;p&gt;Example post for demonstration.&lt;/p&gt;
 &lt;p&gt;See &lt;a class=&#34;sources-link&#34; rel=&#34;noopener noreferrer&#34; target=&#34;_blank&#34; href=&#34;https://raw.githubusercontent.com/subversive-eu/hugo-subversive/exampleSite/content/posts/example.md&#34; &gt;raw article&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;image&#34;&gt;Image&lt;/h2&gt;
 &lt;figure class=&#34;no-class&#34;&gt;

@@ -184,7 +184,6 @@ The default.md is add to your new page.&lt;/p&gt;
 &lt;span style=&#34;color:#f92672&#34;&gt;ShowToc&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
 &lt;span style=&#34;color:#f92672&#34;&gt;draft&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
 &lt;span style=&#34;color:#f92672&#34;&gt;hidemeta&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
-&lt;span style=&#34;color:#f92672&#34;&gt;tocopen&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
 &lt;span style=&#34;color:#f92672&#34;&gt;disableShare&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
 &lt;span style=&#34;color:#f92672&#34;&gt;categories&lt;/span&gt;:
  - 
