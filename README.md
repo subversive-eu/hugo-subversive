@@ -2,7 +2,7 @@
 
 This repository is an exampleSite for [hugo-subversive](https://github.com/subversive-eu/hugo-subversive)
 
-Take the time to learn about the organization of the pages.
+Take the time to learn about pages organization.
 
 [Demo-Live](https://subversive-eu.github.io/hugo-subversive/)
 

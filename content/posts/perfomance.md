@@ -12,7 +12,7 @@ Stats about lighthouse of this theme.
 
 There is a simple gtmetrix report  too.
 
-Soon, example.md SEO.
+Soon, example.md perfomance + SEO Worked .
 <!--more-->
 
 ## Desktop
